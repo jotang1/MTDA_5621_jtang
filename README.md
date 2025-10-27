@@ -1,6 +1,6 @@
 Repo created for MTDA5621-AU25-Group G project
 ## Project structure
-'''bash
+```bash
 .
 ├── AF_full_run.py
 ├── AF_full_slurm.sh
@@ -162,3 +162,4 @@ Repo created for MTDA5621-AU25-Group G project
 └── run_alphafold.sh
 
 13 directories, 145 files
+```
