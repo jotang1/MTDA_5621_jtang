@@ -1,0 +1,568 @@
+Query         sp|P01308|INS_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1 SV=1
+Match_columns 110
+No_of_seqs    139 out of 987
+Neff          4.56163
+Searched_HMMs 80799
+Date          Fri May 16 12:51:54 2025
+Command       /usr/bin/hhsearch -i /tmp/slurmtmp.1369415/tmp69gvknps/query.a3m -o /tmp/slurmtmp.1369415/tmp69gvknps/output.hhr -maxseq 1000000 -d /fs/scratch/PZS0708/jtang/AF_lectures/alphafold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JK8_C Insulin-like growth fac  99.9 2.5E-29 3.1E-34  175.2   0.0  110    1-110     1-110 (110)
+  2 6B3Q_a Insulin-degrading enzym  99.9 3.1E-29 3.8E-34  174.8   0.0  110    1-110     1-110 (110)
+  3 2KQP_A Insulin; proinsulin, Ca  99.7 3.1E-22 3.9E-27  134.2   0.0   85   26-110     2-86  (86)
+  4 6PXV_E Insulin receptor (E.C.2  99.6 4.6E-20 5.7E-25  121.1   0.0   73   26-110     2-74  (74)
+  5 6PXW_E Insulin receptor (E.C.2  99.6 4.6E-20 5.7E-25  121.1   0.0   73   26-110     2-74  (74)
+  6 2JZQ_A Insulin; HORMONE, SINGL  99.6 9.5E-19 1.2E-23  111.5   0.0   56   26-110     2-57  (57)
+  7 1WQJ_I Insulin-like growth fac  99.6 1.5E-18 1.8E-23  114.5   0.0   61   27-110     2-62  (70)
+  8 4XSS_B Insulin-like growth fac  99.6 1.5E-18 1.8E-23  114.5   0.0   61   27-110     2-62  (70)
+  9 3LRI_A INSULIN-LIKE GROWTH FAC  99.5 1.7E-18 2.1E-23  117.9   0.0   63   25-110    13-75  (83)
+ 10 1TGR_A Insulin-like growth fac  99.5 2.9E-18 3.5E-23  108.2   0.0   51   27-110     2-52  (52)
+ 11 5L3L_A Insulin-like growth fac  99.5 1.6E-17   2E-22  108.8   0.0   59   25-110     3-61  (67)
+ 12 1ZEI_D INSULIN, M-CRESOL; HORM  99.5 3.5E-17 4.3E-22  102.8   0.0   52   26-110     2-53  (53)
+ 13 6INS_E PROTEIN; HORMONE; 2.0A   99.4 3.8E-16 4.7E-21   97.3   0.0   49   26-110     2-50  (50)
+ 14 1B9G_A GROWTH-FACTOR IGF-1; GR  99.3 3.4E-15 4.2E-20   95.9   0.0   48   27-110     2-49  (57)
+ 15 3W7Y_B Insulin; Human insulin,  99.2 4.7E-15 5.8E-20   85.3   0.0   27   26-52      2-28  (30)
+ 16 6SOF_F Insulin receptor (E.C.2  99.2 4.7E-15 5.8E-20   85.3   0.0   27   26-52      2-28  (30)
+ 17 5URT_B Insulin Chain A, Insuli  99.2   8E-15 9.9E-20   84.3   0.0   27   26-52      2-28  (30)
+ 18 2H8B_B Insulin-like 3; INSULIN  90.5    0.11 1.3E-06   30.7   0.0   22   24-45      3-24  (31)
+ 19 2MV1_B Relaxin B chain, Relaxi  90.2    0.12 1.5E-06   30.2   0.0   21   25-45      5-25  (30)
+ 20 6BLQ_B H-2 class II histocompa  84.3    0.58 7.2E-06   35.9   0.0   14   34-47      1-14  (221)
+ 21 2KJI_A Probable insulin-like p  78.0     1.5 1.8E-05   27.7   0.0   47   27-109     2-48  (50)
+ 22 1H9H_I TRYPSIN (E.C.3.4.21.4),  43.9      19 0.00024   22.1   0.0    6   42-47     20-25  (36)
+ 23 3LB6_A Interleukin-13, Interle  38.5      26 0.00033   27.3   0.0   40    1-44      1-41  (132)
+ 24 3LB6_B Interleukin-13, Interle  38.5      26 0.00033   27.3   0.0   40    1-44      1-41  (132)
+ 25 2N8E_A Kappa-conotoxin PVIIA;   28.1      51 0.00063   20.0   0.0   11   92-102    12-22  (34)
+ 26 1WSO_A Orexin-A; Hypocretin, O  26.0      58 0.00072   20.0   0.0   15   92-106     3-20  (34)
+ 27 2MM6_A entity; HYDROLASE INHIB  21.3      83   0.001   18.9   0.0   10   88-97      8-17  (30)
+ 28 2MI9_A alpha amylase inhibitor  20.4      88  0.0011   18.7   0.0   10   88-97      8-17  (30)
+
+No 1
+>6JK8_C Insulin-like growth factor 1 receptor; human type 1 insulin-like growth; HET: MAN, NAG; 4.7A {Homo sapiens}
+Probab=99.91  E-value=2.5e-29  Score=175.23  Aligned_cols=110  Identities=100%  Similarity=1.646  Sum_probs=20.6  Template_Neff=7.700
+
+Q sp|P01308|INS_    1 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPL   80 (110)
+Q Consensus         1 malW~~~~~ll~ll~~~~p~~~~a~~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~   80 (110)
+                      |++||++++||+||+++++.+++++.++++||++|+++|.+||+++|+++++.+|++.++.+.++++.++.++.++++++
+T Consensus         1 ~~~~~~~~~~l~ll~~~~~~~~~~~~~~rlCG~~L~~~L~~vC~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (110)
+T 6JK8_C            1 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPL   80 (110)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             ChHHHHHHHHHHHHHHhCCCHHHhhcccccccHHHHHHHHHHhcccCCCCCccccccchhhhccccccCCCCCccccchH
+Confidence            78999999999999999998888899999999999999999999988777665555555444333332222333344444
+
+
+Q sp|P01308|INS_   81 ALEGSLQKRGIVEQCCTSICSLYQLENYCN  110 (110)
+Q Consensus        81 ~~~~~~~KRGIVEqCCh~~Csl~~LE~YCN  110 (110)
+                      ..+.||+++||+||||.++||++||++||+
+T Consensus        81 ~~~~rr~~~GIvdECC~~~Ct~~eL~sYC~  110 (110)
+T 6JK8_C           81 ALEGSLQKRGIVEQCCTSICSLYQLENYCN  110 (110)
+T ss_dssp             ---------CCHHHHSSSCCCSHHHHTTCC
+T ss_pred             HhccccccCCchHHhcCCCCCHHHHHHhcC
+Confidence            445677889999999999999999999996
+
+
+No 2
+>6B3Q_a Insulin-degrading enzyme (E.C.3.4.24.56), Insulin; IDE, insulin degrading enzyme, amyloid;{Homo sapiens}
+Probab=99.91  E-value=3.1e-29  Score=174.78  Aligned_cols=110  Identities=100%  Similarity=1.646  Sum_probs=87.3  Template_Neff=7.700
+
+Q sp|P01308|INS_    1 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPL   80 (110)
+Q Consensus         1 malW~~~~~ll~ll~~~~p~~~~a~~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~   80 (110)
+                      |++||++++||+||+++++.+++++.+++|||++|+++|.+||+++|+++++.+|++.++.++++++.++.+..++++++
+T Consensus         1 ~~~~~~~~~~l~ll~~~~~~~~~~~~~~~lCG~~L~~~L~~vC~~~g~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~   80 (110)
+T 6B3Q_a            1 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPL   80 (110)
+T ss_pred             CChHHHHHHHHHHHHHhcCCHHHhhcccccccHHHHHHHHHHhcccCCCCCCcccccchHHhhhchhcCCCCCCCCCChh
+Confidence            78999999999999999998888999999999999999999999988777665555555444333332222333344444
+
+
+Q sp|P01308|INS_   81 ALEGSLQKRGIVEQCCTSICSLYQLENYCN  110 (110)
+Q Consensus        81 ~~~~~~~KRGIVEqCCh~~Csl~~LE~YCN  110 (110)
+                      .+++||.++||+||||.++||++||++||+
+T Consensus        81 ~~~~rr~~~GIvdECC~k~Cs~~eL~sYC~  110 (110)
+T 6B3Q_a           81 ALEGSLQKRGIVEQCCTSICSLYQLENYCN  110 (110)
+T ss_pred             HHHHHHhhCCchHHHcCCCCCHHHHHHhcC
+Confidence            445678889999999999999999999996
+
+
+No 3
+>2KQP_A Insulin; proinsulin, Carbohydrate metabolism, Cleavage on; NMR {Homo sapiens}
+Probab=99.74  E-value=3.1e-22  Score=134.19  Aligned_cols=85  Identities=96%  Similarity=1.556  Sum_probs=60.0  Template_Neff=7.800
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQL  105 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~L  105 (110)
+                      .+++|||++|+++|.+||+++|+++.+.++++.++.+..+++.+..+..+.+.+...++|+.++|||||||.++||++||
+T Consensus         2 ~~~~lCG~~L~~~L~~vC~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~rr~~~gIv~ECC~~~Cs~~eL   81 (86)
+T 2KQP_A            2 VNQHLCGSDLVEALYLVCGERGFFYTKPTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQL   81 (86)
+T ss_pred             CCccccchHHHHHHHHHhcCcCCCCCCCccccchHHhhhchhcCCCCCCCCCChHHHHHHhhhCCchHHHcCCCCCHHHH
+Confidence            47899999999999999999877666654444444332222222122223333333456777899999999999999999
+
+
+Q sp|P01308|INS_  106 ENYCN  110 (110)
+Q Consensus       106 E~YCN  110 (110)
+                      ++||+
+T Consensus        82 ~sYC~   86 (86)
+T 2KQP_A           82 ENYCN   86 (86)
+T ss_pred             HHhcC
+Confidence            99996
+
+
+No 4
+>6PXV_E Insulin receptor (E.C.2.7.10.1), Insulin; insulin receptor, insulin, SIGNALING PROTEIN-HORMONE; 3.2A {Homo sapiens}
+Probab=99.64  E-value=4.6e-20  Score=121.15  Aligned_cols=73  Identities=99%  Similarity=1.573  Sum_probs=41.9  Template_Neff=7.600
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQL  105 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~L  105 (110)
+                      .+++|||++|+++|.+||+++++++.+.++++.+++..            .+.+....+++.++|||||||.++||++||
+T Consensus         2 ~~~~lCG~~L~~~l~~vC~~~~~~~~~~~~~~~~~~~~------------~~~~~~~~~rr~~~gIv~ECC~~~Ct~~~L   69 (74)
+T 6PXV_E            2 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG------------SLQPLALEGSLQKRGIVEQCCTSICSLYQL   69 (74)
+T ss_dssp             --CCCCHHHHHHHHHHHSSSSCCCC---------------------------------------CHCCCCCCSCCCHHHH
+T ss_pred             CCcCccchHHHHHHHHHHcccCCCCCCccccccchhcc------------ccchhHhcccccCCCcchhhcCCCCCHHHH
+Confidence            47899999999999999999877765544443332210            011111234677789999999999999999
+
+
+Q sp|P01308|INS_  106 ENYCN  110 (110)
+Q Consensus       106 E~YCN  110 (110)
+                      ++||+
+T Consensus        70 ~~YC~   74 (74)
+T 6PXV_E           70 ENYCN   74 (74)
+T ss_dssp             HTTCC
+T ss_pred             HHhcC
+Confidence            99996
+
+
+No 5
+>6PXW_E Insulin receptor (E.C.2.7.10.1), Insulin; insulin receptor, insulin, SIGNALING PROTEIN-HORMONE; 3.1A {Homo sapiens}
+Probab=99.64  E-value=4.6e-20  Score=121.15  Aligned_cols=73  Identities=99%  Similarity=1.573  Sum_probs=41.9  Template_Neff=7.600
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQL  105 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~L  105 (110)
+                      .+++|||++|+++|.+||+++++++.+.++++.+++..            .+.+....+++.++|||||||.++||++||
+T Consensus         2 ~~~~lCG~~L~~~l~~vC~~~~~~~~~~~~~~~~~~~~------------~~~~~~~~~rr~~~gIv~ECC~~~Ct~~~L   69 (74)
+T 6PXW_E            2 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG------------SLQPLALEGSLQKRGIVEQCCTSICSLYQL   69 (74)
+T ss_dssp             --CCCCHHHHHHHHHHHSSSSCCCC---------------------------------------CHCCCCCCSCCCHHHH
+T ss_pred             CCcCccchHHHHHHHHHHcccCCCCCCccccccchhcc------------ccchhHhcccccCCCcchhhcCCCCCHHHH
+Confidence            47899999999999999999877765544443332210            011111234677789999999999999999
+
+
+Q sp|P01308|INS_  106 ENYCN  110 (110)
+Q Consensus       106 E~YCN  110 (110)
+                      ++||+
+T Consensus        70 ~~YC~   74 (74)
+T 6PXW_E           70 ENYCN   74 (74)
+T ss_dssp             HTTCC
+T ss_pred             HHhcC
+Confidence            99996
+
+
+No 6
+>2JZQ_A Insulin; HORMONE, SINGLE CHAIN INSULIN, MUTANT; NMR {N/A}
+Probab=99.57  E-value=9.5e-19  Score=111.55  Aligned_cols=56  Identities=84%  Similarity=1.490  Sum_probs=46.2  Template_Neff=6.600
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQL  105 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~L  105 (110)
+                      .++++||++|+++|.+||.++|+++..+                             .+|+.++|||||||.++||++||
+T Consensus         2 ~~~~~CG~~L~~~l~~vC~~~~~~~~~~-----------------------------~~r~~~~giv~ECC~~~Ct~~~L   52 (57)
+T 2JZQ_A            2 VNQHLCGSDLVEALYLVCGERGFFYTDP-----------------------------TGGGPRRGIVEQCCHSICSLYQL   52 (57)
+T ss_dssp             CSBCCCHHHHHHHHHHHHTTSCCCCSSC-----------------------------SSSSTTHHHHTHHHHSCBCHHHH
+T ss_pred             CCcccccHHHHHHHHHHHcCCCCCCCCC-----------------------------CCCCCCCCcchhcCCCCCCHHHH
+Confidence            4789999999999999999876543211                             12455789999999999999999
+
+
+Q sp|P01308|INS_  106 ENYCN  110 (110)
+Q Consensus       106 E~YCN  110 (110)
+                      ++||+
+T Consensus        53 ~~YC~   57 (57)
+T 2JZQ_A           53 ENYCN   57 (57)
+T ss_dssp             HHSCC
+T ss_pred             HHhcC
+Confidence            99996
+
+
+No 7
+>1WQJ_I Insulin-like growth factor binding protein; PROTEIN-PROTEIN COMPLEX, DISULFIDE RICH, DISULFIDE; 1.6A {Homo sapiens} SCOP: g.1.1.1
+Probab=99.55  E-value=1.5e-18  Score=114.51  Aligned_cols=61  Identities=41%  Similarity=0.932  Sum_probs=47.9  Template_Neff=6.700
+
+Q sp|P01308|INS_   27 NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLE  106 (110)
+Q Consensus        27 ~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~LE  106 (110)
+                      +++|||++|+++|.+||+++|+++.++ +. .                +   .  ..+|+.++|||||||.++||++||+
+T Consensus         2 ~~~lCG~~L~~~l~~vC~~~g~~~~~~-~~-~----------------~---~--~~~r~~~~giv~ECC~~~Ct~~eL~   58 (70)
+T 1WQJ_I            2 PETLCGAELVDALQFVCGDRGFYFNKP-TG-Y----------------G---S--SSRRAPQTGIVDECCFRSCDLRRLE   58 (70)
+T ss_dssp             CCCCCHHHHHHHHHHHHGGGCBCSEEE-CS-S----------------C---C--BTTBCSEEEHHHHHTTTCCCHHHHH
+T ss_pred             CcccCcHHHHHHHHHHHCCCCCCCCCC-CC-C----------------C---C--CCCCCCCCCcchhhcCCCCCHHHHH
+Confidence            689999999999999999877654221 10 0                0   0  1346677899999999999999999
+
+
+Q sp|P01308|INS_  107 NYCN  110 (110)
+Q Consensus       107 ~YCN  110 (110)
+                      +||+
+T Consensus        59 ~YC~   62 (70)
+T 1WQJ_I           59 MYCA   62 (70)
+T ss_dssp             TTBC
+T ss_pred             HhcC
+Confidence            9995
+
+
+No 8
+>4XSS_B Insulin-like growth factor I, Insulin; CELL SURFACE RECEPTOR/IMMUNE SYSTEM, INSULIN; HET: BMA, FUC, NAG; 3.0A {Homo sapiens}
+Probab=99.55  E-value=1.5e-18  Score=114.51  Aligned_cols=61  Identities=41%  Similarity=0.932  Sum_probs=47.9  Template_Neff=6.700
+
+Q sp|P01308|INS_   27 NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLE  106 (110)
+Q Consensus        27 ~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~LE  106 (110)
+                      +++|||++|+++|.+||+++|+++.++ +. .                +   .  ..+|+.++|||||||.++||++||+
+T Consensus         2 ~~~lCG~~L~~~l~~vC~~~g~~~~~~-~~-~----------------~---~--~~~r~~~~giv~ECC~~~Ct~~eL~   58 (70)
+T 4XSS_B            2 PETLCGAELVDALQFVCGDRGFYFNKP-TG-Y----------------G---S--SSRRAPQTGIVDECCFRSCDLRRLE   58 (70)
+T ss_pred             CcccCcHHHHHHHHHHHCCCCCCCCCC-CC-C----------------C---C--CCCCCCCCCcchhhcCCCCCHHHHH
+Confidence            689999999999999999877654221 10 0                0   0  1346677899999999999999999
+
+
+Q sp|P01308|INS_  107 NYCN  110 (110)
+Q Consensus       107 ~YCN  110 (110)
+                      +||+
+T Consensus        59 ~YC~   62 (70)
+T 4XSS_B           59 MYCA   62 (70)
+T ss_pred             HhcC
+Confidence            9995
+
+
+No 9
+>3LRI_A INSULIN-LIKE GROWTH FACTOR-1 IGF-I; INSULIN-LIKE GROWTH FACTOR-1, GROWTH FACTOR; NMR {Homo sapiens} SCOP: g.1.1.1
+Probab=99.55  E-value=1.7e-18  Score=117.89  Aligned_cols=63  Identities=40%  Similarity=0.841  Sum_probs=48.9  Template_Neff=6.400
+
+Q sp|P01308|INS_   25 FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQ  104 (110)
+Q Consensus        25 ~~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~  104 (110)
+                      ..+++|||++|+++|.+||+++|+++.++. +                    +..  ..+|+.++||+||||.++||++|
+T Consensus        13 ~~~~~lCG~~L~~~L~~vC~~~g~~~~~p~-~--------------------~~~--~~~r~~~~giv~ECC~~~Ct~~e   69 (83)
+T 3LRI_A           13 NGPRTLCGAELVDALQFVCGDRGFYFNKPT-G--------------------YGS--SSRRACQTGIVDECCFRSCDLRR   69 (83)
+T ss_dssp             SSSSSSSCTHHHHHHHHHHHTTCCCSSCCC-S--------------------BTT--BSSSCSTTCTTHHHHHTTCCHHH
+T ss_pred             CCCcccccHHHHHHHHHHHcCCCCCCCCCC-C--------------------CCC--cccccccCCcchhhcCCCCCHHH
+Confidence            578999999999999999998776532210 0                    000  12456678999999999999999
+
+
+Q sp|P01308|INS_  105 LENYCN  110 (110)
+Q Consensus       105 LE~YCN  110 (110)
+                      |++||+
+T Consensus        70 L~~YC~   75 (83)
+T 3LRI_A           70 LEMYCA   75 (83)
+T ss_dssp             HHHHCC
+T ss_pred             HHHhCC
+Confidence            999995
+
+
+No 10
+>1TGR_A Insulin-like growth factor IA; IGF-I, IGF-1, Disulfide Isomerization, recepter; 1.42A {Homo sapiens} SCOP: g.1.1.1
+Probab=99.53  E-value=2.9e-18  Score=108.22  Aligned_cols=51  Identities=47%  Similarity=1.120  Sum_probs=43.1  Template_Neff=6.100
+
+Q sp|P01308|INS_   27 NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLE  106 (110)
+Q Consensus        27 ~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~LE  106 (110)
+                      ++++||++|+++|.+||+++|+++ +                                +++++|||||||.++||+++|+
+T Consensus         2 ~~~lCG~~L~~~l~~vC~~~g~~~-~--------------------------------~~~~~giv~eCC~~~Ct~~~L~   48 (52)
+T 1TGR_A            2 PETLCGAELVDALQFVCGDRGFYF-N--------------------------------KPKAKGIVDECCFRSCDLRRLE   48 (52)
+T ss_dssp             TTHHHHHHHHHHHHHHHGGGCEEE-C--------------------------------HHHHHHHHHHHSSSCCCGGGGG
+T ss_pred             CCccCcHHHHHHHHHHhcCcCCCC-C--------------------------------CcCCCCCchhcCCCCCCHHHHH
+Confidence            689999999999999999765431 0                                2236899999999999999999
+
+
+Q sp|P01308|INS_  107 NYCN  110 (110)
+Q Consensus       107 ~YCN  110 (110)
+                      +||+
+T Consensus        49 ~YC~   52 (52)
+T 1TGR_A           49 MYCA   52 (52)
+T ss_dssp             GGBC
+T ss_pred             HhcC
+Confidence            9996
+
+
+No 11
+>5L3L_A Insulin-like growth factor II; IGF-II, cell cycle; NMR {Homo sapiens}
+Probab=99.48  E-value=1.6e-17  Score=108.80  Aligned_cols=59  Identities=44%  Similarity=0.944  Sum_probs=46.6  Template_Neff=6.700
+
+Q sp|P01308|INS_   25 FVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQ  104 (110)
+Q Consensus        25 ~~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~  104 (110)
+                      ..+++|||++|+++|.+||++.|+++.+..                           ...++.++|||||||.++||+++
+T Consensus         3 ~~~~~lCG~~L~~~l~~vC~~~~~~~~~~~---------------------------~~~~r~~~giv~eCC~~~Ct~~~   55 (67)
+T 5L3L_A            3 RPSETLCGGELVDTLQFVCGDRGFYFSRPA---------------------------SRVSRRSRGIVEECCFRSCDLAL   55 (67)
+T ss_dssp             SCCCCCCTHHHHHHHHHHHGGGCBCCCCCC---------------------------CSSSCCCCCHHHHHTSSCCCHHH
+T ss_pred             CCCccccchHHHHHHHHHHccCCCCCCCCc---------------------------ccCcccccccchhhcCCCCCHHH
+Confidence            357899999999999999997654422110                           01345678999999999999999
+
+
+Q sp|P01308|INS_  105 LENYCN  110 (110)
+Q Consensus       105 LE~YCN  110 (110)
+                      |++||+
+T Consensus        56 L~~YC~   61 (67)
+T 5L3L_A           56 LETYCA   61 (67)
+T ss_dssp             HGGGBC
+T ss_pred             HHHhcC
+Confidence            999995
+
+
+No 12
+>1ZEI_D INSULIN, M-CRESOL; HORMONE, METABOLIC ROLE, CHEMICAL ACTIVITY; HET: CRS; 1.9A {Sus scrofa} SCOP: g.1.1.1
+Probab=99.45  E-value=3.5e-17  Score=102.77  Aligned_cols=52  Identities=90%  Similarity=1.608  Sum_probs=43.9  Template_Neff=6.800
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQL  105 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~L  105 (110)
+                      .++++||++|+++|..||++.++++.                                 ++.++|||+|||.++||+++|
+T Consensus         2 ~~~~~CG~~L~~~l~~vC~~~~~~~~---------------------------------~~~~~giv~eCC~~~Cs~~~l   48 (53)
+T 1ZEI_D            2 VNQHLCGSHLVEALYLVCGERGFFYT---------------------------------DKAAKGIVEQCCTSICSLYQL   48 (53)
+T ss_dssp             HHHHHHHHHHHHHHHHHSGGGEEECC---------------------------------TTTHHHHHHHHHHSCCCHHHH
+T ss_pred             CCcccccHHHHHHHHHHHCccCCCCC---------------------------------ccCCCCccceeCCCCCCHHHH
+Confidence            47899999999999999998654321                                 224679999999999999999
+
+
+Q sp|P01308|INS_  106 ENYCN  110 (110)
+Q Consensus       106 E~YCN  110 (110)
+                      ++||+
+T Consensus        49 ~~YC~   53 (53)
+T 1ZEI_D           49 ENYCN   53 (53)
+T ss_dssp             HTTBC
+T ss_pred             HHhcC
+Confidence            99996
+
+
+No 13
+>6INS_E PROTEIN; HORMONE; 2.0A {Sus scrofa} SCOP: g.1.1.1
+Probab=99.36  E-value=3.8e-16  Score=97.33  Aligned_cols=49  Identities=92%  Similarity=1.647  Sum_probs=41.9  Template_Neff=6.600
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQL  105 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~L  105 (110)
+                      .++++||++|+++|..||++.+++                                    +.++||++|||.++||+++|
+T Consensus         2 ~~~~~CG~~L~~~l~~vC~~~~~~------------------------------------~~~~gi~~eCC~~~Ct~~~L   45 (50)
+T 6INS_E            2 VNQHLCGSHLVEALYLVCGERGFF------------------------------------YTPKGIVEQCCTSICSLYQL   45 (50)
+T ss_dssp             CCSCCCTHHHHHHHHHHHGGGCEE------------------------------------ECTTTTHHHHTSSCCCHHHH
+T ss_pred             CCcccccHHHHHHHHHHHCCcCCC------------------------------------CCCCCcchhhcCCCCCHHHH
+Confidence            478999999999999999975321                                    01369999999999999999
+
+
+Q sp|P01308|INS_  106 ENYCN  110 (110)
+Q Consensus       106 E~YCN  110 (110)
+                      ++||+
+T Consensus        46 ~~yC~   50 (50)
+T 6INS_E           46 ENYCN   50 (50)
+T ss_dssp             GGGBC
+T ss_pred             HHhcC
+Confidence            99996
+
+
+No 14
+>1B9G_A GROWTH-FACTOR IGF-1; GROWTH FACTOR IGF-1, GROWTH FACTOR; NMR {Homo sapiens} SCOP: g.1.1.1
+Probab=99.26  E-value=3.4e-15  Score=95.89  Aligned_cols=48  Identities=52%  Similarity=1.185  Sum_probs=41.3  Template_Neff=6.100
+
+Q sp|P01308|INS_   27 NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLE  106 (110)
+Q Consensus        27 ~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~LE  106 (110)
+                      ++++||++|+++|..||++++++                                    +.++||++|||.++||+++|+
+T Consensus         2 ~~~~CG~~L~~~l~~vC~~~~~~------------------------------------~~~~giv~eCC~~~Cs~~~L~   45 (57)
+T 1B9G_A            2 PETLCGAELVDALQFVCGDRGFY------------------------------------FNKPGIVDECCFRSCDLRRLE   45 (57)
+T ss_pred             CcccccHHHHHHHHHHHCCCCCC------------------------------------CCCCccchhcCCCCCCHHHHH
+Confidence            68999999999999999975321                                    124699999999999999999
+
+
+Q sp|P01308|INS_  107 NYCN  110 (110)
+Q Consensus       107 ~YCN  110 (110)
+                      +||.
+T Consensus        46 ~YC~   49 (57)
+T 1B9G_A           46 MYCA   49 (57)
+T ss_pred             HhcC
+Confidence            9995
+
+
+No 15
+>3W7Y_B Insulin; Human insulin, hormone, glucose metabolism; 0.92A {Homo sapiens}
+Probab=99.25  E-value=4.7e-15  Score=85.30  Aligned_cols=27  Identities=100%  Similarity=1.770  Sum_probs=24.3  Template_Neff=4.800
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTP   52 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p   52 (110)
+                      .++++||++|+++|.+||+++||++.+
+T Consensus         2 ~~~~lCG~~Lv~al~~vCg~rGF~~~~   28 (30)
+T 3W7Y_B            2 VNQHLCGSHLVEALYLVCGERGFFYTP   28 (30)
+T ss_dssp             CCBCCCTHHHHHHHHHHHGGGCEEECC
+T ss_pred             CCccccchhHHHHHHHHhCCCCcccCC
+Confidence            468999999999999999999998755
+
+
+No 16
+>6SOF_F Insulin receptor (E.C.2.7.10.1), Insulin; cell surface receptor, insulin, tyrosine; 4.3A {Homo sapiens}
+Probab=99.25  E-value=4.7e-15  Score=85.30  Aligned_cols=27  Identities=100%  Similarity=1.770  Sum_probs=24.3  Template_Neff=4.800
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTP   52 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p   52 (110)
+                      .++++||++|+++|.+||+++||++.+
+T Consensus         2 ~~~~lCG~~Lv~al~~vCg~rGF~~~~   28 (30)
+T 6SOF_F            2 VNQHLCGSHLVEALYLVCGERGFFYTP   28 (30)
+T ss_dssp             CSSCCCTHHHHHHHHHHHCSCCCCCCC
+T ss_pred             CCccccchhHHHHHHHHhCCCCcccCC
+Confidence            468999999999999999999998755
+
+
+No 17
+>5URT_B Insulin Chain A, Insulin Chain; Insulin, HORMONE; 1.18A {Homo sapiens}
+Probab=99.22  E-value=8e-15  Score=84.34  Aligned_cols=27  Identities=96%  Similarity=1.677  Sum_probs=24.3  Template_Neff=4.800
+
+Q sp|P01308|INS_   26 VNQHLCGSHLVEALYLVCGERGFFYTP   52 (110)
+Q Consensus        26 ~~~~LCG~~LvdaL~~VCg~rGf~y~p   52 (110)
+                      .++++||++|+++|.++|+++||++.+
+T Consensus         2 ~~~~lCG~~Lvd~l~~vCg~rGF~~~~   28 (30)
+T 5URT_B            2 VNQHLCGSHLVEALYLVCGERGFFYTX   28 (30)
+T ss_dssp             CSSCCCTHHHHHHHHHHHGGGCBCCCC
+T ss_pred             CCccccchhHHHHHHHHhCCCccCCCC
+Confidence            468999999999999999999998755
+
+
+No 18
+>2H8B_B Insulin-like 3; INSULIN/RELAXIN SUPARFAMILY FOLD, HORMONE-GROWTH FACTOR; NMR {N/A}
+Probab=90.53  E-value=0.11  Score=30.73  Aligned_cols=22  Identities=45%  Similarity=0.880  Sum_probs=19.6  Template_Neff=4.000
+
+Q sp|P01308|INS_   24 AFVNQHLCGSHLVEALYLVCGE   45 (110)
+Q Consensus        24 a~~~~~LCG~~LvdaL~~VCg~   45 (110)
+                      .+...++||++|+.++..+|+.
+T Consensus         3 ~~~~~KlCGr~lvRa~I~iCG~   24 (31)
+T 2H8B_B            3 PEMREKLCGHHFVRALVRVCGG   24 (31)
+T ss_pred             hHHHHhHhhHHHHHHHHHHhCC
+Confidence            3567899999999999999996
+
+
+No 19
+>2MV1_B Relaxin B chain, Relaxin A; insulin/relaxin family fold, signalling protein; HET: PCA, NH2; NMR {N/A}
+Probab=90.18  E-value=0.12  Score=30.21  Aligned_cols=21  Identities=38%  Similarity=0.618  Sum_probs=19.1  Template_Neff=4.200
+
+Q sp|P01308|INS_   25 FVNQHLCGSHLVEALYLVCGE   45 (110)
+Q Consensus        25 ~~~~~LCG~~LvdaL~~VCg~   45 (110)
+                      ....++||++|+.++..+|+.
+T Consensus         5 ~~~~KlCGr~lvR~~I~iCG~   25 (30)
+T 2MV1_B            5 EEVIKLCGRELVRAQIAICGM   25 (30)
+T ss_pred             HHHHHHHhHHHHHHHHHHHcC
+Confidence            467899999999999999996
+
+
+No 20
+>6BLQ_B H-2 class II histocompatibility antigen; INSULIN, TYPE I DIABETES, T; HET: NAG, EDO, IPA; 1.8A {Mus musculus}
+Probab=84.31  E-value=0.58  Score=35.91  Aligned_cols=14  Identities=86%  Similarity=1.528  Sum_probs=11.0  Template_Neff=9.100
+
+Q sp|P01308|INS_   34 HLVEALYLVCGERG   47 (110)
+Q Consensus        34 ~LvdaL~~VCg~rG   47 (110)
+                      +|++.|.+||+..|
+T Consensus         1 ~~~~~~~~~~~~~~   14 (221)
+T 6BLQ_B            1 HLVERLYLVCGEEG   14 (221)
+T ss_dssp             CCEECCCCCCCCCC
+T ss_pred             CceeeEEEEecccc
+Confidence            57888999998764
+
+
+No 21
+>2KJI_A Probable insulin-like peptide beta-type 5; HORMONE, INSULIN LIKE PEPTIDE, C.; NMR {Caenorhabditis elegans}
+Probab=78.05  E-value=1.5  Score=27.69  Aligned_cols=47  Identities=28%  Similarity=0.717  Sum_probs=35.9  Template_Neff=6.400
+
+Q sp|P01308|INS_   27 NQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLE  106 (110)
+Q Consensus        27 ~~~LCG~~LvdaL~~VCg~rGf~y~p~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~KRGIVEqCCh~~Csl~~LE  106 (110)
+                      ..+.||++|...+..||++. -.  ..                                 ....|..+||.++||.++++
+T Consensus         2 ~~r~CG~~l~~~i~~vCg~~-C~--~~---------------------------------~~~dla~~cC~~~~td~~I~   45 (50)
+T 2KJI_A            2 ETRACGRKLISLVMAVCGDL-CN--PQ---------------------------------EGKDIATECCGNQCSDDYIR   45 (50)
+T ss_dssp             CCCCSHHHHHHHHHHHTSSS-SC--CC---------------------------------SCTTHHHHHTTTCCCHHHHH
+T ss_pred             CCCchhHHHHHHHHHHHCCc-cC--CC---------------------------------CcccHHHHHhcCCCCHHHHH
+Confidence            57899999999999999962 11  00                                 01356788999999999998
+
+
+Q sp|P01308|INS_  107 NYC  109 (110)
+Q Consensus       107 ~YC  109 (110)
+                      .-|
+T Consensus        46 ~~C   48 (50)
+T 2KJI_A           46 SAC   48 (50)
+T ss_dssp             HHH
+T ss_pred             Hhc
+Confidence            766
+
+
+No 22
+>1H9H_I TRYPSIN (E.C.3.4.21.4), TRYPSIN INHIBITOR II; HYDROLASE INHIBITOR, COMPLEX (SERINE PROTEASE-INHIBITOR); 1.5A {SUS SCROFA} SCOP: g.3.2.1
+Probab=43.94  E-value=19  Score=22.08  Aligned_cols=6  Identities=67%  Similarity=1.547  Sum_probs=2.6  Template_Neff=1.200
+
+Q sp|P01308|INS_   42 VCGERG   47 (110)
+Q Consensus        42 VCg~rG   47 (110)
+                      ||++.|
+T Consensus        20 vc~~ng   25 (36)
+T 1H9H_I           20 VCGPNG   25 (36)
+T ss_dssp             EECTTS
+T ss_pred             eecCCC
+Confidence            444433
+
+
+No 23
+>3LB6_A Interleukin-13, Interleukin-13 receptor subunit alpha-2; cytokine, receptor, decoy, decoy receptor; HET: NAG, MLY; 3.05A {Homo sapiens}
+Probab=38.46  E-value=26  Score=27.33  Aligned_cols=40  Identities=25%  Similarity=0.310  Sum_probs=7.8  Template_Neff=2.500
+
+Q sp|P01308|INS_    1 MALWMRLLPLLALL-ALWGPDPAAAFVNQHLCGSHLVEALYLVCG   44 (110)
+Q Consensus         1 malW~~~~~ll~ll-~~~~p~~~~a~~~~~LCG~~LvdaL~~VCg   44 (110)
+                      |++|+-.++-+.-+ .+.++...    +...==++|.+-|..|-.
+T Consensus         1 MAlwlt~VialtClgglasPgPV----p~~~aLkELIeEL~NITq   41 (132)
+T 3LB6_A            1 MALLLTTVIALTCLGGFASPGPV----PPSTALRELIEELVNITQ   41 (132)
+T ss_dssp             ---------------------------CCSHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHhhccCCCCCC----CChHHHHHHHHHHHhcCC
+Confidence            78888777666554 23333221    112223455555555443
+
+
+No 24
+>3LB6_B Interleukin-13, Interleukin-13 receptor subunit alpha-2; cytokine, receptor, decoy, decoy receptor; HET: NAG; 3.05A {Homo sapiens}
+Probab=38.46  E-value=26  Score=27.33  Aligned_cols=40  Identities=25%  Similarity=0.310  Sum_probs=20.0  Template_Neff=2.500
+
+Q sp|P01308|INS_    1 MALWMRLLPLLALL-ALWGPDPAAAFVNQHLCGSHLVEALYLVCG   44 (110)
+Q Consensus         1 malW~~~~~ll~ll-~~~~p~~~~a~~~~~LCG~~LvdaL~~VCg   44 (110)
+                      |++|+-.++-+.-+ .+.++...    +...==++|.+-|..|-.
+T Consensus         1 MAlwlt~VialtClgglasPgPV----p~~~aLkELIeEL~NITq   41 (132)
+T 3LB6_B            1 MALLLTTVIALTCLGGFASPGPV----PPSTALRELIEELVNITQ   41 (132)
+T ss_pred             ChHHHHHHHHHHHhhccCCCCCC----CChHHHHHHHHHHHhcCC
+Confidence            78888777666554 23333221    112223455555555443
+
+
+No 25
+>2N8E_A Kappa-conotoxin PVIIA; cystine knot, inhibitor, TOXIN; HET: HYP; NMR {N/A}
+Probab=28.07  E-value=51  Score=19.97  Aligned_cols=11  Identities=27%  Similarity=1.144  Sum_probs=8.6  Template_Neff=1.000
+
+Q sp|P01308|INS_   92 VEQCCTSICSL  102 (110)
+Q Consensus        92 VEqCCh~~Csl  102 (110)
+                      .|.||.+.|..
+T Consensus        12 lddccsrkcnr   22 (34)
+T 2N8E_A           12 LDDCCSRKCNR   22 (34)
+T ss_dssp             BCCCTTCCBCT
+T ss_pred             HHHHHhhhccc
+Confidence            57899888864
+
+
+No 26
+>1WSO_A Orexin-A; Hypocretin, Orexin, GPCR, Orphan G-protein; HET: PCA, NH2; NMR {N/A} SCOP: j.6.1.1
+Probab=26.00  E-value=58  Score=20.05  Aligned_cols=15  Identities=40%  Similarity=1.096  Sum_probs=8.8  Template_Neff=2.500
+
+Q sp|P01308|INS_   92 VEQCCTS---ICSLYQLE  106 (110)
+Q Consensus        92 VEqCCh~---~Csl~~LE  106 (110)
+                      |-+||.+   +|.+.+|.
+T Consensus         3 v~~CCrq~~~sCrly~lL   20 (34)
+T 1WSO_A            3 LPDCCRQKTCSCRLYELL   20 (34)
+T ss_dssp             CCSHHHHTSSCSTHHHHH
+T ss_pred             CcccccCCCCcccHHhHh
+Confidence            4568843   56666653
+
+
+No 27
+>2MM6_A entity; HYDROLASE INHIBITOR; NMR {Allatide scholaris}
+Probab=21.29  E-value=83  Score=18.86  Aligned_cols=10  Identities=40%  Similarity=1.208  Sum_probs=8.2  Template_Neff=1.700
+
+Q sp|P01308|INS_   88 KRGIVEQCCT   97 (110)
+Q Consensus        88 KRGIVEqCCh   97 (110)
+                      =+||.++||.
+T Consensus         8 Cdgv~nQCCd   17 (30)
+T 2MM6_A            8 CDGVINQCCD   17 (30)
+T ss_pred             ccchhhccCC
+Confidence            4699999994
+
+
+No 28
+>2MI9_A alpha amylase inhibitor; conformations, HYDROLASE INHIBITOR; NMR {Allamanda cathartica}
+Probab=20.45  E-value=88  Score=18.72  Aligned_cols=10  Identities=50%  Similarity=1.238  Sum_probs=8.2  Template_Neff=1.600
+
+Q sp|P01308|INS_   88 KRGIVEQCCT   97 (110)
+Q Consensus        88 KRGIVEqCCh   97 (110)
+                      =+||.++||.
+T Consensus         8 Cdgv~nQCCd   17 (30)
+T 2MI9_A            8 CDGIINQCCD   17 (30)
+T ss_dssp             CCSSCCCCCS
+T ss_pred             ecchhcccCC
+Confidence            3699999994
+
+

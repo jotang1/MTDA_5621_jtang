@@ -1,0 +1,1277 @@
+Query         sp|P00974|BPT1_BOVIN Pancreatic trypsin inhibitor OS=Bos taurus OX=9913 PE=1 SV=2
+Match_columns 100
+No_of_seqs    124 out of 8596
+Neff          5.45306
+Searched_HMMs 80799
+Date          Fri May 16 12:35:16 2025
+Command       /usr/bin/hhsearch -i /tmp/slurmtmp.1369415/tmp4l0mnpr5/query.a3m -o /tmp/slurmtmp.1369415/tmp4l0mnpr5/output.hhr -maxseq 1000000 -d /fs/scratch/PZS0708/jtang/AF_lectures/alphafold/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4BNR_I HEPATOPANCREAS TRYPSIN   99.4 3.8E-17 4.8E-22  102.8   0.0  100    1-100     1-100 (100)
+  2 1CO7_I TRYPSIN II (E.C.3.4.21.  99.3 7.8E-16 9.7E-21   96.2   0.0   99    2-100     1-99  (99)
+  3 2W8X_A ION-CHANNEL MODULATOR R  99.3 2.3E-15 2.8E-20   97.9   0.0   53   37-92     13-65  (72)
+  4 5EZD_B Kunitz-type protease in  99.3 3.7E-15 4.5E-20  101.8   0.0   59   35-93     80-138 (145)
+  5 6NAN_A Ixolaris; coagulation b  99.2 1.2E-14 1.4E-19   98.6   0.0   60   35-94     12-72  (140)
+  6 5H7V_A Kunitz-type protease in  99.1 6.2E-14 7.7E-19  113.8   0.0   60   35-94    215-274 (421)
+  7 4BD9_B CARBOXYPEPTIDASE A4 (E.  99.1 6.9E-14 8.6E-19   94.0   0.0   53   39-91      3-55  (165)
+  8 5YV7_A Kunitz-type serine prot  99.1 1.6E-13 1.9E-18   76.8   0.0   56   37-92      4-59  (60)
+  9 4BD9_B CARBOXYPEPTIDASE A4 (E.  99.0 2.7E-13 3.4E-18   91.1   0.0   54   37-90    112-165 (165)
+ 10 2M99_A Protease inhibitor NACI  99.0 2.8E-13 3.5E-18   74.9   0.0   53   39-91      4-56  (57)
+ 11 6KZF_A Kunitz-type serine prot  99.0 2.9E-13 3.5E-18   76.2   0.0   56   37-92      4-59  (60)
+ 12 4U32_X mesotrypsin, HAI2; seri  99.0 2.9E-13 3.5E-18   73.8   0.0   53   38-90      3-55  (55)
+ 13 1DTX_A ALPHA-DENDROTOXIN; PRES  99.0 4.2E-13 5.1E-18   75.1   0.0   55   37-91      4-58  (59)
+ 14 5H7V_A Kunitz-type protease in  99.0 6.7E-13 8.3E-18  107.8   0.0   58   38-95    343-400 (421)
+ 15 1BIK_A BIKUNIN; GLYCOPROTEIN,   98.9 8.5E-13 1.1E-17   89.5   0.0   59   35-93     21-79  (147)
+ 16 3L3T_E PRSS3 protein (E.C.3.4.  98.9 9.2E-13 1.1E-17   71.8   0.0   54   40-93      3-56  (57)
+ 17 3AUE_C Pancreatic trypsin inhi  98.9 1.2E-12 1.5E-17   76.0   0.0   56   39-94      4-59  (65)
+ 18 1DEN_A DENDROTOXIN I (NMR, 29   98.9 1.3E-12 1.6E-17   73.5   0.0   56   37-92      4-59  (60)
+ 19 5M4V_A Mambaquaretin-1; Vasopr  98.9 1.6E-12   2E-17   71.1   0.0   53   39-91      4-56  (57)
+ 20 2JOT_A Huwentoxin-11; Proteina  98.9 1.9E-12 2.3E-17   70.8   0.0   51   40-92      4-54  (55)
+ 21 1DTK_A DENDROTOXIN K (NMR, 20   98.9   2E-12 2.5E-17   70.5   0.0   54   38-91      3-56  (57)
+ 22 2CA7_A CONKUNITZIN-S1; CONKUNI  98.9 2.2E-12 2.7E-17   71.9   0.0   56   37-92      4-59  (60)
+ 23 4ISN_B Kunitz-type protease in  98.9 2.2E-12 2.8E-17   72.3   0.0   57   38-94      4-60  (62)
+ 24 4U30_X mesotrypsin, bikunin-KD  98.9 2.2E-12 2.8E-17   71.7   0.0   55   38-92      4-58  (59)
+ 25 1AAP_A PROTEASE INHIBITOR DOMA  98.9 2.2E-12 2.8E-17   71.4   0.0   55   38-92      3-57  (58)
+ 26 6NAN_A Ixolaris; coagulation b  98.9 2.6E-12 3.2E-17   87.2   0.0   60   37-96     73-132 (140)
+ 27 6Q6C_A Kunitz-type conkunitzin  98.9 2.7E-12 3.3E-17   71.6   0.0   56   37-92      4-59  (61)
+ 28 2R9P_F Trypsin-3 (E.C.3.4.21.4  98.9 2.8E-12 3.5E-17   70.1   0.0   54   39-92      4-57  (58)
+ 29 1IRH_A tissue factor pathway i  98.8 3.6E-12 4.4E-17   71.3   0.0   56   37-92      5-60  (61)
+ 30 6GFI_C PRSS3 protein, Amyloid-  98.8 3.6E-12 4.4E-17   79.8   0.0   61   35-95     10-70  (81)
+ 31 4NTW_B Acid-sensing ion channe  98.8 3.9E-12 4.8E-17   70.4   0.0   55   37-91      4-59  (60)
+ 32 4NTX_B Acid-sensing ion channe  98.8 3.9E-12 4.8E-17   70.4   0.0   55   37-91      4-59  (60)
+ 33 1BUN_B BETA2-BUNGAROTOXIN; HYD  98.8   4E-12 4.9E-17   71.1   0.0   56   38-93      5-60  (61)
+ 34 1KTH_A Collagen alpha 3(VI) ch  98.8   4E-12   5E-17   70.2   0.0   54   39-92      4-57  (58)
+ 35 1KUN_A ALPHA3-CHAIN TYPE VI CO  98.8 4.1E-12   5E-17   70.1   0.0   54   39-92      4-57  (58)
+ 36 1JC6_A VENOM BASIC PROTEASE IN  98.8 4.4E-12 5.4E-17   72.8   0.0   59   37-95      4-62  (65)
+ 37 6Q61_A Kunitz-type conkunitzin  98.8 4.6E-12 5.7E-17   70.1   0.0   56   37-92      4-59  (61)
+ 38 4ISO_B Suppressor of tumorigen  98.8 4.8E-12 5.9E-17   70.5   0.0   56   38-93      4-59  (60)
+ 39 1YC0_I Hepatocyte growth facto  98.8 4.8E-12 5.9E-17   75.8   0.0   58   35-92     17-74  (75)
+ 40 1TOC_R THROMBIN, ORNITHODORIN;  98.8 4.9E-12 6.1E-17   81.7   0.0   56   37-94     63-118 (120)
+ 41 1ZR0_B Cationic trypsin (E.C.3  98.8 4.9E-12 6.1E-17   71.8   0.0   57   37-93      6-62  (63)
+ 42 2KCR_A anntoxin; Protein, TOXI  98.8   5E-12 6.2E-17   70.4   0.0   56   38-93      5-60  (61)
+ 43 3AUH_E Pancreatic trypsin inhi  98.8   5E-12 6.2E-17   70.4   0.0   58   38-95      3-60  (63)
+ 44 2ODY_E Prothrombin (E.C.3.4.21  98.8   6E-12 7.5E-17   80.6   0.0   55   38-92     72-126 (127)
+ 45 1TFX_C TRYPSIN, TISSUE FACTOR   98.8 6.1E-12 7.5E-17   69.0   0.0   54   39-92      4-57  (58)
+ 46 3AUG_C Pancreatic trypsin inhi  98.8 6.7E-12 8.3E-17   70.5   0.0   58   39-96      4-61  (65)
+ 47 2ODY_E Prothrombin (E.C.3.4.21  98.8 7.8E-12 9.7E-17   80.1   0.0   57   38-94      4-60  (127)
+ 48 6A5I_A Trypsin Inhibitor; Kuni  98.8 1.1E-11 1.3E-16   71.6   0.0   59   38-96      5-63  (68)
+ 49 2DDI_A WAP, follistatin/kazal,  98.7 1.2E-11 1.5E-16   73.8   0.0   58   36-93      6-63  (70)
+ 50 4DTG_K Humanized recombinant F  98.7 1.4E-11 1.7E-16   72.2   0.0   57   37-93      4-60  (66)
+ 51 1G6X_A PANCREATIC TRYPSIN INHI  98.7 1.4E-11 1.8E-16   66.6   0.0   54   39-92      4-57  (58)
+ 52 4BQD_A TISSUE FACTOR PATHWAY I  98.7 1.4E-11 1.8E-16   75.0   0.0   58   35-92     21-78  (79)
+ 53 6HAR_E PRSS3 protein, Amyloid-  98.7 1.4E-11 1.8E-16   76.4   0.0   61   35-95     10-70  (80)
+ 54 2UUY_B CATIONIC TRYPSIN (E.C.3  98.7   2E-11 2.5E-16   68.2   0.0   48   38-91      4-51  (52)
+ 55 3P95_E PRSS3 protein (E.C.3.4.  98.7 2.3E-11 2.9E-16   66.2   0.0   54   39-92      4-57  (58)
+ 56 5NMV_K Fab light chain, Fab he  98.7 3.4E-11 4.3E-16   75.6   0.0   58   35-92     28-85  (86)
+ 57 1BIK_A BIKUNIN; GLYCOPROTEIN,   98.7 3.5E-11 4.3E-16   81.7   0.0   58   39-96     81-138 (147)
+ 58 3BYB_A Textilinin; BPTI-like,   98.7 3.5E-11 4.3E-16   67.0   0.0   55   37-91      4-58  (59)
+ 59 5ZJ3_B Kunitz-type serine prot  98.7 3.5E-11 4.3E-16   67.0   0.0   55   37-91      4-58  (59)
+ 60 6BX8_B Trypsin-3 (E.C.3.4.21.4  98.7 3.8E-11 4.7E-16   74.6   0.0   61   36-96     13-73  (80)
+ 61 6BX8_F Trypsin-3 (E.C.3.4.21.4  98.7 3.8E-11 4.7E-16   74.6   0.0   61   36-96     13-73  (80)
+ 62 1SHP_A TRYPSIN INHIBITOR (NMR,  98.6 3.9E-11 4.9E-16   64.6   0.0   52   40-91      3-54  (55)
+ 63 3FP7_J Anionic trypsin-2 (E.C.  98.6 6.2E-11 7.7E-16   62.5   0.0   40   53-92      3-42  (43)
+ 64 1ADZ_A TISSUE FACTOR PATHWAY I  98.6 6.5E-11   8E-16   69.8   0.0   59   36-94     10-68  (71)
+ 65 3M7Q_B Cationic trypsin (E.C.3  98.6 6.6E-11 8.1E-16   65.9   0.0   55   38-92      5-59  (61)
+ 66 2LFL_A Tryptase inhibitor; HYD  98.6 1.1E-10 1.3E-15   66.6   0.0   51   35-91      6-56  (57)
+ 67 5JBT_Y PRSS3 protein, Amyloid-  98.5 1.7E-10 2.2E-15   59.1   0.0   37   54-90      2-38  (38)
+ 68 2M01_A Protease inhibitor LmKT  98.5 1.9E-10 2.3E-15   63.0   0.0   53   40-92      4-56  (59)
+ 69 1TOC_R THROMBIN, ORNITHODORIN;  98.5   2E-10 2.5E-15   74.2   0.0   51   37-94      3-55  (120)
+ 70 4BD9_B CARBOXYPEPTIDASE A4 (E.  98.5 2.5E-10   3E-15   76.8   0.0   50   43-92     59-108 (165)
+ 71 5NX1_D Kallikrein-6 (E.C.3.4.2  98.4   7E-10 8.7E-15   65.4   0.0   44   53-96      3-46  (56)
+ 72 5NX3_D Kallikrein-6 (E.C.3.4.2  98.3 1.2E-09 1.5E-14   64.2   0.0   44   53-96      3-46  (56)
+ 73 1D0D_A TICK ANTICOAGULANT PROT  40.3      24 0.00029   22.9   0.0   38   53-90     21-59  (60)
+ 74 1KIG_I FACTOR XA, ANTICOAGULAN  40.3      24 0.00029   22.9   0.0   38   53-90     21-59  (60)
+ 75 6NFR_A CopC; CopC, metallochap  32.1      39 0.00048   23.1   0.0   10    1-10      1-10  (122)
+ 76 6NFQ_B CopC; CopC, metallochap  28.4      50 0.00061   22.5   0.0   10    1-10      1-10  (122)
+ 77 5XWE_B Weak toxin DE-1 homolog  24.4      65 0.00081   20.4   0.0    8    3-10      1-8   (83)
+ 78 6N2U_A Interleukin-8; IL-8, IM  23.6      69 0.00086   21.7   0.0   15    1-15      1-15  (99)
+ 79 5FO3_A CELL DIVISION PROTEIN Z  23.4      70 0.00087   24.7   0.0   10   54-63      9-18  (180)
+ 80 4CDG_D BLOOM SYNDROME PROTEIN   22.9      73  0.0009   20.4   0.0   12    1-12      1-12  (147)
+ 81 4K2U_L Erythrocyte binding ant  22.7      74 0.00092   21.2   0.0    6    1-6       1-6   (234)
+ 82 5E1L_A Cell division protein Z  21.6      80 0.00099   25.0   0.0   10   54-63     29-38  (200)
+ 83 2QN4_A Alpha-amylase/subtilisi  21.5      81   0.001   24.2   0.0    6    1-6       1-6   (200)
+ 84 5H7V_A Kunitz-type protease in  20.6      87  0.0011   26.6   0.0    9   80-88    317-325 (421)
+
+No 1
+>4BNR_I HEPATOPANCREAS TRYPSIN (E.C.3.4.21.4), PANCREATIC TRYPSIN; HYDOLASE-INHIBITOR COMPLEX, PROTEASE, INHIBITION, ARTHROPODA; HET: SO4; 2.0A {PONTASTACUS LEPTODACTYLUS}
+Probab=99.45  E-value=3.8e-17  Score=102.80  Aligned_cols=100  Identities=100%  Similarity=1.670  Sum_probs=80.8  Template_Neff=10.900
+
+Q sp|P00974|BPT1    1 MKMSRLCLSVALLVLLGTLAASTPGCDTSNQAKAQRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNF   80 (100)
+Q Consensus         1 ~~~~~~~l~~~l~~l~~t~~as~p~~~~~~~~~~~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF   80 (100)
+                      |||+++++++++++++++.+++++.+..++.++...++.|..+++.+.+....++|+|+...+.|+.+.+.++.++.+.|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~n~f   80 (100)
+T 4BNR_I            1 MKMSRLCLSVALLVLLGTLAASTPGCDTSNQAKAQRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNF   80 (100)
+T ss_dssp             TCCEEEEESCCCEEEECCEEEC----TTGE-TTTECCGGGGSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCB
+T ss_pred             CcHHHHHHHHHHHHHHHHHHhcCCCcCCcchhccCCCCCcCCCCCCCCCCCceEEEEEECCCCeEEEEeeCCCCCCCCcc
+Confidence            99999999999999999999988888887777778888998888877777788999999999999999999999999999
+
+
+Q sp|P00974|BPT1   81 KSAEDCMRTCGGAIGPWENL  100 (100)
+Q Consensus        81 ~s~e~C~~~C~~~~~p~~n~  100 (100)
+                      .+..+|++.|...++++++|
+T Consensus        81 ~~~~~c~~~c~~~~~~~~~~  100 (100)
+T 4BNR_I           81 KSAEDCMRTCGGAIGPWENL  100 (100)
+T ss_dssp             SSHHHHHHHHSCC-------
+T ss_pred             CCHHHHHHHhCCCCCCCCCC
+Confidence            99999999999999998876
+
+
+No 2
+>1CO7_I TRYPSIN II (E.C.3.4.21.4)/BOVINE PANCREATIC TRYPSIN; COMPLEX (SERINE PROTEASE-INHIBITOR), HYDROLASE-HYDROLASE INHIBITOR; 1.9A {Rattus norvegicus} SCOP: g.8.1.1
+Probab=99.33  E-value=7.8e-16  Score=96.16  Aligned_cols=99  Identities=100%  Similarity=1.673  Sum_probs=86.3  Template_Neff=11.100
+
+Q sp|P00974|BPT1    2 KMSRLCLSVALLVLLGTLAASTPGCDTSNQAKAQRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFK   81 (100)
+Q Consensus         2 ~~~~~~l~~~l~~l~~t~~as~p~~~~~~~~~~~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~   81 (100)
+                      ||+++++++++++++++...++..+..+..+....+..|..++..+.+....++|+|+...+.|..+.+.+|.++.+.|.
+T Consensus         1 ~M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~   80 (99)
+T 1CO7_I            1 KMSRLCLSVALLVLLGTLAASTPGCDTSNQAKAQRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFK   80 (99)
+T ss_pred             CHHHHHHHHHHHHHHHHHHhcCccccCCCCCCCCCCCCcCCCCCCCCCCCCCceEEEeCCCCeEEEEecCCCCCCCCCcC
+Confidence            79999999999998888888877776666666677888988877777777788999999999999999999999899999
+
+
+Q sp|P00974|BPT1   82 SAEDCMRTCGGAIGPWENL  100 (100)
+Q Consensus        82 s~e~C~~~C~~~~~p~~n~  100 (100)
+                      +..+|+..|....+++++|
+T Consensus        81 ~~~~c~~~c~~~~~~~~~~   99 (99)
+T 1CO7_I           81 SAEDCMRTCGGAIGPWENL   99 (99)
+T ss_pred             CHHHHHHHhCCCCCCCCCC
+Confidence            9999999999999998876
+
+
+No 3
+>2W8X_A ION-CHANNEL MODULATOR RAKLP; SALIVARY GLAND, KUNITZ DOMAINS, MAXIK; 1.6A {RHIPICEPHALUS APPENDICULATUS}
+Probab=99.28  E-value=2.3e-15  Score=97.87  Aligned_cols=53  Identities=21%  Similarity=0.387  Sum_probs=40.4  Template_Neff=5.600
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      +..|.-.++........++||||...++|+.|   ||.++.|.|.++.+|++.|..
+T Consensus        13 ~~~C~C~~p~~~G~~~~~ryyYn~~t~kC~~F---GC~gN~NnF~tk~eC~~~C~~   65 (72)
+T 2W8X_A           13 RSLCECDPNLQLGRHSDQLWHYNLRTNRCERG---GYRDNCNSHSSSGACVMACER   65 (72)
+T ss_dssp             THHHHSCTTCCCSCEEEEEEEEETTTTEEEEE---EETTBSSCBSSHHHHCCCCCC
+T ss_pred             CCCcccCCCCCCCceeeeEEEEECCCCeEEeC---CCCCCCCCCCCHHHHHHHHHh
+Confidence            34443333332223467899999999999997   999999999999999998864
+
+
+No 4
+>5EZD_B Kunitz-type protease inhibitor 1; Transmembrane, multidomain, serine protease inhibitor; 2.1A {Homo sapiens}
+Probab=99.26  E-value=3.7e-15  Score=101.83  Aligned_cols=59  Identities=36%  Similarity=0.987  Sum_probs=51.8  Template_Neff=9.900
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      ..+..|..++..+.|.....+|+|+...+.|+.+.+++|.++.|.|.+..+|.+.|...
+T Consensus        80 ~~~~~C~~~~~~g~c~~~~~~~~y~~~~~~C~~f~~~~c~~~~n~f~~~~~C~~~c~~~  138 (145)
+T 5EZD_B           80 QTEDYCLASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACRGV  138 (145)
+T ss_dssp             HHHHHHSSCCCCCSSCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHTTC
+T ss_pred             CcccceeccCccCcccCCcceEEEECCCCEEEEEeeCCCCCCCCCCCCHHHHHHHhccc
+Confidence            34667888877788887889999999999999999999999999999999999999764
+
+
+No 5
+>6NAN_A Ixolaris; coagulation blood inhibitor, Factor Xa; NMR {Ixodes scapularis}
+Probab=99.20  E-value=1.2e-14  Score=98.64  Aligned_cols=60  Identities=22%  Similarity=0.345  Sum_probs=51.1  Template_Neff=10.000
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKA-RIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~-~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      .....|..++..+.|.. ...+|+||...+.|+.|.+.+|.++.|.|.+..+|...|....
+T Consensus        12 ~~~~~c~~~~~~~~C~~~~~~~~~y~~~~~~C~~f~~~gc~~~~N~F~t~~~C~~~C~~~~   72 (140)
+T 6NAN_A           12 FESWVSCLDPEQVTCESQEGTHASYNRKTGQCEEQKGTECGGGENHFETLLKCNESCNDAP   72 (140)
+T ss_pred             cccccccCCCCCCCCCCCCCceEEEECCCCeEEEEecCCCCCCCcccCCHHHHHHhcCCCC
+Confidence            34567877777777776 6789999999999999999999999999999999999998743
+
+
+No 6
+>5H7V_A Kunitz-type protease inhibitor 1; HAI-1, HYDROLASE INHIBITOR; 3.82A {Homo sapiens}
+Probab=99.11  E-value=6.2e-14  Score=113.80  Aligned_cols=60  Identities=35%  Similarity=0.960  Sum_probs=53.7  Template_Neff=8.000
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      .....|..+...+.|.....+|||+...+.|+.|.+++|.++.|.|.+..+|...|....
+T Consensus       215 ~~~~~C~~p~~~g~C~~~~~rwyyn~~~~~C~~F~ygGC~gn~N~F~s~~eC~~~C~~~~  274 (421)
+T 5H7V_A          215 QTEDYCLASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACRGVQ  274 (421)
+T ss_dssp             HHCCCCCSCCCCCSSCCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHCSCCC
+T ss_pred             CCCCcccCCCCCCCCCCCCcEEEEECCCCEEEEeecCCCCCCccCCCCHHHHHHHcCCCC
+Confidence            456788888888888888999999999999999999999999999999999999998654
+
+
+No 7
+>4BD9_B CARBOXYPEPTIDASE A4 (E.C.3.4.17.-), CARBOXYPEPTIDASE INHIBITOR; HYDROLASE-HYDROLASE INHIBITOR COMPLEX, SERINE PROTEASE; 2.2A {HOMO SAPIENS}
+Probab=99.10  E-value=6.9e-14  Score=94.02  Aligned_cols=53  Identities=38%  Similarity=0.966  Sum_probs=45.1  Template_Neff=11.300
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      .|..++..+.+.....+|+||...+.|..+.+.++.++.|.|.+..+|...|.
+T Consensus         3 ~C~~~~~~~~c~~~~~~~~y~~~~~~C~~~~~~gc~~~~n~F~~~~~C~~~C~   55 (165)
+T 4BD9_B            3 VCDLPADRGQCTAYIPQWFFAKTTEDCEKFVYGGCQGNANRFETKDDCIANCG   55 (165)
+T ss_dssp             GGGSCCCCCSSCCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHHT
+T ss_pred             cccCCCccCCCCCCeEEEEEECCCCeEEEEEeCCCCCCccccCChhHhccccC
+Confidence            46666666666667789999999999999999999999999999999998885
+
+
+No 8
+>5YV7_A Kunitz-type serine protease inhibitor homolog; calcicludine, racemic crystal, L-type Ca2+; 2.395A {N/A}
+Probab=99.05  E-value=1.6e-13  Score=76.82  Aligned_cols=56  Identities=30%  Similarity=0.840  Sum_probs=46.6  Template_Neff=11.900
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      +..|..+...+.+.....+|+|+...+.|..+.+.+|.++.|.|.+..+|...|..
+T Consensus         4 ~~~C~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~c~~   59 (60)
+T 5YV7_A            4 PWYCKEPVRIGSCKKQFSSFYFKWTAKKCLPFLFSGCGGNANRFQTIGECRKKCLG   59 (60)
+T ss_dssp             CGGGGSCCCCCSSSCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHCCCCCC
+T ss_pred             CcccCCCCCcCCCCCCeeEEEEECCCCEEEEEeeCCCCCCCCCCCCHHHHHHHccC
+Confidence            45666666666666677899999999999999999999999999999999888764
+
+
+No 9
+>4BD9_B CARBOXYPEPTIDASE A4 (E.C.3.4.17.-), CARBOXYPEPTIDASE INHIBITOR; HYDROLASE-HYDROLASE INHIBITOR COMPLEX, SERINE PROTEASE; 2.2A {HOMO SAPIENS}
+Probab=99.02  E-value=2.7e-13  Score=91.13  Aligned_cols=54  Identities=46%  Similarity=1.189  Sum_probs=44.2  Template_Neff=11.300
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTC   90 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C   90 (100)
+                      ...|..++..+.+.....+|+||...+.|+.+.+.+|.++.|.|.+..+|...|
+T Consensus       112 ~~~C~~~~~~~~~~~~~~~~~yn~~~~~C~~f~~~gc~~~~n~F~~~~~C~~~C  165 (165)
+T 4BD9_B          112 PGFCYQPSETGPCKGSFPRYYYDYEDGECKEFIYGGCEGNANNFETKESCENAC  165 (165)
+T ss_dssp             CGGGGSCCCCCSSCCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHC
+T ss_pred             CCCCCCCCCCCCCCCCeeEEEEECCCCeEEEeecCCCCCCCccCCCHHHHHHhC
+Confidence            345666555555666678999999999999999999999999999999998765
+
+
+No 10
+>2M99_A Protease inhibitor NACI; Naja naja atra, chymotrypsin inhibitor; NMR {Naja atra}
+Probab=99.02  E-value=2.8e-13  Score=74.86  Aligned_cols=53  Identities=38%  Similarity=0.933  Sum_probs=43.4  Template_Neff=12.000
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      .|..++..+.+.....+|+|+...+.|..+.+.++.++.|.|.+...|...|.
+T Consensus         4 ~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~n~f~~~~~c~~~c~   56 (57)
+T 2M99_A            4 FCELAPSAGSCFAFVPSYYYNQYSNTCHSFTYSGCGGNANRFRTIDECNRTCV   56 (57)
+T ss_pred             ccCCCCCCCCCCCCcceEEEECCCCEEEEeeeCCCCCCCCCcCCHHHHHHHcC
+Confidence            45555555556667789999999999999999999988899999999988775
+
+
+No 11
+>6KZF_A Kunitz-type serine protease inhibitor homolog; calcicludine, racemic crystal, L-type Ca2+; HET: DCY, DTY, DGL, DTR, DSN, DPN, DTH, DAR, DSG, DLY, DAL, DLE, DGN, DPR, DIL; 2.52A {N/A}
+Probab=99.02  E-value=2.9e-13  Score=76.23  Aligned_cols=56  Identities=29%  Similarity=0.771  Sum_probs=46.7  Template_Neff=11.700
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      +..|..++..+.+.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|..
+T Consensus         4 ~~~C~~~~~~~~c~~~~~~~~~~~~~~~c~~~~~~~c~~~~n~f~~~~~C~~~C~~   59 (60)
+T 6KZF_A            4 PWYXKEPVRIGSCKKQFSSFYFKWTAKKCLPFLFSGCGGNANRFQTIGECRKKCLG   59 (60)
+T ss_dssp             CSGGGSCCCCCSSSCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHHHC
+T ss_pred             CcccCCCCCcCCCCCCeeEEEEECCCCeEEEEeeCCCCCCCCCcCCHHHHHHHhCC
+Confidence            45676666666677677899999999999999888999888999999999988864
+
+
+No 12
+>4U32_X mesotrypsin, HAI2; serine protease, protease inhibitor, protein-protein; HET: NAG; 1.65A {Homo sapiens}
+Probab=99.02  E-value=2.9e-13  Score=73.84  Aligned_cols=53  Identities=45%  Similarity=1.116  Sum_probs=42.7  Template_Neff=12.200
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTC   90 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C   90 (100)
+                      ..|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|
+T Consensus         3 ~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~C~~~C   55 (55)
+T 4U32_X            3 DFCLVSKVVGRCRASMPRWWYNVTDGSCQLFVYGGCDGNSNNYLTKEECLKKC   55 (55)
+T ss_dssp             TTTSSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHC
+T ss_pred             CcccCCCCCCCCCCCceEEEEECCCCEEEEEEeCCCCCCCCCcCCHHHHHHhC
+Confidence            34555555566666778999999999999999999998888999999887655
+
+
+No 13
+>1DTX_A ALPHA-DENDROTOXIN; PRESYNAPTIC NEUROTOXIN; HET: SO4; 2.2A {Dendroaspis angusticeps} SCOP: g.8.1.1
+Probab=98.99  E-value=4.2e-13  Score=75.10  Aligned_cols=55  Identities=35%  Similarity=0.817  Sum_probs=44.9  Template_Neff=11.800
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      ...|..+...+.|.....+|+|+...+.|..+.+.+|..+.+.|.+...|...|.
+T Consensus         4 ~~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~c~~~~n~f~~~~~c~~~c~   58 (59)
+T 1DTX_A            4 RKLCILHRNPGRCYDKIPAFYYNQKKKQCERFDWSGCGGNSNRFKTIEECRRTCI   58 (59)
+T ss_dssp             SGGGGSCCCCCSSSCCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHCCCCC
+T ss_pred             cccccCCCCCCCCCCCccEEEEECCCCeEEEeeCCCCCCCCCCcCCHHHHHHHcC
+Confidence            3456666666667767889999999999999998899988889999999988774
+
+
+No 14
+>5H7V_A Kunitz-type protease inhibitor 1; HAI-1, HYDROLASE INHIBITOR; 3.82A {Homo sapiens}
+Probab=98.96  E-value=6.7e-13  Score=107.85  Aligned_cols=58  Identities=38%  Similarity=0.937  Sum_probs=42.4  Template_Neff=8.000
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIG   95 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~   95 (100)
+                      ..|..++..+.|.....+||||...++|+.|.+++|.++.|.|.+..+|...|.....
+T Consensus       343 ~~C~~~~~~g~C~~~~~rwyYd~~~~~C~~F~ygGC~gN~N~F~s~e~C~~~C~~~~~  400 (421)
+T 5H7V_A          343 GHCVDLPDTGLCKESIPRWYYNPFSEHCARFTYGGCYGNKNNFEEEQQCLESCRGISK  400 (421)
+T ss_dssp             CCCCCCCCCCSSCCCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHCC---------
+T ss_pred             CcccCCCCCCCCCCCcceeeEeCCCCeEEeeecCCCCCCCCcCCCHHHHHHHcCCCCc
+Confidence            4566666566677778899999999999999999999999999999999999987644
+
+
+No 15
+>1BIK_A BIKUNIN; GLYCOPROTEIN, BIKUNIN, TRYPSTATIN, URINARY TRYPSIN; HET: NAG, SO4; 2.5A {Homo sapiens} SCOP: g.8.1.1
+Probab=98.94  E-value=8.5e-13  Score=89.55  Aligned_cols=59  Identities=39%  Similarity=0.869  Sum_probs=50.5  Template_Neff=10.300
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      .....|..++..+.|.....+|+|+...+.|..+.+.+|.++.|.|.+..+|...|...
+T Consensus        21 ~~~~~C~~~~~~~~c~~~~~r~~~~~~~~~C~~f~~~gc~~~~n~f~t~~~C~~~C~~~   79 (147)
+T 1BIK_A           21 KKEDSCQLGYSAGPCMGMTSRYFYNGTSMACETFQYGGCMGNGNNFVTEKECLQTCRTV   79 (147)
+T ss_pred             CCCCCcCCCCCCCCCCCCccEEEEECCCCEEEEeccCCCCCCCCCcCCHHHhhhcCCCC
+Confidence            34567888877777877788999999999999999999999999999999999888754
+
+
+No 16
+>3L3T_E PRSS3 protein (E.C.3.4.21.4), Protein APP; Human mesotrypsin, Canonical inhibitor, Alzheimer's; HET: FMT; 2.378A {Homo sapiens}
+Probab=98.94  E-value=9.2e-13  Score=71.80  Aligned_cols=54  Identities=50%  Similarity=1.110  Sum_probs=43.6  Template_Neff=12.400
+
+Q sp|P00974|BPT1   40 CLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        40 C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      |..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|...
+T Consensus         3 c~~~~~~~~c~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~c~~~c~~~   56 (57)
+T 3L3T_E            3 CSEQAETGPCKAMISRWYFDVTEGKCAPFFYGGCGGNRNNFDTEEYCMAVCGSA   56 (57)
+T ss_dssp             GGSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHSSTT
+T ss_pred             ccCCCCCCCCCCCeEEEEEECCCCEEEEccCCCCCCCCCCCCCHHHHHHHhCCC
+Confidence            444445555666778999999999999998889998888999999998888654
+
+
+No 17
+>3AUE_C Pancreatic trypsin inhibitor; Serine protease inhibitor, Inhibits serine; HET: SO4; 2.28A {Bos taurus}
+Probab=98.92  E-value=1.2e-12  Score=76.01  Aligned_cols=56  Identities=71%  Similarity=1.239  Sum_probs=45.1  Template_Neff=11.100
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      .|..+...+.|.....+|+|+...+.|..+.+.++.++.+.|.+...|...|....
+T Consensus         4 ~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~~~~~~n~f~~~~~C~~~~~~~~   59 (65)
+T 3AUE_C            4 FCLEPPYAGPGKARIIRYFYNAAAGAAQAFVYGGVRAKRNNFASAADALAACAAAG   59 (65)
+T ss_dssp             GGGSCCCCCSCCCCEEEEEEEGGGTEEEEEEECSSSCCSSCBSSHHHHHHHHSCCC
+T ss_pred             cCCCCCCCCCCCCCeEEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHHHHcc
+Confidence            45555555556666789999999999999998899988899999999998887654
+
+
+No 18
+>1DEN_A DENDROTOXIN I (NMR, 29 STRUCTURES); VENOM(POTASSIUM CHANNEL INHIBITOR); NMR {Dendroaspis polylepis polylepis} SCOP: g.8.1.1
+Probab=98.92  E-value=1.3e-12  Score=73.53  Aligned_cols=56  Identities=34%  Similarity=0.809  Sum_probs=45.9  Template_Neff=11.700
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      +..|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus         4 ~~~c~~~~~~~~c~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   59 (60)
+T 1DEN_A            4 RKLCILHRNPGRCYQKIPAFYYNQKKKQCEGFTWSGCGGNSNRFKTIEECRRTCIR   59 (60)
+T ss_dssp             CGGGTSCCCCCSSCSCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHHTC
+T ss_pred             cccccCCCCCCCCCCCccEEEEECCCCeEEEEecCCCCCCCCccCCHHHHHHHccC
+Confidence            34566666666677777899999999999999889999888999999999888764
+
+
+No 19
+>5M4V_A Mambaquaretin-1; Vasopressin antagonist, mamba venom, kunitz; 1.06A {N/A}
+Probab=98.90  E-value=1.6e-12  Score=71.06  Aligned_cols=53  Identities=43%  Similarity=1.017  Sum_probs=42.3  Template_Neff=12.300
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      .|..+...+.+.....+|+|+...+.|..+.+.++..+.+.|.+...|...|.
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~~~f~~~~~c~~~c~   56 (57)
+T 5M4V_A            4 FCNLPVKPGPCKAFFSAFYYSQKTNKCHSFTYGGCKGNANRFSTLEKCRRTCV   56 (57)
+T ss_dssp             GGGSCCCCCSCCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHT
+T ss_pred             ccCCCCCCCCCCCceEEEEEECCCCEEEEEEcCCCCCCCcccCCHHHHHHHcC
+Confidence            45555555556666788999999999999999999888889999998887764
+
+
+No 20
+>2JOT_A Huwentoxin-11; Proteinase inhibitor, TOXIN; NMR {Ornithoctonus huwena}
+Probab=98.89  E-value=1.9e-12  Score=70.79  Aligned_cols=51  Identities=39%  Similarity=0.989  Sum_probs=38.9  Template_Neff=12.100
+
+Q sp|P00974|BPT1   40 CLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        40 C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      |..++..+.+.....+|+|+.  +.|..+.+.++..+.+.|.+..+|...|..
+T Consensus         4 c~~~~~~~~c~~~~~~~~~~~--~~C~~~~~~~~~~~~n~f~~~~~c~~~C~~   54 (55)
+T 2JOT_A            4 CRLPSDRGRCKASFERWYFNG--RTCAKFIYGGCGGNGNKFPTQEACMKRCAK   54 (55)
+T ss_dssp             TTSCCCCCCTTCCCEEEEEET--TEEEEEECCSCSCSSSEESSHHHHHHHHTC
+T ss_pred             CCCCCCCCCCCCceeEEEEeC--CcEEEEEeCCCCCCCCCCCCHHHHHHHhcC
+Confidence            444444455555677899987  569888888888888899999999888864
+
+
+No 21
+>1DTK_A DENDROTOXIN K (NMR, 20 STRUCTURES); PRESYNAPTIC NEUROTOXIN; NMR {Dendroaspis polylepis polylepis} SCOP: g.8.1.1
+Probab=98.88  E-value=2e-12  Score=70.46  Aligned_cols=54  Identities=43%  Similarity=0.938  Sum_probs=38.6  Template_Neff=12.400
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.++++.++.+.|.....|...|.
+T Consensus         3 ~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~   56 (57)
+T 1DTK_A            3 KYCKLPLRIGPCKRKIPSFYYKWKAKQCLPFDYSGCGGNANRFKTIEECRRTCV   56 (57)
+T ss_dssp             GGGGCCCCCCSSSCCEEEEEE-----EEEEEEECSSSCCSCCBSSHHHHHHHHC
+T ss_pred             CccCCCCCCCCCCCCceEEEEECCCCEEEEeeeCCCCCCCCccCCHHHHHHHcC
+Confidence            346555555556666788999999999999999999988889999998887774
+
+
+No 22
+>2CA7_A CONKUNITZIN-S1; CONKUNITZIN, NEUROTOXIN, TOXIN, KUNITZ-TYPE FOLD; NMR {CONUS STRIATUS}
+Probab=98.88  E-value=2.2e-12  Score=71.93  Aligned_cols=56  Identities=34%  Similarity=0.624  Sum_probs=45.1  Template_Neff=12.000
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ...|..++..+.+.....+|+|+...+.|..+.++++.++.+.|.+...|...|..
+T Consensus         4 ~~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~c~~~c~~   59 (60)
+T 2CA7_A            4 PSLCDLPADSGSGTKAEKRIYYNSARKQCLRFDYTGQGGNENNFRRTYDCQRTCLY   59 (60)
+T ss_dssp             CGGGSSCCCCCCCSSCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHHHC
+T ss_pred             ccccCCCCCCCCCCCCeeEEEEECCCCeEEEEecCCCCCCCCCccCHHHHHHHhCC
+Confidence            34566665566666677899999999999998888998888899999999887753
+
+
+No 23
+>4ISN_B Kunitz-type protease inhibitor 1, Suppressor; Beta barrel, Serine protease inhibitor; HET: GSH, PG4; 2.45A {Homo sapiens}
+Probab=98.88  E-value=2.2e-12  Score=72.31  Aligned_cols=57  Identities=35%  Similarity=0.999  Sum_probs=46.1  Template_Neff=12.000
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.+|.++.+.|.+...|...|....
+T Consensus         4 ~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~~~   60 (62)
+T 4ISN_B            4 DYCLASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACRGVQ   60 (62)
+T ss_pred             ccccCCCCCCCCCCCceEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHhcCcC
+Confidence            446555555666667789999999999999888889988899999999998887643
+
+
+No 24
+>4U30_X mesotrypsin, bikunin-KD2; serine protease, protease inhibitor, protein-protein; 2.5A {Homo sapiens}
+Probab=98.88  E-value=2.2e-12  Score=71.65  Aligned_cols=55  Identities=36%  Similarity=0.761  Sum_probs=43.9  Template_Neff=12.000
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus         4 ~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   58 (59)
+T 4U30_X            4 ACANLPIVRGPCRAFIQLWAFDAVKGKCVLFPYGGCQGNGNKFYSEKECREYCGV   58 (59)
+T ss_pred             hhccCCCCccCCCCceEEEEEECCCCEEEEEeeCCCCCCCCccCCHHHHHHhcCC
+Confidence            3455555555566667899999999999998888998888899999999888753
+
+
+No 25
+>1AAP_A PROTEASE INHIBITOR DOMAIN OF ALZHEIMER'S; PROTEINASE INHIBITOR (TRYPSIN); 1.5A {Homo sapiens} SCOP: g.8.1.1
+Probab=98.88  E-value=2.2e-12  Score=71.42  Aligned_cols=55  Identities=45%  Similarity=1.090  Sum_probs=44.4  Template_Neff=12.000
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ..|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus         3 ~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~c~~~c~~   57 (58)
+T 1AAP_A            3 EVCSEQAETGPCRAMISRWYFDVTEGKCAPFFYGGCGGNRNNFDTEEYCMAVCGS   57 (58)
+T ss_dssp             GGGGBCCCCCSSSCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHHC-
+T ss_pred             ccccCCCCCCCCCCCeEEEEEECCCCEEEEeeeCCCCCCCCCCCCHHHHHHHhCC
+Confidence            3466666666677778899999999999999888998888889999999887754
+
+
+No 26
+>6NAN_A Ixolaris; coagulation blood inhibitor, Factor Xa; NMR {Ixodes scapularis}
+Probab=98.87  E-value=2.6e-12  Score=87.17  Aligned_cols=60  Identities=33%  Similarity=0.640  Sum_probs=49.0  Template_Neff=10.000
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      ...|..+...+.+.....+|+||...+.|..+.+.+|.++.|.|.+..+|...|......
+T Consensus        73 ~~~C~~~~~~~~c~~~~~~~~yd~~~~~C~~f~~~gc~~~~n~F~t~~~C~~~C~~~~~~  132 (140)
+T 6NAN_A           73 KPPCSLEVDYGVGRANIPRWYYDTNNATCEMFTYGGITGNKNNFESEEECKETCKGFSLL  132 (140)
+T ss_pred             CCCCCCCCCCCCCCCCcceEEEECCCCeEEEEecCCCCCCCCCcCCHHHHHHHcCCCCCC
+Confidence            345666655566666778999999999999999999999999999999999999765543
+
+
+No 27
+>6Q6C_A Kunitz-type conkunitzin-S1; Toxin; HET: NO3, PO4; 1.3A {Conus striatus}
+Probab=98.86  E-value=2.7e-12  Score=71.55  Aligned_cols=56  Identities=32%  Similarity=0.594  Sum_probs=45.7  Template_Neff=12.100
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      +..|..++..+.+.....+|+|+...+.|..+.++++.++.+.|.+...|...|..
+T Consensus         4 ~~~c~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~~~f~~~~~c~~~c~~   59 (61)
+T 6Q6C_A            4 PSLCDLPADSGSGTKAEKRIYYNSARKQCLRFDYTGQGGNENNFRRTYDCQDTCLY   59 (61)
+T ss_dssp             CGGGGSCCCCCSSSCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHCCCCCC
+T ss_pred             chhcCCCCCCCCCCCCeeEEEEECCCCeEEEEecCCCCCCCCCcCCHHHHHHHhcC
+Confidence            34566665556666677899999999999999888999888899999999988864
+
+
+No 28
+>2R9P_F Trypsin-3 (E.C.3.4.21.4), Pancreatic trypsin inhibitor; Human mesotrypsin, Serine protease, Bovine; HET: SO4; 1.4A {Bos taurus} SCOP: g.8.1.1
+Probab=98.86  E-value=2.8e-12  Score=70.09  Aligned_cols=54  Identities=100%  Similarity=1.838  Sum_probs=43.2  Template_Neff=12.400
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   57 (58)
+T 2R9P_F            4 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   57 (58)
+T ss_dssp             GGGSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHTT
+T ss_pred             cCCCCCCCCCCCCceEEEEEECCCCEEEEEEeCCCCCCCCccCCHHHHHHHhCC
+Confidence            455555555566667889999999999999988999888899999999887754
+
+
+No 29
+>1IRH_A tissue factor pathway inhibitor; non-protease inhibitor, kunitz domain, PROTEIN; NMR {Homo sapiens} SCOP: g.8.1.1
+Probab=98.84  E-value=3.6e-12  Score=71.26  Aligned_cols=56  Identities=41%  Similarity=1.026  Sum_probs=45.3  Template_Neff=12.000
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      +..|..+...+.+.....+|+|+...+.|..+.+.++..+.+.|.+...|...|..
+T Consensus         5 ~~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~~~~~~~~f~~~~~c~~~c~~   60 (61)
+T 1IRH_A            5 PSWCLTPADRGLCRANENRFYYNSVIGKCRPFKYSGCGGNENNFTSKQECLRACKK   60 (61)
+T ss_dssp             CSSSSSCCCCSSSCCCCCEEEECTTTCSEEEECCCCSSCCSCCBSSSHHHCCCCCC
+T ss_pred             CcccCCCCCCCCCCCCceEEEEECCCCeEEEEeeCCCCCCCCCCCCHHHHHHHccC
+Confidence            34566665566666677899999999999999888999888899999999887753
+
+
+No 30
+>6GFI_C PRSS3 protein, Amyloid-beta A4 protein; protein protein interactions, serine proteases; 2.3A {Homo sapiens}
+Probab=98.84  E-value=3.6e-12  Score=79.77  Aligned_cols=61  Identities=44%  Similarity=1.032  Sum_probs=51.0  Template_Neff=9.700
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIG   95 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~   95 (100)
+                      ..+..|..+...+.|.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|.....
+T Consensus        10 ~~~~~C~~~~~~~~c~~~~~~w~~~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~C~~~~~   70 (81)
+T 6GFI_C           10 KEVEVCSEQAEVGPCRARFSRWYFDVTEGKCAPFVYGGCGGNRNNFDTEEYCMAVCGSAIP   70 (81)
+T ss_pred             CCCCcccCCCCCCCCCCCccEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHcCCCcc
+Confidence            3456677766667777778899999999999999988999889999999999999987654
+
+
+No 31
+>4NTW_B Acid-sensing ion channel 1, Neurotoxin; Kunitz, phospholipase A2-like, ion channel; HET: P6G, NAG; 2.07A {Gallus gallus}
+Probab=98.84  E-value=3.9e-12  Score=70.43  Aligned_cols=55  Identities=36%  Similarity=0.928  Sum_probs=43.6  Template_Neff=12.200
+
+Q sp|P00974|BPT1   37 PDFCLE-PPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        37 ~~~C~~-p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      +..|.. +...+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|.
+T Consensus         4 ~~~C~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~   59 (60)
+T 4NTW_B            4 PAFCYEDPPFFQKCGAFVDSYYFNRSRITCVHFFYGQCDVNQNHFTTMSECNRVCH   59 (60)
+T ss_dssp             CGGGGSCCCTTCCSSCCEEEEEEETTTTEEEEEEECSCCSSSCCBSSHHHHHHHHH
+T ss_pred             CccccCCCCCCCcCCCCeEEEEEECCCCEEEEeecCCCCCCCCCCCCHHHHHHHCC
+Confidence            345655 4445556666789999999999999888888888889999999988775
+
+
+No 32
+>4NTX_B Acid-sensing ion channel 1, Neurotoxin; Kunitz, phospholipase A2-like, ion channel; HET: NAG, P6G, AMR; 2.27A {Gallus gallus}
+Probab=98.84  E-value=3.9e-12  Score=70.43  Aligned_cols=55  Identities=36%  Similarity=0.928  Sum_probs=43.6  Template_Neff=12.200
+
+Q sp|P00974|BPT1   37 PDFCLE-PPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        37 ~~~C~~-p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      +..|.. +...+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|.
+T Consensus         4 ~~~C~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~   59 (60)
+T 4NTX_B            4 PAFCYEDPPFFQKCGAFVDSYYFNRSRITCVHFFYGQCDVNQNHFTTMSECNRVCH   59 (60)
+T ss_dssp             CGGGGSCCCTTCCSSCCEEEEEEETTTTEEEEEEECSCCSSSCCBSSHHHHHHHHH
+T ss_pred             CccccCCCCCCCcCCCCeEEEEEECCCCEEEEeecCCCCCCCCCCCCHHHHHHHCC
+Confidence            345655 4445556666789999999999999888888888889999999988775
+
+
+No 33
+>1BUN_B BETA2-BUNGAROTOXIN; HYDROLASE, PRESYNAPTIC NEUROTOXIN, TOXIN; 2.45A {Bungarus multicinctus} SCOP: g.8.1.1
+Probab=98.83  E-value=4e-12  Score=71.06  Aligned_cols=56  Identities=34%  Similarity=0.702  Sum_probs=45.5  Template_Neff=12.000
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|...
+T Consensus         5 ~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~n~f~~~~~c~~~c~~~   60 (61)
+T 1BUN_B            5 PDCDKPPDTKICQTVVRAFYYKPSAKRCVQFRYGGCNGNGNHFKSDHLCRCECLEY   60 (61)
+T ss_dssp             TTTTSCCCCCCSSSCEEEEEEEGGGTEEEEEEECSCCSSSCCBSSHHHHHHHHCCC
+T ss_pred             CCCCCCCCCCCCCCCeEEEEEECCCCEEEEEeeCCCCCCCCCCCCHHHHHHHhhcc
+Confidence            45655555566666678899999999999998889998888999999999888653
+
+
+No 34
+>1KTH_A Collagen alpha 3(VI) chain; ANISOTROPIC REFINEMENT, KUNITZ INHIBITOR, EXTRACELLULAR; HET: PO4; 0.95A {Homo sapiens} SCOP: g.8.1.1
+Probab=98.83  E-value=4e-12  Score=70.16  Aligned_cols=54  Identities=31%  Similarity=0.888  Sum_probs=43.1  Template_Neff=12.100
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   57 (58)
+T 1KTH_A            4 ICKLPKDEGTCRDFILKWYYDPNTKSCARFWYGGCGGNENKFGSQKECEKVCAP   57 (58)
+T ss_dssp             GGGSCCCCCBSSCCEEEEEEETTTTEEEEEEECSBSCCSCCBSSHHHHHHHHCC
+T ss_pred             cccCCCCCCCCCCceEEEEEECCCCeEEEEecCCCCCCCCCCCCHHHHHHHhCC
+Confidence            454454455566667899999999999998888998888899999999888764
+
+
+No 35
+>1KUN_A ALPHA3-CHAIN TYPE VI COLLAGEN; COLLAGEN TYPE VI FRAGMENT, KUNITZ-TYPE; NMR {Homo sapiens} SCOP: g.8.1.1
+Probab=98.83  E-value=4.1e-12  Score=70.15  Aligned_cols=54  Identities=31%  Similarity=0.888  Sum_probs=43.1  Template_Neff=12.100
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .|..++..+.+.....+|+|+...+.|..+.+.++..+.+.|.+..+|...|..
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   57 (58)
+T 1KUN_A            4 ICKLPKDEGTCRDFILKWYYDPNTKSCARFWYGGCGGNENKFGSQKECEKVCAP   57 (58)
+T ss_dssp             GGGSCCCCCSSSCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHTCC
+T ss_pred             cccCCCCCCcCCCceEEEEEECCCCeEEEEecCCCCCCCCCCCCHHHHHHHhCC
+Confidence            454444455566667899999999999998888999888899999999888764
+
+
+No 36
+>1JC6_A VENOM BASIC PROTEASE INHIBITORS IX; snake venom, Kunitz inhibitor, protease; NMR {Bungarus fasciatus} SCOP: g.8.1.1
+Probab=98.83  E-value=4.4e-12  Score=72.84  Aligned_cols=59  Identities=46%  Similarity=0.983  Sum_probs=48.4  Template_Neff=11.500
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIG   95 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~   95 (100)
+                      +..|..+...+.+....++|+|+...+.|..+.+.++.++.+.|.+...|...|.....
+T Consensus         4 ~~~C~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~n~f~~~~~c~~~c~~~~~   62 (65)
+T 1JC6_A            4 PTFCNLLPETGRCNALIPAFYYNSHLHKCQKFNYGGCGGNANNFKTIDECQRTCAAKYG   62 (65)
+T ss_dssp             CCGGGSCCCCCSCCCCCCEEEEETTTTEEEEECCCSSCCCSSCBSSHHHHHHHTSCCCC
+T ss_pred             CCcccCCCCCCCCCCCeeEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHhhhhcC
+Confidence            45566666566666677899999999999999888999888999999999998877654
+
+
+No 37
+>6Q61_A Kunitz-type conkunitzin-S1; Toxin; 1.3A {Conus striatus}
+Probab=98.82  E-value=4.6e-12  Score=70.11  Aligned_cols=56  Identities=34%  Similarity=0.625  Sum_probs=45.5  Template_Neff=12.300
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ...|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|..
+T Consensus         4 ~~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~n~f~~~~~c~~~c~~   59 (61)
+T 6Q61_A            4 PSLCDLPADSGSGTKAEKRIYYNSARKQCLRFDYTGQGGNENNFRRTYDCARTCLY   59 (61)
+T ss_dssp             CGGGGSCCCCCSCSCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHCCCCCC
+T ss_pred             CcccCCCCCCCCCCCCeeEEEEECCCCeEEEEecCCCCCCCCCccCHHHHHHHccC
+Confidence            35566655556666677889999999999998888999888999999999888864
+
+
+No 38
+>4ISO_B Suppressor of tumorigenicity 14 protein; Beta barrel, Serine protease, inhibitor; HET: PEG, GSH, PGE, GOL; 2.01A {Homo sapiens}
+Probab=98.82  E-value=4.8e-12  Score=70.53  Aligned_cols=56  Identities=36%  Similarity=1.028  Sum_probs=44.9  Template_Neff=12.000
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.+|.++.+.|.+...|...|...
+T Consensus         4 ~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~c~~~~n~f~~~~~c~~~c~~~   59 (60)
+T 4ISO_B            4 DYCLASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACRGV   59 (60)
+T ss_dssp             CCCCSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHTTC
+T ss_pred             ccccCCCCCCCCCCCceEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHhcCC
+Confidence            34555555555666678999999999999988888998889999999999888653
+
+
+No 39
+>1YC0_I Hepatocyte growth factor activator precursor; HYDROLASE/INHIBITOR, HYDROLASE-INHIBITOR complex; 2.6A {Homo sapiens}
+Probab=98.82  E-value=4.8e-12  Score=75.84  Aligned_cols=58  Identities=36%  Similarity=1.004  Sum_probs=47.8  Template_Neff=10.900
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .....|..+...+.+.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|..
+T Consensus        17 ~~~~~C~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~c~~   74 (75)
+T 1YC0_I           17 QTEDYCLASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACRG   74 (75)
+T ss_dssp             HHCCCCCSCCCCCSBCCBEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHCSC
+T ss_pred             CCcccccCCCCcCcCCCCceEEEEECCCCEEEEEeeCCCCCCCCCCCCHHHHHHHcCC
+Confidence            3456677666666677778899999999999999888999888999999999888864
+
+
+No 40
+>1TOC_R THROMBIN, ORNITHODORIN; VITAMIN K, ZYMOGEN, GAMMA-CARBOXYGLUTAMIC ACID; 3.1A {Bos taurus} SCOP: g.8.1.2
+Probab=98.82  E-value=4.9e-12  Score=81.70  Aligned_cols=56  Identities=25%  Similarity=0.570  Sum_probs=46.0  Template_Neff=11.000
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      ...|..+...+.+.. ..+|+|+...+.|..+.+ ++.++.|.|.+..+|...|....
+T Consensus        63 ~~~C~~~~~~~~c~~-~~~~~~~~~~~~C~~~~~-gc~~~~n~F~t~~~C~~~C~~~~  118 (120)
+T 1TOC_R           63 HSSCLGDPPTSCAEG-TDITYYDSDSKTCKVLAA-SCPSGENTFESEVECQVACGAPI  118 (120)
+T ss_dssp             CGGGGSCCCBCCTTC-EEEEEEETTTTEEEEEEE-EBCSSSCCBSSHHHHHHHTTCCC
+T ss_pred             cccccCCCCCCCCCC-ceEEEEECCCCeEEEeec-CCCCCCCCCCCHHHHHHHcCCCC
+Confidence            346766666666666 788999999999999988 99999999999999999887643
+
+
+No 41
+>1ZR0_B Cationic trypsin (E.C.3.4.21.4)/Tissue factor pathway; serine protease  complex of; 1.802A {Bos taurus} SCOP: g.8.1.1
+Probab=98.82  E-value=4.9e-12  Score=71.77  Aligned_cols=57  Identities=39%  Similarity=0.920  Sum_probs=46.7  Template_Neff=11.700
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      ...|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|...
+T Consensus         6 ~~~C~~~~~~~~~~~~~~~~~~~~~~~~C~~~~~~~~~~~~n~f~~~~~c~~~c~~~   62 (63)
+T 1ZR0_B            6 AEICLLPLDYGPCRALLLRYYYDRYTQSCRQFLYGGCEGNANNFYTWEACDDACWRI   62 (63)
+T ss_dssp             HHHHTSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSCCCSSCBSSHHHHHHHTSCC
+T ss_pred             cccccCCCCCcCCCcceEEEEEECCCCEEEEeecCCCCCCCCCCCCHHHHHHHcCCC
+Confidence            456666666666666778999999999999999999998888999999998888653
+
+
+No 42
+>2KCR_A anntoxin; Protein, TOXIN; NMR {Hyla annectans}
+Probab=98.82  E-value=5e-12  Score=70.44  Aligned_cols=56  Identities=32%  Similarity=0.599  Sum_probs=44.9  Template_Neff=12.100
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.++..+.+.|.+...|...|...
+T Consensus         5 ~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~c~~~c~~~   60 (61)
+T 2KCR_A            5 YRCQLSRNYGKGSGSFTNYYYDKATSSCKTFRYRGSGGNGNRFKTLEDCEATCVTA   60 (61)
+T ss_dssp             GGGSSCCCCCCCSSCCCEEEEETTTTEEEEECCCSSSCCSCCBSCHHHHCCCCCCH
+T ss_pred             CCCcCCCCCCCCCCCeEEEEEECCCCeEEEEEeCCCCCCCCCCCCHHHHHHHccCC
+Confidence            44655555566666778999999999999988889888888999999998888653
+
+
+No 43
+>3AUH_E Pancreatic trypsin inhibitor; Serine protease inhibitor, Inhibits serine; HET: SO4; 1.2A {Bos taurus}
+Probab=98.82  E-value=5e-12  Score=70.38  Aligned_cols=58  Identities=71%  Similarity=1.233  Sum_probs=45.8  Template_Neff=12.300
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIG   95 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~   95 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|.....
+T Consensus         3 ~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~~~~   60 (63)
+T 3AUH_E            3 AFCLEPPYAGPGKARIIRYFYNAAAGAAQAFVYGGVRAKRNNFASAADALAACAAAGG   60 (63)
+T ss_dssp             GGGGSCCCCCSCCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHCTTTTS
+T ss_pred             cccCCCCCCCCCCCcEEEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHHhhccC
+Confidence            3455555555556667889999999999999888999888899999999998876554
+
+
+No 44
+>2ODY_E Prothrombin (E.C.3.4.21.5), Boophilin; kunitz-type thrombin inhibitor, BLOOD CLOTTING-BLOOD; HET: PO4, NAG; 2.35A {Bos taurus}
+Probab=98.80  E-value=6e-12  Score=80.62  Aligned_cols=55  Identities=40%  Similarity=0.942  Sum_probs=44.2  Template_Neff=11.600
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.++.++.|.|.+..+|...|..
+T Consensus        72 ~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~C~~  126 (127)
+T 2ODY_E           72 TGCEPAADSGSCAGQLERWFYNVQSGECETFVYGGCGGNDNNYESEEECELVCKN  126 (127)
+T ss_dssp             HHTSSCCCCCSSCCCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHHSC
+T ss_pred             CCCCCCCCCCCCCCceEEEEEECCCCeEEEEEeCCCCCCCCCCCCHHHHHHHhcC
+Confidence            3454444445555567899999999999999999999999999999999988864
+
+
+No 45
+>1TFX_C TRYPSIN, TISSUE FACTOR PATHWAY INHIBITOR; COMPLEX (SERINE PROTEASE-INHIBITOR), HYDROLASE, INHIBITOR; 2.6A {Sus scrofa} SCOP: g.8.1.1
+Probab=98.80  E-value=6.1e-12  Score=68.98  Aligned_cols=54  Identities=41%  Similarity=0.960  Sum_probs=42.8  Template_Neff=12.300
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|..
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   57 (58)
+T 1TFX_C            4 FCFLEEDPGICRGYITRYFYNNQTKQCERFKYGGCLGNMNNFETLEECKNICED   57 (58)
+T ss_dssp             GGGSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHCCCCCC
+T ss_pred             cccCCCCCCCCCCceEEEEEECCCCEEEEEEeCCCCCCCCCcCCHHHHHHHccC
+Confidence            455555555566667889999999999999888888888899999999887753
+
+
+No 46
+>3AUG_C Pancreatic trypsin inhibitor; Serine protease inhibitor, Inhibits serine; HET: SO4; 1.398A {Bos taurus}
+Probab=98.79  E-value=6.7e-12  Score=70.49  Aligned_cols=58  Identities=72%  Similarity=1.278  Sum_probs=45.4  Template_Neff=12.200
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      .|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|......
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~~~~~   61 (65)
+T 3AUG_C            4 FCLEPPYAGPGKARIIRYFYNAAAGAAQAFVYGGVRAKRNNFASAADALAACAAAGGP   61 (65)
+T ss_dssp             GGGSCCCCCSCCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHSCCCCC
+T ss_pred             ccCCCCCCCCCCCceEEEEEECCCCeEEEeccCCCCCCCCCcCCHHHHHHHHhccCCC
+Confidence            3544444455555677899999999999988889988888999999999998875543
+
+
+No 47
+>2ODY_E Prothrombin (E.C.3.4.21.5), Boophilin; kunitz-type thrombin inhibitor, BLOOD CLOTTING-BLOOD; HET: PO4, NAG; 2.35A {Bos taurus}
+Probab=98.78  E-value=7.8e-12  Score=80.10  Aligned_cols=57  Identities=42%  Similarity=1.008  Sum_probs=46.9  Template_Neff=11.600
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      ..|..++..+.|.....+|+|+...++|..+.+.+|.++.+.|.+..+|...|....
+T Consensus         4 ~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~c~~~~   60 (127)
+T 2ODY_E            4 GFCRLPADEGICKALIPRFYFNTETGKCTMFSYGGCGGNENNFETIEECQKACGAPE   60 (127)
+T ss_dssp             GGGGSCCCCCSSCCCEEEEEEETTTTEEEEEEECSSCCCSSCBSSHHHHHHHHSSCC
+T ss_pred             CcCCCCCCcCCCCCCeeeEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHhCCCc
+Confidence            456666666666667789999999999999999999988899999999998887643
+
+
+No 48
+>6A5I_A Trypsin Inhibitor; Kunitz-type protein, Dendrotoxin, Serine protease; HET: PCA; NMR {Pseudocerastes persicus}
+Probab=98.76  E-value=1.1e-11  Score=71.56  Aligned_cols=59  Identities=39%  Similarity=0.916  Sum_probs=47.1  Template_Neff=11.600
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      ..|..+...+.|.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|......
+T Consensus         5 ~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~c~~~~n~f~~~~~c~~~C~~~~~~   63 (68)
+T 6A5I_A            5 KFCYLPDDPGVCKAHIPRFYYNPASNKCKEFIYGGCGGNANNFETRAECRHTCVASRKG   63 (68)
+T ss_dssp             GGGGSCCCCCSCSCCEEEEEEEGGGTEEEEEEECSSCCCSCCBSCHHHHHHHHSCSCCC
+T ss_pred             CCCCCCCCCCCCCCCcceEEEECCCCEEEEeecCCCCCCCCccCCHHHHHHHcCCCCCC
+Confidence            44655555555666678899999999999988889998889999999999988776544
+
+
+No 49
+>2DDI_A WAP, follistatin/kazal, immunoglobulin, kunitz and; Kunitz domain, PROTEIN BINDING; NMR {Homo sapiens}
+Probab=98.75  E-value=1.2e-11  Score=73.77  Aligned_cols=58  Identities=38%  Similarity=0.816  Sum_probs=46.9  Template_Neff=10.600
+
+Q sp|P00974|BPT1   36 RPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        36 ~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      .+..|..+...+.+.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|...
+T Consensus         6 ~~~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~c~~~   63 (70)
+T 2DDI_A            6 FTDACVLPAVQGPCRGWEPRWAYSPLLQQCHPFVYGGCEGNGNNFHSRESCEDACPVV   63 (70)
+T ss_dssp             SCCGGGSCCCCCSCSSCEEEEEEEGGGTEEEEEEECSSSCCSCCBSSHHHHHHHSCCC
+T ss_pred             cCCccCCCCCCCCCCCCccEEEEECCCCeEEeeecCCCCCCCCccCCHHHHHHHCCCc
+Confidence            3455766666666666678999999999999998889998888999999999888654
+
+
+No 50
+>4DTG_K Humanized recombinant FAB fragment, FAB; antibody, inhibitor, blood coagulation, BLOOD; HET: MES, GOL, PGE; 1.8A {Homo sapiens}
+Probab=98.74  E-value=1.4e-11  Score=72.19  Aligned_cols=57  Identities=42%  Similarity=0.984  Sum_probs=45.7  Template_Neff=10.900
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA   93 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~   93 (100)
+                      ...|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|...
+T Consensus         4 ~~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~~~~~~~~~f~~~~~c~~~c~~~   60 (66)
+T 4DTG_K            4 PDFCFLEEDPGICRGYITRYFYNNQTKQCERFKYGGCLGNMNNFETLEECKNICEDG   60 (66)
+T ss_dssp             CGGGGSCCCCCSCCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHSSC
+T ss_pred             CCcccCCCCCCCCCCcEEEEEEECCCCeEEEEecCCCCCCCCCCCCHHHHHHHhcCC
+Confidence            345655555566666678899999999999998889998888999999998888653
+
+
+No 51
+>1G6X_A PANCREATIC TRYPSIN INHIBITOR, 1,2-ETHANEDIOL; SERINE PROTEASE INHIBITOR, HYDROLASE INHIBITOR; HET: SO4; 0.86A {Bos taurus} SCOP: g.8.1.1
+Probab=98.73  E-value=1.4e-11  Score=66.57  Aligned_cols=54  Identities=93%  Similarity=1.769  Sum_probs=42.2  Template_Neff=12.700
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|..
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~c~~~c~~   57 (58)
+T 1G6X_A            4 FCLEPPYAGACRARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCLRTCGG   57 (58)
+T ss_dssp             GGGSCCCCCSCCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHCC
+T ss_pred             cCCCCCCCCCCCCceEEEEEECCCCeEEEEeeCCCCCCCCCCCCHHHHHHHhCC
+Confidence            455555555555567889999999999999988998888889888888877653
+
+
+No 52
+>4BQD_A TISSUE FACTOR PATHWAY INHIBITOR (LIPOPROTEIN-ASSOCIATED; BLOOD CLOTTING; HET: GOL; 2.48A {HOMO SAPIENS}
+Probab=98.73  E-value=1.4e-11  Score=75.04  Aligned_cols=58  Identities=38%  Similarity=0.893  Sum_probs=48.8  Template_Neff=10.600
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .....|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus        21 ~~~~~C~~~~~~~~~~~~~~~~~y~~~~~~C~~~~~~~~~~~~n~f~~~~~C~~~C~~   78 (79)
+T 4BQD_A           21 LMHSFCAFKADDGPCKAIMKRFFFNIFTRQCEEFIYGGCEGNQNRFESLEECKKMCTR   78 (79)
+T ss_dssp             CSSGGGGSCBCCCSSCCCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHHCC
+T ss_pred             cCcccccCCCCCCCCCCceeEEEEECCCCeEEEEeeCCCCCCCCCcCCHHHHHHHcCC
+Confidence            4566787776667777778899999999999999999999888999999999988864
+
+
+No 53
+>6HAR_E PRSS3 protein, Amyloid-beta A4 protein; PRSS3, Mesotrypsin, Serine protease, Kunitz; 1.497A {Homo sapiens}
+Probab=98.73  E-value=1.4e-11  Score=76.35  Aligned_cols=61  Identities=43%  Similarity=0.979  Sum_probs=50.2  Template_Neff=10.000
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIG   95 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~   95 (100)
+                      ..+..|..++..+.|.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|.....
+T Consensus        10 ~~~~~C~~~~~~~~c~~~~~~w~~~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~c~~~~~   70 (80)
+T 6HAR_E           10 KEFEVCSEQAETGPCRACFSRWYFDVTEGKCAPFCYGGCGGNRNNFDTEEYCMAVCGSAIP   70 (80)
+T ss_pred             CCCCccCCCCCCCCCCCCccEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHhCCccc
+Confidence            3455677776666777778899999999999999888899889999999999998876554
+
+
+No 54
+>2UUY_B CATIONIC TRYPSIN (E.C.3.4.21.4), TRYPTASE INHIBITOR; ZYMOGEN, PROTEASE, HYDROLASE, DIGESTION, METAL-BINDING; 1.15A {BOS TAURUS} SCOP: g.8.1.3
+Probab=98.71  E-value=2e-11  Score=68.24  Aligned_cols=48  Identities=33%  Similarity=0.821  Sum_probs=35.7  Template_Neff=11.000
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      ..|..++..+.+.....+|+|+..  .|.  .++++.+  |.|.+..+|...|.
+T Consensus         4 ~~C~~~~~~~~c~~~~~~~~~~~~--~C~--~~~~c~~--n~f~~~~~C~~~C~   51 (52)
+T 2UUY_B            4 PIGWSEPVKGLCKARFTRYYCMGN--CCK--VYEGCYT--GGYSRMGECARNCP   51 (52)
+T ss_dssp             CTTCCCCCCCSBCCCEEEEEEETT--EEE--EEEESCC--SSBSSHHHHHTTCC
+T ss_pred             CCccCCCCCCcCCCceeEEEEeCC--eEE--ecCCCCC--CCCCCHHHHHHHCC
+Confidence            356555555566667788999988  786  4667776  89999999988775
+
+
+No 55
+>3P95_E PRSS3 protein (E.C.3.4.21.4), Pancreatic trypsin; Human mesotrypsin-canonical inhibitor complex, Mesotrypsin; 1.2991A {Homo sapiens}
+Probab=98.69  E-value=2.3e-11  Score=66.18  Aligned_cols=54  Identities=96%  Similarity=1.804  Sum_probs=42.6  Template_Neff=12.500
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      .|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|..
+T Consensus         4 ~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~c~~~c~~   57 (58)
+T 3P95_E            4 FCLEPPYTGPCRADIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   57 (58)
+T ss_dssp             GGGSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHHTT
+T ss_pred             cCCCCCCCCCCCCCeEEEEEECCCCeEEEEEeCCCCCCCCCcCCHHHHHHHcCC
+Confidence            454554455555567889999999999999988998888899999999887754
+
+
+No 56
+>5NMV_K Fab light chain, Fab heavy; Fab, immune system; HET: GOL; 1.65A {Mus}
+Probab=98.66  E-value=3.4e-11  Score=75.57  Aligned_cols=58  Identities=38%  Similarity=0.893  Sum_probs=47.8  Template_Neff=10.000
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ..+..|..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus        28 ~~~~~C~~~~~~~~c~~~~~~~~y~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~C~~   85 (86)
+T 5NMV_K           28 LMHSFCAFKADDGPCKAIMKRFFFNIFTRQCEEFIYGGCEGNQNRFESLEECKKMCTR   85 (86)
+T ss_dssp             CCGGGGGSCCCCCSCCCCEEEEEEETTTTEEEEEEECSBCCCSCCBSSHHHHHHHHC-
+T ss_pred             cCcccccCCCCCCCCCCceeEEEEECCCCeEeeeeeCCcCCCCCCCCCHHHHHHHcCC
+Confidence            4456787776666677777899999999999999988998888999999999988864
+
+
+No 57
+>1BIK_A BIKUNIN; GLYCOPROTEIN, BIKUNIN, TRYPSTATIN, URINARY TRYPSIN; HET: NAG, SO4; 2.5A {Homo sapiens} SCOP: g.8.1.1
+Probab=98.66  E-value=3.5e-11  Score=81.70  Aligned_cols=58  Identities=36%  Similarity=0.745  Sum_probs=46.9  Template_Neff=10.300
+
+Q sp|P00974|BPT1   39 FCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        39 ~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      .|..+...+.+.....+|+|+...+.|..+.+.+|.++.|.|.+..+|...|......
+T Consensus        81 ~C~~~~~~~~c~~~~~~~~~~~~~~~C~~f~~~~c~~~~n~F~t~~~C~~~C~~~~~~  138 (147)
+T 1BIK_A           81 ACNLPIVRGPCRAFIQLWAFDAVKGKCVLFPYGGCQGNGNKFYSEKECREYCGVPGDG  138 (147)
+T ss_pred             CCCCCCCCCCCCCCeeEEEEECCCCeEEEeecCCCCCCCCccCCHHHHHHHhCCCCCC
+Confidence            4555544455555678999999999999999999999999999999999999876544
+
+
+No 58
+>3BYB_A Textilinin; BPTI-like, beta hairpin, Kunitz-type protease; HET: ETX; 1.63A {Pseudonaja textilis textilis}
+Probab=98.66  E-value=3.5e-11  Score=66.99  Aligned_cols=55  Identities=45%  Similarity=1.095  Sum_probs=43.6  Template_Neff=11.900
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      ...|..++..+.+.....+|+|+...+.|..+.+.++.+..+.|.+...|...|.
+T Consensus         4 ~~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~   58 (59)
+T 3BYB_A            4 PDFCELPADTGPCRVRFPSFYYNPDEKKCLEFIYGGCEGNANNFITKEECESTCA   58 (59)
+T ss_dssp             CGGGGSCCCCCSCCCCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHHC
+T ss_pred             CcccCCCCCCCCCCCCceEEEEECCCCEEEEEEeCCCCCCCCccCCHHHHHHHhc
+Confidence            3456666555666667789999999999999888888888888988888887764
+
+
+No 59
+>5ZJ3_B Kunitz-type serine protease inhibitor textilinin-1; Textilinin-1, A Kunitz-Type Serine Protease; 1.88A {Pseudonaja textilis textilis}
+Probab=98.66  E-value=3.5e-11  Score=66.99  Aligned_cols=55  Identities=45%  Similarity=1.095  Sum_probs=43.6  Template_Neff=11.900
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      ...|..++..+.+.....+|+|+...+.|..+.+.++.+..+.|.+...|...|.
+T Consensus         4 ~~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~   58 (59)
+T 5ZJ3_B            4 PDFCELPADTGPCRVRFPSFYYNPDEKKCLEFIYGGCEGNANNFITKEECESTCA   58 (59)
+T ss_dssp             CGGGGSCBCCCSSCSCEEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHHC
+T ss_pred             CcccCCCCCCCCCCCCceEEEEECCCCEEEEEEeCCCCCCCCccCCHHHHHHHhc
+Confidence            3456666555666667789999999999999888888888888988888887764
+
+
+No 60
+>6BX8_B Trypsin-3 (E.C.3.4.21.4), Tissue factor pathway; Hydrolase, Hydrolase Inhibitor; HET: SO4; 1.98A {Homo sapiens}
+Probab=98.65  E-value=3.8e-11  Score=74.63  Aligned_cols=61  Identities=34%  Similarity=0.812  Sum_probs=46.3  Template_Neff=9.900
+
+Q sp|P00974|BPT1   36 RPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        36 ~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      .+..|..++..+.+.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|.....-
+T Consensus        13 ~~~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~gc~~~~n~f~~~~~C~~~c~~~~~~   73 (80)
+T 6BX8_B           13 MHSFCAFKADDGPCRACMKRFFFNIFTRQCEEFCYGGCEGNQNRFESLEECKKMCTRDPRH   73 (80)
+T ss_dssp             CCGGGGSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHC------
+T ss_pred             cCccccCCCCCCCCCCCeeEEEEECCCCeEEEeecCCCCCCCCCCCCHHHHHHHcCCCCCC
+Confidence            4566776666666666778999999999999999989999899999999999988776543
+
+
+No 61
+>6BX8_F Trypsin-3 (E.C.3.4.21.4), Tissue factor pathway; Hydrolase, Hydrolase Inhibitor; HET: SO4; 1.98A {Homo sapiens}
+Probab=98.65  E-value=3.8e-11  Score=74.63  Aligned_cols=61  Identities=34%  Similarity=0.812  Sum_probs=45.9  Template_Neff=9.900
+
+Q sp|P00974|BPT1   36 RPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        36 ~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      .+..|..++..+.+.....+|+|+...+.|..+.+.+|.++.+.|.+..+|...|.....-
+T Consensus        13 ~~~~C~~~~~~~~c~~~~~~~~~~~~~~~C~~~~~~gc~~~~n~f~~~~~C~~~c~~~~~~   73 (80)
+T 6BX8_F           13 MHSFCAFKADDGPCRACMKRFFFNIFTRQCEEFCYGGCEGNQNRFESLEECKKMCTRDPRH   73 (80)
+T ss_dssp             -CHHHHSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHC------
+T ss_pred             cCccccCCCCCCCCCCCeeEEEEECCCCeEEEeecCCCCCCCCCCCCHHHHHHHcCCCCCC
+Confidence            4566776666666666778999999999999999989999899999999999988776543
+
+
+No 62
+>1SHP_A TRYPSIN INHIBITOR (NMR, 20 STRUCTURES); PROTEINASE INHIBITOR(TRYPSIN); NMR {Stichodactyla helianthus} SCOP: g.8.1.1
+Probab=98.65  E-value=3.9e-11  Score=64.62  Aligned_cols=52  Identities=37%  Similarity=0.993  Sum_probs=40.0  Template_Neff=12.500
+
+Q sp|P00974|BPT1   40 CLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        40 C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      |..++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|.
+T Consensus         3 c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~   54 (55)
+T 1SHP_A            3 CSEPKKVGRCKGYFPRFYFDSETGKCTPFIYGGCGGNGNNFETLHQCRAICR   54 (55)
+T ss_dssp             GGCCCCCCSSCCCCEEEEEETTTTEEEEEECCSTTCCSSCBSSHHHHHHHHC
+T ss_pred             CCCCCCCCCCCCCeeEEEEECCCCEEEEEEeCCCCCCCCCCCCHHHHHHHhc
+Confidence            4444444445556788999999999998888888888889999988887764
+
+
+No 63
+>3FP7_J Anionic trypsin-2 (E.C.3.4.21.4), Pancreatic trypsin; ENZYME-INHIBITOR COMPLEX, PEPTIDE BOND HYDROLYSIS; HET: PG4, EDO, SO4; 1.46A {Rattus norvegicus}
+Probab=98.61  E-value=6.2e-11  Score=62.52  Aligned_cols=40  Identities=100%  Similarity=1.752  Sum_probs=35.0  Template_Neff=11.700
+
+Q sp|P00974|BPT1   53 IIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        53 ~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ..+|+|+...+.|..+.+.++.++.+.|.+...|...|..
+T Consensus         3 ~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   42 (43)
+T 3FP7_J            3 IIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   42 (43)
+T ss_pred             cceEEEECCCCEEEEeeeCCCCCCCCCCCCHHHHHHHcCC
+Confidence            4679999999999998888898888899999999888864
+
+
+No 64
+>1ADZ_A TISSUE FACTOR PATHWAY INHIBITOR; HYDROLASE, INHIBITOR, COAGULATION; NMR {Homo sapiens} SCOP: g.8.1.1
+Probab=98.60  E-value=6.5e-11  Score=69.83  Aligned_cols=59  Identities=41%  Similarity=0.952  Sum_probs=48.2  Template_Neff=11.100
+
+Q sp|P00974|BPT1   36 RPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        36 ~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      .+..|..++..+.+.....+|+|+...+.|..+.+.++..+.+.|.+...|...|....
+T Consensus        10 ~~~~C~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~~~   68 (71)
+T 1ADZ_A           10 KPDFCFLEEDPGICRGYITRYFYNNQTKQCERFKYGGCLGNMNNFETLEECKNICEDGP   68 (71)
+T ss_dssp             CCGGGGSCCCCCSSCCCCCEEEEEGGGTEEEEECCCCSSCCSCCBSSHHHHCCCCCCSS
+T ss_pred             CCCCcCCCCCCCCCCCCceEEEEECCCCEEEEeeeCCCCCCCCCCCCHHHHHHHcCCCC
+Confidence            45567766666667777789999999999999988899888889999999998887643
+
+
+No 65
+>3M7Q_B Cationic trypsin (E.C.3.4.21.4), Kunitz-type proteinase; Trypsin-Inhibitor complex, Kunitz-type serine-protease inhibitor; 1.7A {Bos taurus}
+Probab=98.60  E-value=6.6e-11  Score=65.86  Aligned_cols=55  Identities=35%  Similarity=0.951  Sum_probs=43.0  Template_Neff=12.100
+
+Q sp|P00974|BPT1   38 DFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        38 ~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ..|..+...+.+.....+|+|+...+.|..+.+.++.++.+.|.+...|...|..
+T Consensus         5 ~~c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c~~   59 (61)
+T 3M7Q_B            5 SICSEPKKVGRCKGYFPRFYFDSETGKCTPFIYGGCGGNGNNFETLHQCRAICRA   59 (61)
+T ss_dssp             GGGGSCCCCCSBCCCEEEEEEETTTTEEEEEEECSSSCCSSCBSSHHHHHHHSCC
+T ss_pred             ccccCCCCCCCCCCCeeEEEEECCCCeEEEEecCCCCCCCCCCCCHHHHHHHhhh
+Confidence            3455554444555567889999999999988888888888899999999888764
+
+
+No 66
+>2LFL_A Tryptase inhibitor; HYDROLASE INHIBITOR; NMR {Rhipicephalus appendiculatus}
+Probab=98.56  E-value=1.1e-10  Score=66.62  Aligned_cols=51  Identities=31%  Similarity=0.744  Sum_probs=39.8  Template_Neff=10.900
+
+Q sp|P00974|BPT1   35 QRPDFCLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG   91 (100)
+Q Consensus        35 ~~~~~C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~   91 (100)
+                      .....|..++..+.+.....+|+|+..  .|.  .+++|..  +.|.+..+|...|.
+T Consensus         6 ~~~~~C~~~~~~~~c~~~~~~~~~~~~--~C~--~~~~c~~--n~f~~~~~C~~~C~   56 (57)
+T 2LFL_A            6 CTVPIGWSEPVKGLCKARFTRYYCMGN--CCK--VYEGCYT--GGYSRMGECARNCP   56 (57)
+T ss_dssp             CCCCTTCCCCSCCCTTSSSCEEEESSS--SEE--EECSCSS--SCCSSHHHHHHTSC
+T ss_pred             CCCCCccCCCCCccCCcceEEEEEeCC--eEE--eecCCCC--CCCCCHHHHHHHCC
+Confidence            345678777777777777889999988  787  4667765  88999999988774
+
+
+No 67
+>5JBT_Y PRSS3 protein, Amyloid-like protein 2; inhibitor protease serine, Hydrolase-Hydrolase inhibitor; 1.4A {Homo sapiens}
+Probab=98.51  E-value=1.7e-10  Score=59.10  Aligned_cols=37  Identities=43%  Similarity=1.112  Sum_probs=31.6  Template_Neff=11.800
+
+Q sp|P00974|BPT1   54 IRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTC   90 (100)
+Q Consensus        54 ~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C   90 (100)
+                      .+|+|+...+.|..+.+.++..+.+.|.+..+|...|
+T Consensus         2 ~~~~~~~~~~~c~~~~~~~~~~~~~~f~~~~~c~~~c   38 (38)
+T 5JBT_Y            2 PRWYFDLSKGKCVRFIYGGCGGNRNNFESEDYCMAVC   38 (38)
+T ss_dssp             CEEEEETTTTEEEEECTTCTTGGGCCCBTHHHHHHHC
+T ss_pred             CeEEEECCCCEEEEEeeCCCCCCCcccCCHHHHHHhC
+Confidence            4689999999999888888888888999999887654
+
+
+No 68
+>2M01_A Protease inhibitor LmKTT-1a; Scorpion Potassium Channel Toxin, Kunitz-type; NMR {Lychas mucronatus}
+Probab=98.51  E-value=1.9e-10  Score=62.98  Aligned_cols=53  Identities=45%  Similarity=0.962  Sum_probs=41.0  Template_Neff=12.400
+
+Q sp|P00974|BPT1   40 CLEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        40 C~~p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      |..+...+.+.....+|+|+...+.|..+.+.++..+.+.|.+...|...|..
+T Consensus         4 c~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~c~~~c~~   56 (59)
+T 2M01_A            4 CQLPSDVGKGKASFTRYYYNEESGKCETFIYGGVGGNSNNFLTKEDCCRECAQ   56 (59)
+T ss_dssp             TSCCCCCCSCSCCEEEEEEETTTTEEEEEEECSSCCTTCCBSCSTHHHHHHHT
+T ss_pred             CCCCCCCCCCCCCeEEEEEECCCCeEEEEEeCCCCCCCCCCCCHHHHHHHcCC
+Confidence            44444444555667889999999999888888888888889999999887764
+
+
+No 69
+>1TOC_R THROMBIN, ORNITHODORIN; VITAMIN K, ZYMOGEN, GAMMA-CARBOXYGLUTAMIC ACID; 3.1A {Bos taurus} SCOP: g.8.1.2
+Probab=98.50  E-value=2e-10  Score=74.17  Aligned_cols=51  Identities=24%  Similarity=0.554  Sum_probs=38.2  Template_Neff=11.000
+
+Q sp|P00974|BPT1   37 PDFCLEPPYTGPCK--ARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAI   94 (100)
+Q Consensus        37 ~~~C~~p~~~G~C~--~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~   94 (100)
+                      +..|.++.. +.|.  ....+|+||..  .|..+  .+|.  .|.|.+..+|...|....
+T Consensus         3 ~~~C~~~~~-~~c~~~~~~~~~~y~~~--~C~~f--~~c~--~N~F~t~~~C~~~C~~~~   55 (120)
+T 1TOC_R            3 NVLCNNPHT-ADCNNDAQVDRYFREGT--TCLMS--PACT--SEGYASQHECQQACFVGG   55 (120)
+T ss_dssp             EGGGSCCCC-SCCTTSCEEEEEEEETT--EEEEE--EEET--TSSBSSHHHHHHHSSCCC
+T ss_pred             ccccCCCCC-CcCCCCcCeEEeEeCcc--ccccC--CCcc--cCCCCCHHHHHHHccCCC
+Confidence            345766665 6666  56788999987  48875  5777  789999999999888654
+
+
+No 70
+>4BD9_B CARBOXYPEPTIDASE A4 (E.C.3.4.17.-), CARBOXYPEPTIDASE INHIBITOR; HYDROLASE-HYDROLASE INHIBITOR COMPLEX, SERINE PROTEASE; 2.2A {HOMO SAPIENS}
+Probab=98.48  E-value=2.5e-10  Score=76.85  Aligned_cols=50  Identities=32%  Similarity=0.897  Sum_probs=41.0  Template_Neff=11.300
+
+Q sp|P00974|BPT1   43 PPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGG   92 (100)
+Q Consensus        43 p~~~G~C~~~~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~   92 (100)
+                      ++..+.+.....+|+|+...+.|..+.+.++.++.+.|.+..+|...|..
+T Consensus        59 ~~~~~~c~~~~~~~~y~~~~~~C~~~~~~~c~~~~n~f~~~~~C~~~C~~  108 (165)
+T 4BD9_B           59 PSKVGPCRVSARMWFHNPETEKCEVFIYGGCHGNANRFATETECQEVCDR  108 (165)
+T ss_dssp             CCCCCSCCCCEEEEEEETTTTEEEEEEECSSSCCSCCBSSHHHHHHHHTT
+T ss_pred             CCCCCCCcCcceeEEEeCCCCeEEEEEcCCCCCCcCccCCHHHHHHHhhc
+Confidence            33344555567889999999999999888899888999999999988865
+
+
+No 71
+>5NX1_D Kallikrein-6 (E.C.3.4.21.-), Amyloid beta A4; Serine_protease, inhibitor, complex, hydrolase; 1.853A {Homo sapiens}
+Probab=98.37  E-value=7e-10  Score=65.43  Aligned_cols=44  Identities=45%  Similarity=1.053  Sum_probs=35.0  Template_Neff=9.400
+
+Q sp|P00974|BPT1   53 IIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        53 ~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      ..+|+|+...+.|..+.+++|.++.+.|.+..+|...|......
+T Consensus         3 ~~~w~~~~~~~~C~~~~~~~c~~~~n~f~s~~~C~~~C~~~~~~   46 (56)
+T 5NX1_D            3 ISRWYFDVTEGKCAPFFYGGCGGNRNNFDTEEYCMAVCGSAIPR   46 (56)
+T ss_dssp             EEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHH--C---
+T ss_pred             ccEEEEECCCCEEEEEeeCCCCCCCCCCCCHHHHHHHCCCCCCc
+Confidence            45799999999999998889998889999999999999776543
+
+
+No 72
+>5NX3_D Kallikrein-6 (E.C.3.4.21.-), Amyloid beta A4; Serine_protease, inhibitor, complex, Hydrolase-Inhibitor complex; 2.296A {Homo sapiens}
+Probab=98.31  E-value=1.2e-09  Score=64.23  Aligned_cols=44  Identities=45%  Similarity=1.076  Sum_probs=34.4  Template_Neff=9.500
+
+Q sp|P00974|BPT1   53 IIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGAIGP   96 (100)
+Q Consensus        53 ~~RwyYn~~~~~C~~F~YgGC~GN~NnF~s~e~C~~~C~~~~~p   96 (100)
+                      ..+|+|+...+.|..+.+.+|.++.+.|.+..+|...|......
+T Consensus         3 ~~~w~~~~~~~~C~~~~~~~c~~~~n~f~s~~~C~~~C~~~~~~   46 (56)
+T 5NX3_D            3 FFRWYFDVTEGKCAPFVYGGCGGNRNNFDTEEYCMAVCGSAIPR   46 (56)
+T ss_dssp             EEEEEEETTTTEEEEEEECSSCCCSCCBSSHHHHHHHC------
+T ss_pred             eEEEEEECCCCEEEEEeeCCCCCCCCCCCCHHHHHHHhCCCCCc
+Confidence            46799999999999998889998889999999999999876544
+
+
+No 73
+>1D0D_A TICK ANTICOAGULANT PROTEIN/BOVINE PANCREATIC TRYPSIN; FACTOR XA INHIBITOR, KUNITZ INHIBITOR; HET: SO4; 1.62A {Ornithodoros moubata} SCOP: g.8.1.2
+Probab=40.34  E-value=24  Score=22.85  Aligned_cols=38  Identities=21%  Similarity=0.459  Sum_probs=21.5  Template_Neff=1.400
+
+Q sp|P00974|BPT1   53 IIRYFYNAKAGLCQTFVYGGCRAK-RNNFKSAEDCMRTC   90 (100)
+Q Consensus        53 ~~RwyYn~~~~~C~~F~YgGC~GN-~NnF~s~e~C~~~C   90 (100)
+                      ..+.||....+.|.+|....-..+ ...+.+..+|...|
+T Consensus        21 ~~~~~f~~~k~~c~~fwicpe~~~g~dyyss~~dc~~ac   59 (60)
+T 1D0D_A           21 GERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNAC   59 (60)
+T ss_dssp             CEEEEEECSSSSEEEEEECTTTCCSCCCCCSHHHHHHHH
+T ss_pred             ceeEeeeCCCCCcCeeeEcCcccCCCccccchHHHhhhc
+Confidence            345677777888888764332222 22445555665544
+
+
+No 74
+>1KIG_I FACTOR XA, ANTICOAGULANT PEPTIDE; GLYCOPROTEIN, SERINE PROTEASE, PLASMA, BLOOD; 3.0A {Bos taurus} SCOP: g.8.1.2
+Probab=40.34  E-value=24  Score=22.85  Aligned_cols=38  Identities=21%  Similarity=0.459  Sum_probs=21.5  Template_Neff=1.400
+
+Q sp|P00974|BPT1   53 IIRYFYNAKAGLCQTFVYGGCRAK-RNNFKSAEDCMRTC   90 (100)
+Q Consensus        53 ~~RwyYn~~~~~C~~F~YgGC~GN-~NnF~s~e~C~~~C   90 (100)
+                      ..+.||....+.|.+|....-..+ ...+.+..+|...|
+T Consensus        21 ~~~~~f~~~k~~c~~fwicpe~~~g~dyyss~~dc~~ac   59 (60)
+T 1KIG_I           21 GERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNAC   59 (60)
+T ss_dssp             CEEECCBCSSSSBCCEEECTTTCCCCCCCCSSTTTHHHH
+T ss_pred             ceeEeeeCCCCCcCeeeEcCcccCCCccccchHHHhhhc
+Confidence            345677777888888764332222 22445555665544
+
+
+No 75
+>6NFR_A CopC; CopC, metallochaperone, copper binding, METAL; HET: SO4; 1.0A {Pseudomonas fluorescens}
+Probab=32.09  E-value=39  Score=23.05  Aligned_cols=10  Identities=20%  Similarity=0.268  Sum_probs=6.8  Template_Neff=8.900
+
+Q sp|P00974|BPT1    1 MKMSRLCLSV   10 (100)
+Q Consensus         1 ~~~~~~~l~~   10 (100)
+                      |||+++++++
+T Consensus         1 m~~~~~~~~~   10 (122)
+T 6NFR_A            1 MLIKKALTAV   10 (122)
+T ss_pred             ChhHHHHHHH
+Confidence            7888765554
+
+
+No 76
+>6NFQ_B CopC; CopC, metallochaperone, copper binding, METAL; 2.0A {Pseudomonas fluorescens}
+Probab=28.38  E-value=50  Score=22.48  Aligned_cols=10  Identities=20%  Similarity=0.268  Sum_probs=0.0  Template_Neff=9.000
+
+Q sp|P00974|BPT1    1 MKMSRLCLSV   10 (100)
+Q Consensus         1 ~~~~~~~l~~   10 (100)
+                      |||+++++++
+T Consensus         1 m~~~~~~~~~   10 (122)
+T 6NFQ_B            1 MLIKKALTAV   10 (122)
+T ss_dssp             ----------
+T ss_pred             ChHHHHHHHH
+Confidence            7888766554
+
+
+No 77
+>5XWE_B Weak toxin DE-1 homolog 1; Three finger toxin, Snake venom; HET: GLY; 1.799A {Ophiophagus hannah}
+Probab=24.42  E-value=65  Score=20.38  Aligned_cols=8  Identities=25%  Similarity=0.463  Sum_probs=0.0  Template_Neff=8.900
+
+Q sp|P00974|BPT1    3 MSRLCLSV   10 (100)
+Q Consensus         3 ~~~~~l~~   10 (100)
+                      |+.+++++
+T Consensus         1 Mk~~l~~~    8 (83)
+T 5XWE_B            1 MKPVLLTL    8 (83)
+T ss_dssp             --------
+T ss_pred             ChHHHHHH
+Confidence            45554444
+
+
+No 78
+>6N2U_A Interleukin-8; IL-8, IMMUNE SYSTEM; 1.254A {Homo sapiens}
+Probab=23.60  E-value=69  Score=21.69  Aligned_cols=15  Identities=13%  Similarity=0.135  Sum_probs=0.0  Template_Neff=7.600
+
+Q sp|P00974|BPT1    1 MKMSRLCLSVALLVL   15 (100)
+Q Consensus         1 ~~~~~~~l~~~l~~l   15 (100)
+                      |.|+..+++++++++
+T Consensus         1 m~~~~~~~~l~~lll   15 (99)
+T 6N2U_A            1 MTSKLAVALLAAFLI   15 (99)
+T ss_dssp             ---------------
+T ss_pred             CchHHHHHHHHHHHH
+Confidence            677777765555444
+
+
+No 79
+>5FO3_A CELL DIVISION PROTEIN ZAPC; CELL CYCLE, FTSZ, BACTERIAL CELL; HET: MSE; 2.9A {ESCHERICHIA COLI}
+Probab=23.44  E-value=70  Score=24.75  Aligned_cols=10  Identities=20%  Similarity=0.753  Sum_probs=6.4  Template_Neff=6.000
+
+Q sp|P00974|BPT1   54 IRYFYNAKAG   63 (100)
+Q Consensus        54 ~RwyYn~~~~   63 (100)
+                      -+|+|+...+
+T Consensus         9 W~W~~d~~~~   18 (180)
+T 5FO3_A            9 WRWYYDEEHD   18 (180)
+T ss_dssp             CEEEEETTTT
+T ss_pred             eEEEEeCCCC
+Confidence            3578877643
+
+
+No 80
+>4CDG_D BLOOM SYNDROME PROTEIN (E.C.3.6.4.12), NANOBODY; HYDROLASE; HET: ADP; 2.794A {HOMO SAPIENS}
+Probab=22.89  E-value=73  Score=20.43  Aligned_cols=12  Identities=25%  Similarity=0.133  Sum_probs=0.0  Template_Neff=11.900
+
+Q sp|P00974|BPT1    1 MKMSRLCLSVAL   12 (100)
+Q Consensus         1 ~~~~~~~l~~~l   12 (100)
+                      |+|..+++++++
+T Consensus         1 m~~~~~~~~~~~   12 (147)
+T 4CDG_D            1 MKYLLPTAAAGL   12 (147)
+T ss_dssp             ------------
+T ss_pred             CcchHHHHHHHH
+Confidence            555554444333
+
+
+No 81
+>4K2U_L Erythrocyte binding antigen 175, Antibody; DBL domain, Immunoglobulin domain, Antibody; HET: SO4; 2.45A {Mus musculus}
+Probab=22.70  E-value=74  Score=21.22  Aligned_cols=6  Identities=0%  Similarity=0.407  Sum_probs=0.8  Template_Neff=13.200
+
+Q sp|P00974|BPT1    1 MKMSRL    6 (100)
+Q Consensus         1 ~~~~~~    6 (100)
+                      |+|.+.
+T Consensus         1 m~~~~~    6 (234)
+T 4K2U_L            1 LSLDMM    6 (234)
+T ss_dssp             EE----
+T ss_pred             CcchhH
+Confidence            444433
+
+
+No 82
+>5E1L_A Cell division protein ZapC; Z ring, cell division, Cell; 2.15A {Escherichia coli}
+Probab=21.65  E-value=80  Score=25.00  Aligned_cols=10  Identities=20%  Similarity=0.753  Sum_probs=6.6  Template_Neff=5.500
+
+Q sp|P00974|BPT1   54 IRYFYNAKAG   63 (100)
+Q Consensus        54 ~RwyYn~~~~   63 (100)
+                      -+|||+...+
+T Consensus        29 W~W~yd~~~~   38 (200)
+T 5E1L_A           29 WRWYYDEEHD   38 (200)
+T ss_dssp             CEEEEETTTT
+T ss_pred             eEEEEeCCCC
+Confidence            4588887643
+
+
+No 83
+>2QN4_A Alpha-amylase/subtilisin inhibitor; RASI, amylase inhibitor, subtilisin inhibitor; 1.8A {Oryza sativa subsp. japonica}
+Probab=21.51  E-value=81  Score=24.24  Aligned_cols=6  Identities=50%  Similarity=0.434  Sum_probs=0.0  Template_Neff=7.400
+
+Q sp|P00974|BPT1    1 MKMSRL    6 (100)
+Q Consensus         1 ~~~~~~    6 (100)
+                      |-|..+
+T Consensus         1 ~~~~~~    6 (200)
+T 2QN4_A            1 MVSLRL    6 (200)
+T ss_dssp             ------
+T ss_pred             CccchH
+Confidence            444444
+
+
+No 84
+>5H7V_A Kunitz-type protease inhibitor 1; HAI-1, HYDROLASE INHIBITOR; 3.82A {Homo sapiens}
+Probab=20.57  E-value=87  Score=26.62  Aligned_cols=9  Identities=11%  Similarity=0.379  Sum_probs=1.2  Template_Neff=8.000
+
+Q sp|P00974|BPT1   80 FKSAEDCMR   88 (100)
+Q Consensus        80 F~s~e~C~~   88 (100)
+                      +.+...|..
+T Consensus       317 ~~~e~~C~~  325 (421)
+T 5H7V_A          317 ASDEAACEK  325 (421)
+T ss_dssp             ------SSS
+T ss_pred             CCCHHHHHH
+Confidence            333344443
+
+
