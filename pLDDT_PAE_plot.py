@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-# Need to downgrade numpy to <2 / pip3 install "numpy<2.0" --upgrade --force-reinstall
+# Joseph Tang @ Ohio Supercomputer Center, Oct/2025
+
+# Numpy version < 2.0
 
 import pickle
 import matplotlib.pyplot as plt
