@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-# Need to install biopython module (pip3 install biopython)
+# install biopython module
 from Bio.PDB import PDBParser
 import matplotlib.pyplot as plt
 import argparse
 
 def main():
-    parser = argparse.ArgumentParser(description="Create pLDDT and PAE plots")
+    parser = argparse.ArgumentParser(description="Verify the predicted structure from B-factor in PDB")
     parser.add_argument('--input_file_path', '-i', required=True, default='.', help="pickle file")
     
     args = parser.parse_args()
