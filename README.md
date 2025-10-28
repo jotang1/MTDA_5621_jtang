@@ -160,7 +160,7 @@ Repo created for MTDA5621-AU25-Group G project by Joseph Tang.
 │   ├── P42212_result_model_2_ptm_pred_0_pLDDT.png
 │   ├── P99999_result_model_5_ptm_pred_0_PAE.png
 │   └── P99999_result_model_5_ptm_pred_0_pLDDT.png
-└── run_alphafold.sh
+└── README.md
 
 13 directories, 145 files
 ```
