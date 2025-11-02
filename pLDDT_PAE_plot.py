@@ -42,7 +42,6 @@ def main():
     plt.xlabel('Residue Index')
     plt.ylabel('pLDDT')
     plt.title('pLDDT Confidence per Residue')
-    plt.title(f"{accession} - {model_name} pLDDT Confidence per Residue")
     plt.grid()
     plt.tight_layout()
     plt.savefig(out_dir / f"{accession}_{model_name}_pLDDT.png", dpi=300)
