@@ -160,7 +160,9 @@ Repo created for MTDA5621-AU25-Group G project by Joseph Tang.
 │   ├── P42212_result_model_2_ptm_pred_0_pLDDT.png
 │   ├── P99999_result_model_5_ptm_pred_0_PAE.png
 │   └── P99999_result_model_5_ptm_pred_0_pLDDT.png
-└── README.md
+├── README.md
+├── run_analysis.py
+└── run_full_AF2_pipeline.sh
 
-13 directories, 145 files
+13 directories, 147 files
 ```
