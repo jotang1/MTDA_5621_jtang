@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eE
 
-database_dir="/fs/scratch/PZS1152/MTDA5621/databases"
+database_dir="$WORKING_DIR/MTDA5621/databases"
 database_paths=(
     "--data_dir=$database_dir/data/2.3.2"
     "--mgnify_database_path=$database_dir/mgnify/mgy_clusters_2022_05.fa"
