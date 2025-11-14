@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Select the best model and renae it spbd and pkl files;
 # Execution: python3 run_analysis.py --protein_id {PROTEIN_ID} --base_dir {BASE_DIR} --output_dir {OUTPUT_DIR}
 
 import argparse
@@ -31,7 +32,7 @@ def copy_selected_files(protein_id, base_dir, output_dir):
     return pdb_out, pkl_out
 
 def main():
-    parser = argparse.ArgumentParser(description="select the best model and corresponding pdb and pickle files")
+    parser = argparse.ArgumentParser(description="select the best model and rename its pdb and pickle files")
     parser.add_argument("--protein_id", required=True, help="Protein ID")
     parser.add_argument("--base_dir", required=True, help="where AF2 results are stored")
     parser.add_argument("--output_dir", required=True, help="store renamed output")
