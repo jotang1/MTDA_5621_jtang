@@ -25,7 +25,7 @@ while [ -z "$(ls $EXPECTED_FASTA 2>/dev/null)" ]; do
 done
 echo "fasta file found, continuing."
 
-# Run AlphaFold2 (assume batch job script handles Slurm)
+# Run AlphaFold2
 echo "[2/4] Submitting AF2 job for $PROTEIN_ID"
 python3 AF_full_run.py $PROTEIN_ID
 
@@ -38,12 +38,12 @@ while [ -z "$(ls $EXPECTED_PDB 2>/dev/null)" ]; do
 done
 echo "PDB file found, continuing."
 
-# Copy Best Model Files
-echo "[3/4] Selecting best PDB and PKL"
+# Copy best model and rename its pdb and pkl files:
+echo "[3/4] Selecting and renaming best PDB and PKL"
 python3 run_analysis.py \
   --protein_id $PROTEIN_ID \
   --base_dir $BASE_DIR \
-  --output_dir $OUTPUT_DIR \
+  --output_dir $OUTPUT_DIR
 
 # Generate pLDDT/PAE Plots & Launch PyMOL
 echo "[4/4] Visualizing with pLDDT, PAE, and PyMOL"
