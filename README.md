@@ -1,4 +1,4 @@
-Repo created for MTDA5621-AU25-Group G project by Joseph Tang.
+Repo created by Joseph Tang.
 
 ## Project structure
 ```bash
