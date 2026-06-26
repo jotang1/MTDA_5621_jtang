@@ -10,7 +10,7 @@ WORKING_DIR=$2
 BASE_DIR="$WORKING_DIR/AF2_outputs"       # Where AF2 outputs are saved
 OUTPUT_DIR="$WORKING_DIR/AF2_plots"       # Where renamed .pdb/.pkl go
 FASTA_DIR="$WORKING_DIR/AF2_fastas"       # Where input FASTA files go
-DATABASE="$WORKING_DIR/MTDA5621/uniprot_all_2021_04.fa"
+DATABASE="$WORKING_DIR/uniprot_all_2021_04.fa"
 
 # Create FASTA
 echo "[1/4] Generating FASTA for $PROTEIN_ID"
