@@ -1,168 +1,45 @@
-Repo created by Joseph Tang.
+# Gateway-Enabled AlphaFold Workflows for Teaching AI-Driven Structural Biology
 
-## Project structure
-```bash
-.
-├── AF_full_run.py
-├── AF_full_slurm.sh
-├── AF_msa_run.py
-├── AF_structure_SI2025.sh
-├── fastas
-│   ├── P00974.fasta
-│   ├── P01308.fasta
-│   ├── P0CG47.fasta
-│   ├── P42212.fasta
-│   └── P99999.fasta
-├── fastas.py
-├── msas
-│   ├── P00974
-│   │   ├── features.pkl
-│   │   ├── msas
-│   │   │   ├── mgnify_hits.sto
-│   │   │   ├── pdb_hits.hhr
-│   │   │   ├── small_bfd_hits.sto
-│   │   │   └── uniref90_hits.sto
-│   │   ├── ranked_0.pdb
-│   │   ├── ranked_1.pdb
-│   │   ├── ranked_2.pdb
-│   │   ├── ranked_3.pdb
-│   │   ├── ranked_4.pdb
-│   │   ├── ranking_debug.json
-│   │   ├── relaxed_model_3_ptm_pred_0.pdb
-│   │   ├── relax_metrics.json
-│   │   ├── result_model_1_ptm_pred_0.pkl
-│   │   ├── result_model_2_ptm_pred_0.pkl
-│   │   ├── result_model_3_ptm_pred_0.pkl
-│   │   ├── result_model_4_ptm_pred_0.pkl
-│   │   ├── result_model_5_ptm_pred_0.pkl
-│   │   ├── timings.json
-│   │   ├── unrelaxed_model_1_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_2_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_3_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_4_ptm_pred_0.pdb
-│   │   └── unrelaxed_model_5_ptm_pred_0.pdb
-│   ├── P01308
-│   │   ├── features.pkl
-│   │   ├── msas
-│   │   │   ├── mgnify_hits.sto
-│   │   │   ├── pdb_hits.hhr
-│   │   │   ├── small_bfd_hits.sto
-│   │   │   └── uniref90_hits.sto
-│   │   ├── ranked_0.pdb
-│   │   ├── ranked_1.pdb
-│   │   ├── ranked_2.pdb
-│   │   ├── ranked_3.pdb
-│   │   ├── ranked_4.pdb
-│   │   ├── ranking_debug.json
-│   │   ├── relaxed_model_1_ptm_pred_0.pdb
-│   │   ├── relax_metrics.json
-│   │   ├── result_model_1_ptm_pred_0.pkl
-│   │   ├── result_model_2_ptm_pred_0.pkl
-│   │   ├── result_model_3_ptm_pred_0.pkl
-│   │   ├── result_model_4_ptm_pred_0.pkl
-│   │   ├── result_model_5_ptm_pred_0.pkl
-│   │   ├── timings.json
-│   │   ├── unrelaxed_model_1_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_2_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_3_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_4_ptm_pred_0.pdb
-│   │   └── unrelaxed_model_5_ptm_pred_0.pdb
-│   ├── P0CG47
-│   │   ├── features.pkl
-│   │   ├── msas
-│   │   │   ├── mgnify_hits.sto
-│   │   │   ├── pdb_hits.hhr
-│   │   │   ├── small_bfd_hits.sto
-│   │   │   └── uniref90_hits.sto
-│   │   ├── ranked_0.pdb
-│   │   ├── ranked_1.pdb
-│   │   ├── ranked_2.pdb
-│   │   ├── ranked_3.pdb
-│   │   ├── ranked_4.pdb
-│   │   ├── ranking_debug.json
-│   │   ├── relaxed_model_3_ptm_pred_0.pdb
-│   │   ├── relax_metrics.json
-│   │   ├── result_model_1_ptm_pred_0.pkl
-│   │   ├── result_model_2_ptm_pred_0.pkl
-│   │   ├── result_model_3_ptm_pred_0.pkl
-│   │   ├── result_model_4_ptm_pred_0.pkl
-│   │   ├── result_model_5_ptm_pred_0.pkl
-│   │   ├── timings.json
-│   │   ├── unrelaxed_model_1_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_2_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_3_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_4_ptm_pred_0.pdb
-│   │   └── unrelaxed_model_5_ptm_pred_0.pdb
-│   ├── P42212
-│   │   ├── features.out
-│   │   ├── features.pkl
-│   │   ├── msas
-│   │   │   ├── mgnify_hits.sto
-│   │   │   ├── pdb_hits.hhr
-│   │   │   ├── small_bfd_hits.sto
-│   │   │   └── uniref90_hits.sto
-│   │   ├── output
-│   │   ├── ranked_0.pdb
-│   │   ├── ranked_1.pdb
-│   │   ├── ranked_2.pdb
-│   │   ├── ranked_3.pdb
-│   │   ├── ranked_4.pdb
-│   │   ├── ranking_debug.json
-│   │   ├── relaxed_model_2_ptm_pred_0.pdb
-│   │   ├── relax_metrics.json
-│   │   ├── result_model_1_ptm_pred_0.pkl
-│   │   ├── result_model_2_ptm_pred_0.pkl
-│   │   ├── result_model_3_ptm_pred_0.pkl
-│   │   ├── result_model_4_ptm_pred_0.pkl
-│   │   ├── result_model_5_ptm_pred_0.pkl
-│   │   ├── timings.json
-│   │   ├── unrelaxed_model_1_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_2_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_3_ptm_pred_0.pdb
-│   │   ├── unrelaxed_model_4_ptm_pred_0.pdb
-│   │   └── unrelaxed_model_5_ptm_pred_0.pdb
-│   └── P99999
-│       ├── features.pkl
-│       ├── msas
-│       │   ├── mgnify_hits.sto
-│       │   ├── pdb_hits.hhr
-│       │   ├── small_bfd_hits.sto
-│       │   └── uniref90_hits.sto
-│       ├── ranked_0.pdb
-│       ├── ranked_1.pdb
-│       ├── ranked_2.pdb
-│       ├── ranked_3.pdb
-│       ├── ranked_4.pdb
-│       ├── ranking_debug.json
-│       ├── relaxed_model_5_ptm_pred_0.pdb
-│       ├── relax_metrics.json
-│       ├── result_model_1_ptm_pred_0.pkl
-│       ├── result_model_2_ptm_pred_0.pkl
-│       ├── result_model_3_ptm_pred_0.pkl
-│       ├── result_model_4_ptm_pred_0.pkl
-│       ├── result_model_5_ptm_pred_0.pkl
-│       ├── timings.json
-│       ├── unrelaxed_model_1_ptm_pred_0.pdb
-│       ├── unrelaxed_model_2_ptm_pred_0.pdb
-│       ├── unrelaxed_model_3_ptm_pred_0.pdb
-│       ├── unrelaxed_model_4_ptm_pred_0.pdb
-│       └── unrelaxed_model_5_ptm_pred_0.pdb
-├── PDB_Bfactor_plot.py
-├── pLDDT_PAE_plot.py
-├── pLDDT_PAE_plots
-│   ├── P00974_result_model_3_ptm_pred_0_PAE.png
-│   ├── P00974_result_model_3_ptm_pred_0_pLDDT.png
-│   ├── P01308_result_model_1_ptm_pred_0_PAE.png
-│   ├── P01308_result_model_1_ptm_pred_0_pLDDT.png
-│   ├── P0CG47_result_model_3_ptm_pred_0_PAE.png
-│   ├── P0CG47_result_model_3_ptm_pred_0_pLDDT.png
-│   ├── P42212_result_model_2_ptm_pred_0_PAE.png
-│   ├── P42212_result_model_2_ptm_pred_0_pLDDT.png
-│   ├── P99999_result_model_5_ptm_pred_0_PAE.png
-│   └── P99999_result_model_5_ptm_pred_0_pLDDT.png
-├── README.md
-├── run_analysis.py
-└── run_full_AF2_pipeline.sh
+## Overview
 
-13 directories, 147 files
-```
+
+## Project Objectives
+This repository contains educational materials, workflows, and supporting resources developed for the AlphaFold project in the 2026 Ohio Supercomputer Center (OSC) STEM Institute (SI). The materials were designed to introduce high school STEM students to AI-enabled structural biology through project-based investigations of p53 and the SARS-CoV-2 Spike protein.
+
+## Workflow
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/37fe881a-7a1c-4a62-831d-889c7355131c" />
+
+## Repository Contents
+| Scripts | Functions |
+| :--- | :--- |
+| **fastas.py** | Extract one or more amino acid sequences |
+| **AF_structure_SI2025.sh** | Access a singularity Apptainer created from Google AlphaFold2 repo | 
+| **AF_msa_run.py** | Create MSAS files |
+| **AF_full_run.py** | Create MSAS files, model files, PDB files |
+| **AF_full_slurm.sh** | Execute AF_full_run.py via Slurm | 
+| **run_analysis.py** | Select the best model and corresponding pdb and pickle files |
+| **pLDDT_PAE_plot.py** | Create PLDDT and PAE plots and data analyses |
+| **PDB_Bfactor_plot.py** | Create PLDDT store based on B-factor | 
+| **run_full_AF2_pipeline.sh** | Execute the pipeline with a UniProID |
+
+## Requirements
+  - Python <br>
+  - Shell scripts <br>
+  - AlphaFold on Ohio Supercomputer Center HPC resources.<br>
+  - PyMOL <br>
+  - Open OnDemand (OOD)
+
+## Running the Workflow
+   ./run_full_AF2_pipeline.sh <UniProID>
+   Output:
+     - pdb files
+     - pickel files
+
+## Example Projects
+   - p53
+   - SARS-CoV-2 Spike
+
+## Citation
+   <TBD>
+     
+## Acknowledgments
