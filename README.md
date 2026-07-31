@@ -1,10 +1,13 @@
 # Gateway-Enabled AlphaFold Workflows for Teaching AI-Driven Structural Biology
 
 ## Overview
+This repository contains the educational materials, project workflow, scripts, and supporting resources developed for the Protein Modeling project in the 2026 Ohio Supercomputer Center STEM Institute. The project introduces high school students to AI-enabled protein structure prediction, molecular visualization, and computational structural biology using AlphaFold and PyMOL.
 
-
-## Project Objectives
-This repository contains educational materials, workflows, and supporting resources developed for the AlphaFold project in the 2026 Ohio Supercomputer Center (OSC) STEM Institute (SI). The materials were designed to introduce high school STEM students to AI-enabled structural biology through project-based investigations of p53 and the SARS-CoV-2 Spike protein.
+## Objectives
+  - Create protein structures using AlphaFold <br>
+  - Visualize structures with PyMOL <br>
+  - Compare predicted models with experimental PDB structures <br>
+  - Analyze pLDDT confidences
 
 ## Workflow
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/37fe881a-7a1c-4a62-831d-889c7355131c" />
