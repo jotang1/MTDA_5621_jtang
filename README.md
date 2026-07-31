@@ -33,10 +33,11 @@ This repository contains the educational materials, project workflow, scripts, a
   - Open OnDemand (OOD)
 
 ## Running the Workflow
-   ./run_full_AF2_pipeline.sh <UniProID>
-   Output:
-     - pdb files
-     - pickel files
+    ./run_full_AF2_pipeline.sh <UniProID>
+    
+    Outputs:
+      pdb files
+      pickel files
 
 ## Example Projects
    - p53
