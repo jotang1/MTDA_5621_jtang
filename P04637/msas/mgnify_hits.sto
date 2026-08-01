@@ -1,0 +1,205 @@
+# STOCKHOLM 1.0
+
+#=GS sp|P04637|P53_HUMAN      DE Cellular tumor antigen p53 OS=Homo sapiens OX=9606 GN=TP53 PE=1 SV=4
+#=GS MGYP002706009983/98-284  DE [subseq from] FL=1
+#=GS MGYP001236376844/1-149   DE [subseq from] FL=0
+#=GS MGYP002751225887/19-68   DE [subseq from] FL=0
+#=GS MGYP002751225887/95-122  DE [subseq from] FL=0
+#=GS MGYP001554708604/33-169  DE [subseq from] FL=1
+#=GS MGYP003571901922/24-181  DE [subseq from] FL=0
+#=GS MGYP003572241343/30-125  DE [subseq from] FL=0
+#=GS MGYP000335837557/48-206  DE [subseq from] MGYP000335837557
+#=GS MGYP002889647934/25-62   DE [subseq from] FL=0
+#=GS MGYP002889647934/183-226 DE [subseq from] FL=0
+#=GS MGYP001796513972/27-129  DE [subseq from] FL=1
+#=GS MGYP003334834412/157-233 DE [subseq from] FL=0
+#=GS MGYP003326840979/340-416 DE [subseq from] FL=0
+#=GS MGYP002789611766/7-90    DE [subseq from] FL=0
+#=GS MGYP001351230605/184-279 DE [subseq from] FL=1
+#=GS MGYP002477593293/5-42    DE [subseq from] FL=0
+#=GS MGYP003349943420/42-124  DE [subseq from] FL=0
+#=GS MGYP001275437716/139-271 DE [subseq from] FL=0
+#=GS MGYP002628602730/159-308 DE [subseq from] FL=0
+#=GS MGYP000247670275/11-48   DE [subseq from] MGYP000247670275
+#=GS MGYP001418906736/52-140  DE [subseq from] FL=0
+#=GS MGYP002056566735/10-109  DE [subseq from] FL=1
+#=GS MGYP001399946918/158-247 DE [subseq from] MGYP001399946918
+#=GS MGYP002254149700/84-118  DE [subseq from] FL=0
+#=GS MGYP000753624161/353-533 DE [subseq from] MGYP000753624161
+#=GS MGYP002507208781/33-68   DE [subseq from] FL=1
+#=GS MGYP000143916558/7-76    DE [subseq from] FL=1
+#=GS MGYP000258909975/17-85   DE [subseq from] FL=1
+#=GS MGYP002047142644/335-424 DE [subseq from] FL=0
+#=GS MGYP002507576927/60-93   DE [subseq from] FL=0
+#=GS MGYP000485648769/6-68    DE [subseq from] MGYP000485648769
+#=GS MGYP000287321614/2-55    DE [subseq from] MGYP000287321614
+#=GS MGYP000132512624/12-49   DE [subseq from] MGYP000132512624
+#=GS MGYP002655317719/172-303 DE [subseq from] FL=0
+#=GS MGYP003449788861/81-168  DE [subseq from] FL=0
+#=GS MGYP002260050184/1-57    DE [subseq from] FL=1
+#=GS MGYP002051929764/50-98   DE [subseq from] FL=0
+#=GS MGYP000933764840/10-64   DE [subseq from] MGYP000933764840
+#=GS MGYP003471345564/55-142  DE [subseq from] FL=0
+#=GS MGYP002652992545/10-43   DE [subseq from] FL=0
+#=GS MGYP001765080746/112-148 DE [subseq from] FL=0
+#=GS MGYP001351204447/132-222 DE [subseq from] FL=1
+#=GS MGYP000444935593/99-189  DE [subseq from] MGYP000444935593
+#=GS MGYP001802843817/52-117  DE [subseq from] FL=0
+#=GS MGYP000060177650/82-127  DE [subseq from] FL=0
+#=GS MGYP001138157253/58-141  DE [subseq from] FL=0
+#=GS MGYP001349837743/72-140  DE [subseq from] FL=0
+#=GS MGYP001436561271/218-280 DE [subseq from] FL=1
+#=GS MGYP002783966527/3-35    DE [subseq from] FL=0
+#=GS MGYP002787816136/52-87   DE [subseq from] FL=0
+#=GS MGYP001241526937/104-165 DE [subseq from] FL=0
+#=GS MGYP001796089319/3-67    DE [subseq from] FL=0
+#=GS MGYP001432453014/1-37    DE [subseq from] FL=0
+#=GS MGYP001432453014/56-154  DE [subseq from] FL=0
+#=GS MGYP002745255877/50-134  DE [subseq from] FL=0
+#=GS MGYP001437880807/27-88   DE [subseq from] FL=0
+#=GS MGYP002756795710/5-55    DE [subseq from] FL=0
+#=GS MGYP002260254701/45-95   DE [subseq from] FL=0
+#=GS MGYP002753949886/1-26    DE [subseq from] FL=0
+#=GS MGYP000038310244/34-84   DE [subseq from] MGYP000038310244
+#=GS MGYP000250303691/3-39    DE [subseq from] FL=0
+#=GS MGYP001913130570/66-102  DE [subseq from] FL=0
+#=GS MGYP001918263462/78-114  DE [subseq from] FL=0
+#=GS MGYP002253039328/11-44   DE [subseq from] FL=1
+#=GS MGYP001919162449/119-155 DE [subseq from] FL=0
+
+sp|P04637|P53_HUMAN              PQHLIRVEGNLRVEYL--DDRN--TFRH--SVVVPY-------EPP----EVGSDCTTIHYNY-MCNSSCMGGMNRRPILTIITLEDS-SGN--LLGRNSFEVRVCACPGRDRRTEEENLR----K--KG----EPHHELP-PG-STKRA-LP----NN-TS-S--SPQP-K-KKPLDG--EYFTLQIRGRERFEMFREL
+MGYP002706009983/98-284          PQHLIRVEGNLRVEYL--DDRN--TFRH--SVVVPY-------EPP----EVGSDCTTIHYNY-MCNSSCMGGMNRRPILTIITLEDS-SGN--LLGRNSFEVRVCACPGRDRRTEEENLR----K--KG----EPHHELP-PG-STKRA-LP----NN-TS-S--SPQP-K-KKPLDG--EYFTLQIRGRERFEMFREL
+MGYP001236376844/1-149           ------------------------------------------------------------------------GMNRRPILTIITLEDS-SGN--LLGRDSFEVRVCACPGRDRRTEEENFR----K--KE----VLCPELP-PG-SAKRA-LP----TC-TS-A--SPPQ-K-KKPLDG--EYFTLKIRGRKRFEMFREL
+MGYP002751225887/19-68           ---------------------------------------------------------------------------------------S-SGN--LLGRNSFEVRVCACPGRDRRTEEENLR----K--KG----EPHHELP-PG-STKRG-KQ-----------------------------------------------
+MGYP002751225887/95-122          ----------------------------------------------------------------------------------------------------------------------------------------------------LA-LP----NN-TS-S--SPQP-K-KKPLDG--EYFTLQVL-----------
+MGYP001554708604/33-169          PKHLVRCEHKLAL-YK--EDPY--TLRQ--SVVIPH-------ETP----QAGAEWVTNLFQF-MCFSSCVGGLNRRPIQVIFTLEHE--ER--VLGRQAVEVRICACPGRDRRADEQAAQ----P--KT----KESPKRP-----ALTV-TS----EM-TS-I--SPAP-KRRKPNED--EQFTLT-------------
+MGYP003571901922/24-181          PTHLCRCEHKL-AKYT--EDPY--TQRQ--SCLIPH-------EVP----QAGSEWVTNLFQF-MCLGSCVGGPNRRPIQIVLTLEKD--NQ--VLGRRAVEVRICACPGRDRKADEKAS---------L----PPSKQSP-KK-GGRVN-II----NEITA-V--TQGG-R-KRKADD--EPYSVSVKGRENYEILCRI
+MGYP003572241343/30-125          -KHLIRCEH-TAAQYV--DNPE--TKRL--SVVIPY-------EEP----QTGSEWVTNLFQF-MCFSSCVGGLNRRPIKIIFTLENG--AT--ILARHSVDVRICACPGRDRRLDEGQ-R-------------------------------------------------------------------------------
+MGYP000335837557/48-206          -DHLIRVDNDFAI-YD--EDPE--SKRL--SVIVPV-------QKP----EIGSTTFSIPMKF-MCLGSDVGGINRRPVKIIFTLEHG-TGN--VIARHAIDVRICSCPKRDKTQEEKREE----E--KS----SVRKDGE-PV-ATSSL-MR----SN-SS-LVVAPQE-K-KRKVDS-IEDYVLVPVAKRDFDAVNKH
+MGYP002889647934/25-62           --------------------------------------------------QVGTEFTTILYNF-MCNSSCVGGMNRRPILIIITLEMR-S--------------------------------------------------------------------------------------------------------------
+MGYP002889647934/183-226         ----------------------------------------------------------------------------RVELTILAVPTD-SGQ--VLGRRSFEGRICACPGRDRKADEDHYR----E--Q-----------------------------------------------------------------------
+MGYP001796513972/27-129          --HFIRSN-NNQAKYQ--TCPD--TSRH--SVTIPY-------HGP----QVGTEFVTEMFAF-MCFSSCASGPSRRPVEIIFTLER--DGQ--TLGRRVVEIRVCACPGRDRKSDEKA------A--GG----EPSSSM------------------------------------------------------------
+MGYP003334834412/157-233         -------------------------VRE--CVTVPY-------CPP----FLGQTKSTIMLRF-MCLSSCVGGINRRPFNTVFTLESP-NGE--ILGRNVVETRVCSCPGRDRDAEERR---------------------------------------------------------------------------------
+MGYP003326840979/340-416         -------------------------VRE--CVTVPY-------CPP----FLGQTKSTIMLRF-MCLSSCVGGINRRPFNTVFTLESP-NGE--ILGRNVVETRVCSCPGRDRDAEERR---------------------------------------------------------------------------------
+MGYP002789611766/7-90            -------------------------------VLTPL-------AKP----QTGVDSVRLNYKF-MCKNSCPTGMNRRPIDLIFTLKDG-FGN--VYGRKKLGVRICSCPKRDKDKEEKEFR----Q--KE----GFNNEN------------------------------------------------------------
+MGYP001351230605/184-279         -DHLIRVANEFTI-YD--EDPQ--TKRL--SVMIPV-------KQP----SPGSTSFSAPIKF-MCLGSDTGGINRKPVKLIFTLELG-QGN--VIGRQSVEVRICSCPKRDKKQEEER---------------------------------------------------------------------------------
+MGYP002477593293/5-42            ---------------------------------------------P----QVGSDCTTIHYNF-MCNSSCMGGMNRRPILTIITLEDA----------------------------------------------------------------------------------------------------------------
+MGYP003349943420/42-124          ---------------------S--NVHF--SVLVPL-------DLP----QTGQDFIRVMYLF-VCKNSCSTGMNRKSLEVVFTLEDD-LGN--VFGRKKVGARVCSCPKRDKEKEEQNVQ----K--G-----------------------------------------------------------------------
+MGYP001275437716/139-271         PQHLLRLDNDY-SHYE--TDEV--SGRL--SVRFPV-------QQP----HEGSDRTRELLKF-MCLGSDVGGINRRPLKVIFSLETA-GAQ--VLGRKVFDVRICSCPRRDKAGEEERMQ----T--LE----LRAKNIA-DR-LATST-MV----VN-QQ-R--MPPP-G-KKAMK----------------------
+MGYP002628602730/159-308         --HLMRS-AEPTVRYC--EDSS--SGRL--SVTAAV-------KDQ----EPGCDFFSLVYQF-LCLGSCVGGLARRQLQVIFTLETG-QGQ--VLGRRALEVRICSCPLRDMKQDEAK----------A----EKLLTRG-PG-PCN-G-YP----SG-------SCGE-E-KRGGGE--EVYWVPVRGLENFETLDKF
+MGYP000247670275/11-48           ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LLQIRGRERFEMFREL
+MGYP001418906736/52-140          ---------------L--YDRNACSGRL--SVITPF-------GHP----HIGSNYVAHVYKF-TCIGSCAGGINRRATSVVFTLEQ--HGQ--ILGRQSLSCRICSCPKRDRKAQESALM----K--QS----------------------------------------------------------------------
+MGYP002056566735/10-109          -------------IYD--TDQS--SQRL--SVLVPV-------ERP----QPGGQTFDFSLKF-MCLGSDVGGINRRPLKVIFTLEDHQNGDIIVLGRYTVDVRICSCPKRDKQQEEKKFT----G--KE----QHAKHVA-----------------------------------------------------------
+MGYP001399946918/158-247         ---------------L--YDRNACSGRL--SVITPF-------GHP----HIGSNYVAHVYKF-TCIGSCAGGINRRATSVVFTLEQ--HGQ--ILGRQSLSCRICSCPKRDRKAQESALM----K--QS----M-----------------------------------------------------------------
+MGYP002254149700/84-118          PQHLIRVEGNLRVEYL--DDRN--TFRH--SVVVPY-------EPP----EV----------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000753624161/353-533         -DHLIRYEND-DTRYK--EDVE--SGRL--SAIFAV-------GTP----HKGTEVCNRMMKF-MCLGSDVGGINRRPIKVIFTLEQE--NR--VVGRKVVDVRICSCPKRDLVQEEGRLL----Q--QE----ENARRIA-DKFAHTTS-VP----RT-IS-L--QPPPGK-KRKMDK--DSTIIMVP--VHSDDFKKL
+MGYP002507208781/33-68           PQHLIRVEGNLRAEYL--DDKN--TFRH--SVVVPY-------EPP----EVW---------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000143916558/7-76            ---------------------------------------------------VGTEFVTEMFAF-MCFSSCASGPSRRPVEVIFTLEK--DGQ--TLGRRVVEIRVCACPGRDRKSDEKAV--------SG----EPTS--------------------------------------------------------------
+MGYP000258909975/17-85           --------------------------------------------------SVGTEYVTEMFAF-MCFSSCASGPSRRPVEVIFTLER--DGQ--TLGRRVVEIRVCACPGRDRKSDERI------A--CG----EP----------------------------------------------------------------
+MGYP002047142644/335-424         PLHLIRLDNDY-SQYE--TDEV--SGRL--SVRFPV-------QQP----HEGSDRTRELLKF-MCLGSDVGGINRRPLKVIFSLETA-GAQ--VLGRKVFDVRICSCPRRE----------------------------------------------------------------------------------------
+MGYP002507576927/60-93           PQHLIRVEGNLRAEYL--DDKN--TFRH--SVVVPY-------EPP----E-----------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP000485648769/6-68            ---------------------------------------------------VGTEYVTEMFAF-MCFSSCASGPSRRPVEVIFTLER--DGQ--TLGRRVVEIRVCACPGRDRKSDEKV---------------------------------------------------------------------------------
+MGYP000287321614/2-55            ------------------------------------------------------------FAF-MCFSSCASGPSRRPVEVIFTLER--DGQ--TLGRRVVEIRVCACPGRDRKSDEKV---------------------------------------------------------------------------------
+MGYP000132512624/12-49           --------------------------------------------CV----QVGTEFTTILYNF-MCNSSCVGGMNRRPILIIITLET-----------------------------------------------------------------------------------------------------------------
+MGYP002655317719/172-303         ------------TEYLGNDNGK--TFQEKLSLRIPM-------QSV----TTGEP---LKLVF-TCQNSCSGGMNRRHTSIIFTLENA-MYE--ILGRRVLHFKVCSCPKRDREKDEEGTK----PLPKK----RKMDQAP-ST-SKKVA-IP----VI-VK-Q--ETEP-I-EQNLSS--VPSDLQ-------------
+MGYP003449788861/81-168          --------------------------------------------------------EPLKFEF-SCQNSCSGGMNRKSTTLVFTLEDD-LQN--ILGRSIMHFKVCSCPRRDKEKDESTTKIFPKK--RK----NENGNTP-ST-SAKRIHLP----RQ-D---------------------------------------
+MGYP002260050184/1-57            ----------------------------------------------------------------MCFSSCASGPSRRPVEVIFTLEK--DGQ--TLGRRVVEIRVCACPGRDRKSDEKAV--------SG----EPT---------------------------------------------------------------
+MGYP002051929764/50-98           -------------------------------------------------------------------GSDTGGINRKPVKLIFTLELG-QGN--VIGRQSVEVRICSCPKRDKKQEEER---------------------------------------------------------------------------------
+MGYP000933764840/10-64           --------------YD--KDSV--SQRY--SCRTPL-------SRP----QPGSDTTTLTYKF-VCKTSCLGGMNRKPISVIFTLED-----------------------------------------------------------------------------------------------------------------
+MGYP003471345564/55-142          --------------------------------------------------------EPLKFEF-SCQNSCSGGMNRKSTTLVFTLEDD-LQN--ILGRSIMHFKVCSCPRHDKEKDESTTKIFPKK--RK----NENGNTP-ST-SAKRIHLP----RQ-D---------------------------------------
+MGYP002652992545/10-43           ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LLQIRGRERFEMFREL
+MGYP001765080746/112-148         ---------------------------------------------F----QVGTEFTTVLYNF-MCNSSCVGGMNRRPILIIVTLET-----------------------------------------------------------------------------------------------------------------
+MGYP001351204447/132-222         --------------YC--EDPI--TERL--SVIVPLGELMKDKQEQ----PCSSNGFSILVKF-MCLNSDVGGPNRRPTQVIFTLEDQ-CCS--VLGRDIVSFKVCCCPKRDKAAEERR---------------------------------------------------------------------------------
+MGYP000444935593/99-189          ----------LQVKYT--T-SN--TGRR--FVRMDN-------LPSTHQNKFG--STKVSIKF-TDLSSCTGGINRRDTSLVLVLTDR-SGQ--PLGRRVIPVRICTCPKRDREKDEREER-------------------------------------------------------------------------------
+MGYP001802843817/52-117          --HFIWCE-NQGAQYV--QDQQ--TGRY--AVVMPY-------DTP----PAGTEWVTYLFSF-KCLNSCVGGPNRREMSIIFTLEE-----------------------------------------------------------------------------------------------------------------
+MGYP000060177650/82-127          -------------------------------------------------------------------------------FAAVLLVIC-RGL--VLGRRSFEVRVCACPGRDRKTEETNFR----K--IQ----EAKS--------------------------------------------------------------
+MGYP001138157253/58-141          -------------------ESE--VSHH--SLVIPF-------DG---------KATTEYFQF-LCYSSCN-ELKRRKLEVIFTLEVE--NR--VIGGTSVEVKICSYPIRDRKIEEDSKS----K--TI----EPPKG-------------------------------------------------------------
+MGYP001349837743/72-140          -------------------------------------------APP----NLQS--STVGVKF-TDLSSCPGGINRRNTALVLALTAH-SGQ--PLGRRVIPVRICTCPKRDREKDEREER----I--------------------------------------------------------------------------
+MGYP001436561271/218-280         ------------------------------------------------------QSTTVGVKF-TDLSSCPGGINRRNTALVLALTAH-SGQ--PLGRRVIPVRICTCPKRDREKDEREER-------------------------------------------------------------------------------
+MGYP002783966527/3-35            -----------------------------------------------------------------------------------------SGQ--VIGRNSFEVKICACPGRDRQTDEKRLI----K--KD----------------------------------------------------------------------
+MGYP002787816136/52-87           ------------------------------------------------------------------------------------LNYY-SGQ--VIGRNSFEVKICACPGRDRQTDEKRLI----K--K-----------------------------------------------------------------------
+MGYP001241526937/104-165         ------------------------------------------------------QSTTVGVKF-TDLSSCPGGINRRNTALVLALTAH-SGQ--PLGRRVIPVRICTCPKRDREKDEREE--------------------------------------------------------------------------------
+MGYP001796089319/3-67            --HFIWCE-NQSADYH--QDPQ--TSRY--AVRVPY-------DAP----PAGTRFVTYLYSF-KCLNSCVGGPNRREMSIVFTLE------------------------------------------------------------------------------------------------------------------
+MGYP001432453014/1-37            ----------------------------------------------------------------MCLGSCNGGLARRPISLVFSLENK-KGV--VLGRQSLEVG------------------------------------------------------------------------------------------------
+MGYP001432453014/56-154          -----------------------------------------------------------------------------------------------------QVRICTCPLRDMQQEETRNS----K--NNALAVNISHNIASAV-KTNVT-KPRITATN-TQPS--VPQS-I-SQPYNDSDNIFFVPVKGLANFQKVNKF
+MGYP002745255877/50-134          -SHLIRVEGNNLSQYV--DDPV--TGRQ--SVVVPY-------EPP----QVGQEPGCAQGPAVSCTGGGR-GPLRQPLSLLSWLICL-SCR--HLSRAPCSVKVCV---------------------------------------------------------------------------------------------
+MGYP001437880807/27-88           -------------------------------------------------------SSTVGVKF-TDLSSCPGGINRRNTALVLALTAH-SGQ--PLGRRVIPVRICTCPKRDREKDEREER-------------------------------------------------------------------------------
+MGYP002756795710/5-55            -SHLIRVEGNNLSQYV--DDPV--TGRQ--SVVVPY-------EPP----QVGQEPGCAQGPA----VSCTGG-------------------------------------------------------------------------------------------------------------------------------
+MGYP002260254701/45-95           -SHLIRVEGNNLSQYV--DDPV--TGRQ--SVVVPY-------EPP----QVGQEPGCAQGPA----VSCTGG-------------------------------------------------------------------------------------------------------------------------------
+MGYP002753949886/1-26            ----------------------------------------------------------------MCNSSCMGGMNRRPILTIITLEDS-RS-------------------------------------------------------------------------------------------------------------
+MGYP000038310244/34-84           -SHLIRVEGNNLSQYV--DDPV--TGRQ--SVVVPY-------EPP----QVGQEPGCAQGPA----VSCTGG-------------------------------------------------------------------------------------------------------------------------------
+MGYP000250303691/3-39            PSHLIRVEGNSHAQYV--EDPI--TGRQ--SVLVPY-------EPP----QVKS--------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP001913130570/66-102          PSHLIRVEGNPRADYQ--QDLN--TGRQ--SVVVPY-------EQP----QVNS--------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP001918263462/78-114          PSHLIRVEGNPRADYQ--QDLN--TGRQ--SVVVPY-------EQP----QVNS--------------------------------------------------------------------------------------------------------------------------------------------------
+MGYP002253039328/11-44           ---------------------------------------------------------------------------------------D-SGQ--VLGRRSFEGRICACPGRDRKADEDHYR----E--QQ----------------------------------------------------------------------
+MGYP001919162449/119-155         PSHLIRVEGNPRADYQ--QDLN--TGRQ--SVVVPY-------EQP----QVNS--------------------------------------------------------------------------------------------------------------------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxx..xxxx..xxxx..xxxxxx.......xxx....xxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxx.xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxx....x..xx....xxxxxxx.xx.xxxxx.xx....xx.xx.x..xxxx.x.xxxxxx..xxxxxxxxxxxxxxxxxxx
+
+sp|P04637|P53_HUMAN              NEALELKDAQAGKEPGGS---RAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD
+MGYP002706009983/98-284          NEALELKDAQAGKEPGGS---RAHSSHLKSKKGQSR----------------
+MGYP001236376844/1-149           NEALELKDAHATEESGDS---RAHSSYLKTKKGQSTSRHKKTMVKKVGPDSD
+MGYP002751225887/19-68           ----------------------------------------------------
+MGYP002751225887/95-122          ----------------------------------------------------
+MGYP001554708604/33-169          ----------------------------------------------------
+MGYP003571901922/24-181          RDSLELAS--------------------------------------------
+MGYP003572241343/30-125          ----------------------------------------------------
+MGYP000335837557/48-206          AEAL------------------------------------------------
+MGYP002889647934/25-62           ----------------------------------------------------
+MGYP002889647934/183-226         ----------------------------------------------------
+MGYP001796513972/27-129          ----------------------------------------------------
+MGYP003334834412/157-233         ----------------------------------------------------
+MGYP003326840979/340-416         ----------------------------------------------------
+MGYP002789611766/7-90            ----------------------------------------------------
+MGYP001351230605/184-279         ----------------------------------------------------
+MGYP002477593293/5-42            ----------------------------------------------------
+MGYP003349943420/42-124          ----------------------------------------------------
+MGYP001275437716/139-271         ----------------------------------------------------
+MGYP002628602730/159-308         AEFLELR---------------------------------------------
+MGYP000247670275/11-48           NEALELKDAQAGKEPGGS---RAHS---------------------------
+MGYP001418906736/52-140          ----------------------------------------------------
+MGYP002056566735/10-109          ----------------------------------------------------
+MGYP001399946918/158-247         ----------------------------------------------------
+MGYP002254149700/84-118          ----------------------------------------------------
+MGYP000753624161/353-533         NEFAEA--AWVCRDPGNADQIREHRVHLLRKH--------------------
+MGYP002507208781/33-68           ----------------------------------------------------
+MGYP000143916558/7-76            ----------------------------------------------------
+MGYP000258909975/17-85           ----------------------------------------------------
+MGYP002047142644/335-424         ----------------------------------------------------
+MGYP002507576927/60-93           ----------------------------------------------------
+MGYP000485648769/6-68            ----------------------------------------------------
+MGYP000287321614/2-55            ----------------------------------------------------
+MGYP000132512624/12-49           ----------------------------------------------------
+MGYP002655317719/172-303         ----------------------------------------------------
+MGYP003449788861/81-168          ----------------------------------------------------
+MGYP002260050184/1-57            ----------------------------------------------------
+MGYP002051929764/50-98           ----------------------------------------------------
+MGYP000933764840/10-64           ----------------------------------------------------
+MGYP003471345564/55-142          ----------------------------------------------------
+MGYP002652992545/10-43           NEALELKDAQAGKGQGEQ----------------------------------
+MGYP001765080746/112-148         ----------------------------------------------------
+MGYP001351204447/132-222         ----------------------------------------------------
+MGYP000444935593/99-189          ----------------------------------------------------
+MGYP001802843817/52-117          ----------------------------------------------------
+MGYP000060177650/82-127          ----------------------------------------------------
+MGYP001138157253/58-141          ----------------------------------------------------
+MGYP001349837743/72-140          ----------------------------------------------------
+MGYP001436561271/218-280         ----------------------------------------------------
+MGYP002783966527/3-35            ----------------------------------------------------
+MGYP002787816136/52-87           ----------------------------------------------------
+MGYP001241526937/104-165         ----------------------------------------------------
+MGYP001796089319/3-67            ----------------------------------------------------
+MGYP001432453014/1-37            ----------------------------------------------------
+MGYP001432453014/56-154          AEFLDLTDGHAGE---------------------------------------
+MGYP002745255877/50-134          ----------------------------------------------------
+MGYP001437880807/27-88           ----------------------------------------------------
+MGYP002756795710/5-55            ----------------------------------------------------
+MGYP002260254701/45-95           ----------------------------------------------------
+MGYP002753949886/1-26            ----------------------------------------------------
+MGYP000038310244/34-84           ----------------------------------------------------
+MGYP000250303691/3-39            ----------------------------------------------------
+MGYP001913130570/66-102          ----------------------------------------------------
+MGYP001918263462/78-114          ----------------------------------------------------
+MGYP002253039328/11-44           ----------------------------------------------------
+MGYP001919162449/119-155         ----------------------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

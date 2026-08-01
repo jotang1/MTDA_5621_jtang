@@ -1,0 +1,692 @@
+Query         sp|P04637|P53_HUMAN Cellular tumor antigen p53 OS=Homo sapiens OX=9606 GN=TP53 PE=1 SV=4
+Match_columns 203
+No_of_seqs    176 out of 1241
+Neff          5.28898
+Searched_HMMs 80799
+Date          Fri Jun  5 13:51:38 2026
+Command       /usr/bin/hhsearch -i /tmp/tmpmom7rxst/query.a3m -o /tmp/tmpmom7rxst/output.hhr -maxseq 1000000 -d /fs/scratch/PZS1154/alphafold/databases/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XZC_D Histone acetyltransfera 100.0 3.9E-54 4.8E-59  379.5   0.0  163    1-163   100-262 (265)
+  2 3Q01_A Cellular tumor antigen  100.0 1.5E-46 1.9E-51  325.9   0.0  133    1-163    98-230 (233)
+  3 3Q05_B Cellular tumor antigen  100.0 2.4E-46   3E-51  324.8   0.0  134    1-163    98-231 (234)
+  4 3Q05_D Cellular tumor antigen  100.0 2.4E-46   3E-51  324.8   0.0  134    1-163    98-231 (234)
+  5 5O1H_A Cellular tumor antigen  100.0 2.7E-39 3.3E-44  278.6   0.0  118    1-118    98-215 (219)
+  6 6SL6_A Cellular tumor antigen  100.0   6E-39 7.4E-44  281.3   0.0  116    1-116   126-241 (248)
+  7 6SHZ_B Cellular tumor antigen  100.0 6.3E-39 7.8E-44  276.1   0.0  117    1-117    98-214 (218)
+  8 6RZ3_A Cellular tumor antigen  100.0 1.1E-37 1.4E-42  270.6   0.0  101    1-101   131-231 (232)
+  9 3D06_A Cellular tumor antigen  100.0 1.6E-37 1.9E-42  263.9   0.0  102    1-102    98-199 (200)
+ 10 2RMN_A Tumor protein 63; Prote 100.0 1.7E-37 2.1E-42  269.7   0.0  103    2-104   111-213 (233)
+ 11 2J1Y_B CELLULAR TUMOR ANTIGEN  100.0   2E-37 2.5E-42  263.4   0.0  102    1-102    98-199 (200)
+ 12 4IBQ_A Cellular tumor antigen  100.0   2E-37 2.5E-42  263.4   0.0  102    1-102    98-199 (200)
+ 13 3KMD_C Cellular tumor antigen  100.0 2.1E-37 2.6E-42  263.2   0.0  100    1-100   100-199 (200)
+ 14 2XWC_A TUMOUR PROTEIN P73; DNA 100.0 2.6E-37 3.2E-42  264.1   0.0  102    1-102   101-202 (208)
+ 15 1T4W_A C.Elegans p53 tumor sup  99.9 4.3E-31 5.3E-36  224.8   0.0   93    1-99     97-192 (196)
+ 16 3ZY1_A TUMOR PROTEIN 63; TRANS  98.7 1.2E-11 1.5E-16   83.5   0.0   41  134-174     2-42  (46)
+ 17 2MW4_A Transcription factor pr  98.7 1.7E-11 2.2E-16   83.2   0.0   43  133-175     2-44  (47)
+ 18 4D1L_E CELLULAR TUMOR ANTIGEN   98.7 2.5E-11 3.1E-16   82.8   0.0   42  133-174     2-43  (48)
+ 19 4D1M_E CELLULAR TUMOR ANTIGEN   98.7 2.5E-11 3.1E-16   82.8   0.0   42  133-174     2-43  (48)
+ 20 2NB1_B Tumor protein 63, Tumor  98.7   3E-11 3.8E-16   83.0   0.0   42  133-174     2-43  (50)
+ 21 5HOB_C Tumor protein p73; tran  98.7 3.3E-11 4.1E-16   82.8   0.0   43  133-175     2-44  (50)
+ 22 4A9Z_A TUMOR PROTEIN 63; TRANS  98.6 9.6E-11 1.2E-15   83.8   0.0   43  133-175     2-44  (61)
+ 23 2NB1_C Tumor protein 63, Tumor  98.6 9.7E-11 1.2E-15   83.6   0.0   44  133-176     1-44  (60)
+ 24 2WQJ_C TUMOR PROTEIN P73; P73,  98.6   1E-10 1.3E-15   75.0   0.0   33  133-165     2-34  (35)
+ 25 2WQJ_G TUMOR PROTEIN P73; P73,  98.6   1E-10 1.3E-15   75.0   0.0   33  133-165     2-34  (35)
+ 26 1SAK_A TUMOR SUPPRESSOR P53; A  98.5 1.8E-10 2.2E-15   76.8   0.0   32  132-163     4-35  (42)
+ 27 4CZ5_B CELLULAR TUMOR ANTIGEN   98.5 2.4E-10   3E-15   72.5   0.0   31  133-163     2-32  (33)
+ 28 4CZ6_D CELLULAR TUMOR ANTIGEN   98.5 2.4E-10   3E-15   72.5   0.0   31  133-163     2-32  (33)
+ 29 4CZ7_A CELLULAR TUMOR ANTIGEN   98.5 2.4E-10   3E-15   72.5   0.0   31  133-163     2-32  (33)
+ 30 3ZY0_A TUMOR PROTEIN P63; TRAN  98.4 5.4E-10 6.7E-15   70.4   0.0   30  134-163     2-31  (32)
+ 31 3ZY0_D TUMOR PROTEIN P63; TRAN  98.4 5.4E-10 6.7E-15   70.4   0.0   30  134-163     2-31  (32)
+ 32 1PES_B TUMOR ANTIGEN P53 (TETR  98.3 1.6E-09 1.9E-14   67.9   0.0   29  135-163     1-29  (31)
+ 33 1AIE_A P53; P53 TETRAMERIZATIO  98.2 3.4E-09 4.3E-14   66.4   0.0   28  136-163     1-28  (31)
+
+No 1
+>5XZC_D Histone acetyltransferase p300 (E.C.2.3.1.48), p53; transcription factor, autoacetylation, allosteric interaction; 10.7A {Homo sapiens}
+Probab=100.00  E-value=3.9e-54  Score=379.50  Aligned_cols=163  Identities=100%  Similarity=1.559  Sum_probs=144.8  Template_Neff=6.200
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|++|++++|+||+|||+.|++|+++++++|+|||+|||+||||||||.||||||+.+|+||||+++
+T Consensus       100 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~vP~~~p~~G~~~~t~~~~FmC~sSC~GG~nRRpi~lifTLE~~~g~vlGR~~~  179 (265)
+T 5XZC_D          100 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF  179 (265)
+T ss_pred             CcceEEEcCCCeEEEecCCCCCeeEEEEecCCCCCCCCeEEEEEEEEeCCCCCCccccccEEEEEEEeCCCCCEeeeeeE
+Confidence            37999999877899999999999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALEL  160 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~~~~~~~~~~~~~k~~~~~~~~~~~~~k~~~~d~eiy~L~VrGRe~YeiL~ki~eaLEl  160 (203)
+                      +|||||||+||+++||++.++++.+....+++..++.+++.+...+.+++++.|+++|+|+|+||++||||++|+|||||
+T Consensus       180 ~vriCaCP~RD~~~eE~~~~~~~~~~~~~~~~~~kr~~~~~~~~~~~~k~~~~d~e~~~l~Vrgr~~ye~l~ki~e~Lel  259 (265)
+T 5XZC_D          180 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALEL  259 (265)
+T ss_pred             EEEEecCCCcccccHHHHHhccCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCceEEEEecchhhHHHHHHHHHHHHh
+Confidence            99999999999999999988776655444455556655544433445556678999999999999999999999999999
+
+
+Q sp|P04637|P53_  161 KDA  163 (203)
+Q Consensus       161 ~~~  163 (203)
+                      |+.
+T Consensus       260 ~~~  262 (265)
+T 5XZC_D          260 KDA  262 (265)
+T ss_pred             Hhh
+Confidence            997
+
+
+No 2
+>3Q01_A Cellular tumor antigen p53; beta sandwich, multidomain, oligomerization, TP53; 2.1A {Homo sapiens}
+Probab=100.00  E-value=1.5e-46  Score=325.91  Aligned_cols=133  Identities=90%  Similarity=1.423  Sum_probs=125.0  Template_Neff=6.400
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|+.|+.++|+||+|||+.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||+++
+T Consensus        98 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~sSC~gginRR~i~lvftLE~~~g~vlGR~~~  177 (233)
+T 3Q01_A           98 PQHLIRVEGNLRAEYLDDPNTFRHSVVVPYEPPEVGSDYTTIYFKFMCNSSCMGGMNRRPILVIITLEDSSGNLLGRDSF  177 (233)
+T ss_dssp             TTCSEEEESCTTCEEEECTTTCCEEEEEECCCCCTTCSCEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTCCEEEEEEE
+T ss_pred             CcceEEEcCCcceEEEcCCCCCceEEEEecCCCCCCCceEEEEEEEeecCCCCCccccccEEEEEEEeCCCCCeeeeeee
+Confidence            37999999878899999998999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALEL  160 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~~~~~~~~~~~~~k~~~~~~~~~~~~~k~~~~d~eiy~L~VrGRe~YeiL~ki~eaLEl  160 (203)
+                      +|||||||+||++++|+..++.                              .|+++|+|+|+||++||||++|+||||+
+T Consensus       178 ~vrVCaCP~RD~~~~E~~~~~~------------------------------~~~~~~~l~v~gr~~~~~l~~~~e~le~  227 (233)
+T 3Q01_A          178 EVRVCACPGRDRRTEEENLRKT------------------------------MDGEYFTLQIRGRERFEQFRERNEALEL  227 (233)
+T ss_dssp             EEEECSCHHHHHHHHHHHHHHH------------------------------HHSCEEEEEEESHHHHHHHHHHHHHHHH
+T ss_pred             EEEEcCCCCCccccHHHHHhhc------------------------------cCCceEEEEecCHHHHHHhhhhHHHHhh
+Confidence            9999999999999999876431                              2679999999999999999999999999
+
+
+Q sp|P04637|P53_  161 KDA  163 (203)
+Q Consensus       161 ~~~  163 (203)
+                      |+.
+T Consensus       228 ~~~  230 (233)
+T 3Q01_A          228 KDA  230 (233)
+T ss_dssp             HHH
+T ss_pred             hhh
+Confidence            986
+
+
+No 3
+>3Q05_B Cellular tumor antigen p53/DNA complex; beta sandwich, multidomain, oligomerization, TP53; 2.4A {Homo sapiens}
+Probab=100.00  E-value=2.4e-46  Score=324.84  Aligned_cols=134  Identities=90%  Similarity=1.421  Sum_probs=125.4  Template_Neff=6.400
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|++|+.+||+||+|||+.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||+++
+T Consensus        98 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~sSC~gginRR~~~lvftLE~~~g~vlGr~~i  177 (234)
+T 3Q05_B           98 PQHLIRVEGNLRAEYLDDPNTFRHSVVVPYEPPEVGSDYTTIYFKFMCNSSCMGGMNRRPILVIITLEDSSGNLLGRDSF  177 (234)
+T ss_dssp             TTCSEEESSCTTCEEEECTTTCCEEEEEECCCCCTTCSCEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTCCEEEEEEE
+T ss_pred             CcceEEECCCCceEEEcCCCCCceEEEEecCCCCCCCceEEEEEEEeecCCCCCccccccEEEEEEEeCCCCCeeeeeee
+Confidence            37999999878899999988999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALEL  160 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~~~~~~~~~~~~~k~~~~~~~~~~~~~k~~~~d~eiy~L~VrGRe~YeiL~ki~eaLEl  160 (203)
+                      +|||||||+||++++|+..+++                             ..|+++|+|+|+||++||||++|+|||||
+T Consensus       178 ~vrVCaCP~RD~~~~E~~~~~~-----------------------------~~~~~~~~l~v~gr~~~~~l~~~~e~l~~  228 (234)
+T 3Q05_B          178 EVRVCACPGRDRRTEEENLRKK-----------------------------TMDGEYFTLQIRGRERFEQFRERNEALEL  228 (234)
+T ss_dssp             EEEECSCHHHHHHHHHHHHHHH-----------------------------HCCSCCEEEEEESHHHHHHHHHHHHHHHH
+T ss_pred             eeEEcCCCCCCcccHHHHHhhh-----------------------------cCCCceEEEEecCHHHHHHHhchHHHHhh
+Confidence            9999999999999999876432                             13779999999999999999999999999
+
+
+Q sp|P04637|P53_  161 KDA  163 (203)
+Q Consensus       161 ~~~  163 (203)
+                      |+.
+T Consensus       229 ~~~  231 (234)
+T 3Q05_B          229 KDA  231 (234)
+T ss_dssp             HHT
+T ss_pred             hhh
+Confidence            986
+
+
+No 4
+>3Q05_D Cellular tumor antigen p53/DNA complex; beta sandwich, multidomain, oligomerization, TP53; 2.4A {Homo sapiens}
+Probab=100.00  E-value=2.4e-46  Score=324.84  Aligned_cols=134  Identities=90%  Similarity=1.421  Sum_probs=125.4  Template_Neff=6.400
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|++|+.+||+||+|||+.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||+++
+T Consensus        98 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~sSC~gginRR~~~lvftLE~~~g~vlGr~~i  177 (234)
+T 3Q05_D           98 PQHLIRVEGNLRAEYLDDPNTFRHSVVVPYEPPEVGSDYTTIYFKFMCNSSCMGGMNRRPILVIITLEDSSGNLLGRDSF  177 (234)
+T ss_dssp             TTCSEEEESCTTCEEEECTTTCCEEEEEECCCCCTTCSCEEEEEEECSCTTCTTTTTTCCEEEEEEEECSSCCEEEEEEE
+T ss_pred             CcceEEECCCCceEEEcCCCCCceEEEEecCCCCCCCceEEEEEEEeecCCCCCccccccEEEEEEEeCCCCCeeeeeee
+Confidence            37999999878899999988999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALEL  160 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~~~~~~~~~~~~~k~~~~~~~~~~~~~k~~~~d~eiy~L~VrGRe~YeiL~ki~eaLEl  160 (203)
+                      +|||||||+||++++|+..+++                             ..|+++|+|+|+||++||||++|+|||||
+T Consensus       178 ~vrVCaCP~RD~~~~E~~~~~~-----------------------------~~~~~~~~l~v~gr~~~~~l~~~~e~l~~  228 (234)
+T 3Q05_D          178 EVRVCACPGRDRRTEEENLRKK-----------------------------TMDGEYFTLQIRGRERFEQFRERNEALEL  228 (234)
+T ss_dssp             EEEECSCHHHHHHHHHHHHTTS-----------------------------SCCSCCEEEEEESHHHHHHHHHHHHHHHH
+T ss_pred             eeEEcCCCCCCcccHHHHHhhh-----------------------------cCCCceEEEEecCHHHHHHHhchHHHHhh
+Confidence            9999999999999999876432                             13779999999999999999999999999
+
+
+Q sp|P04637|P53_  161 KDA  163 (203)
+Q Consensus       161 ~~~  163 (203)
+                      |+.
+T Consensus       229 ~~~  231 (234)
+T 3Q05_D          229 KDA  231 (234)
+T ss_dssp             HTT
+T ss_pred             hhh
+Confidence            986
+
+
+No 5
+>5O1H_A Cellular tumor antigen p53; p53, tumor suppressor, cancer mutation; HET: 9GN; 1.32A {Homo sapiens}
+Probab=100.00  E-value=2.7e-39  Score=278.61  Aligned_cols=118  Identities=97%  Similarity=1.548  Sum_probs=97.2  Template_Neff=6.400
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|++|+.++|+||+|||+.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||+++
+T Consensus        98 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~sSC~gg~nRR~i~lvftLE~~~g~vlGR~~i  177 (219)
+T 5O1H_A           98 PQHLIRVEGNLRAEYLDDRNTFRHSVVVPCEPPEVGSDCTTIHYNYMCYSSCMGGMNRRPILTIITLEDSSGNLLGRDSF  177 (219)
+T ss_dssp             TTCSEEESSCTTCEEEECTTTCCEEEEEECCCCCTTCSSEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTCCEEEEEEE
+T ss_pred             CcceEEEcCCcceEEEcCCCCceeEEEEecCCCCCCCceEEEEEEEeecCCCCCcccccceEEEEEEeCCCCCeeeeeee
+Confidence            37999999877899999998999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRAL  118 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~~~~~~~~~~~~~k~~~  118 (203)
+                      +|||||||+||++++|+..++++.+....+++..|+.+
+T Consensus       178 ~vriCaCP~RD~~~~E~~~~~~~~~~~~~~~~~~~~~~  215 (219)
+T 5O1H_A          178 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRAL  215 (219)
+T ss_dssp             EEEECSCHHHHHHHHHHHHHC-----------------
+T ss_pred             EEEEcCCCCchhhhHHHHHhccCCCCCCCCCCCCccCC
+Confidence            99999999999999999988876666555555555443
+
+
+No 6
+>6SL6_A Cellular tumor antigen p53; Tumor suppressor, aggregation prone, mutant; HET: GOL; 1.67A {Homo sapiens}
+Probab=100.00  E-value=6e-39  Score=281.27  Aligned_cols=116  Identities=97%  Similarity=1.560  Sum_probs=97.8  Template_Neff=5.900
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++++.|+|++|++++|+||+|||+.|++|+++.+++|+|||+|||+||||||||.||||||+.+|+||||+++
+T Consensus       126 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~VPl~~p~~G~~~~~~~~~F~C~~SC~GGinRRpi~lvfTLE~~~G~vlGR~~~  205 (248)
+T 6SL6_A          126 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPIKTIIRLEDSSGNLLGLDSF  205 (248)
+T ss_dssp             TTCSEEEESCTTCEEEECTTTCCEEEEEECCCCCTTCSSEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTSCEEEEEEE
+T ss_pred             CcceEEEcCCceEEEEcCCCCceeEEEEecCCCCCCCceEEEEEEEeecCCCCCcccccceEEEEEEeCCCCCEeeeeee
+Confidence            37999999877899999988999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKR  116 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~~~~~~~~~~~~~k~  116 (203)
+                      +|||||||+||+++||+..++++.+....+++.+++
+T Consensus       206 ~vrVCaCP~RD~~~eE~~~~~~~~~~~~~~~~~~~~  241 (248)
+T 6SL6_A          206 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKR  241 (248)
+T ss_dssp             EEEECSCHHHHHHHHHHTSCCC--------------
+T ss_pred             eeEEeCCCCchhchHHHHHhccCCCCCCCCCCCCcc
+Confidence            999999999999999998887766555555544433
+
+
+No 7
+>6SHZ_B Cellular tumor antigen p53; p53, transcription factor, tumor suppressor; 1.24A {Homo sapiens}
+Probab=100.00  E-value=6.3e-39  Score=276.13  Aligned_cols=117  Identities=97%  Similarity=1.550  Sum_probs=97.2  Template_Neff=6.400
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|++|+.+||+||+|||+.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||+++
+T Consensus        98 ~~H~ir~~~n~~a~Y~~d~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~sSC~gginRR~~~lvftLE~~~g~vlGr~~i  177 (218)
+T 6SHZ_B           98 PQHLIRVEGNLRAEYLDDRNTFRHSVVVPCEPPEVGSDCTTIHYNYMCYSSCMGGMNRRPILTIITLEDSSGNLLGRDSF  177 (218)
+T ss_dssp             TTCSEEESSCTTCEEEECTTTCCEEEEEECCCCCTTCSSEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTCCEEEEEEE
+T ss_pred             CcceEEECCCcceEEEcCCCCceeEEEEecCCCCCCCceEEEEEEEeecCCCCCcccccceEEEEEEeCCCCCEeeeeee
+Confidence            37999999877899999998999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRA  117 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~~~~~~~~~~~~~k~~  117 (203)
+                      +|||||||+||++++|+..++++.+....+++..++.
+T Consensus       178 ~vriCaCP~RD~~~~E~~~~~~~~~~~~~~~~~~~~~  214 (218)
+T 6SHZ_B          178 EVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRA  214 (218)
+T ss_dssp             EEEECSCHHHHHHHHHHHHHC----------------
+T ss_pred             EEEEcCCCCchhhhHHHHHhccCCCCCCCCCCCCccC
+Confidence            9999999999999999998877666555555444443
+
+
+No 8
+>6RZ3_A Cellular tumor antigen p53, RelA-associated; Complex, p53, iASPP, ANTITUMOR PROTEIN; 4.23A {Homo sapiens}
+Probab=100.00  E-value=1.1e-37  Score=270.63  Aligned_cols=101  Identities=100%  Similarity=1.601  Sum_probs=96.2  Template_Neff=6.300
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      .+|||||++++.|+|++|++++|+||+|||+.|++|+++.+++|+|||+|||+||||||+|.||||||+.+|+||||+++
+T Consensus       131 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~vPl~~pq~G~~~~~~~~~F~C~~SC~gG~nRR~i~lvfTLE~~~g~vlGR~~i  210 (232)
+T 6RZ3_A          131 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF  210 (232)
+T ss_dssp             TTCSEEEESCTTCEEEECTTTCCEEEEEECCCCCTTCSSEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTSCEEEEEEE
+T ss_pred             CcceEEEcCCCeEEEecCCCCceeEEEEecCCCCCCCceEEEEEEEEeCCCCCCcccccceEEEEEEeCCCCCeeeeeee
+Confidence            37999999877899999998999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRK  101 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k  101 (203)
+                      +|||||||+||++++|++.++
+T Consensus       211 ~vrvCaCP~RD~~~~E~~~~~  231 (232)
+T 6RZ3_A          211 EVRVCACPGRDRRTEEENLRK  231 (232)
+T ss_dssp             EEEECSCHHHHHHHHHHHHTC
+T ss_pred             eeEEcCCCCchhhhHHHHhhc
+Confidence            999999999999999997754
+
+
+No 9
+>3D06_A Cellular tumor antigen p53; p53, mutant protein, loop-sheet-helix motif; 1.2A {Homo sapiens}
+Probab=100.00  E-value=1.6e-37  Score=263.90  Aligned_cols=102  Identities=99%  Similarity=1.580  Sum_probs=94.3  Template_Neff=6.800
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|++|+.++|+||+|||+.|++|+++.+++|+|||+|||+||||||++.|+||||+.+|+||||+++
+T Consensus        98 ~~h~ir~~~~~~a~Y~~~~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~~SC~gg~nRR~~~lvftLE~~~g~vlGr~~~  177 (200)
+T 3D06_A           98 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRSPILTIITLEDSSGNLLGRNSF  177 (200)
+T ss_dssp             TTCSEEEESCTTCEEEECTTTCCEEEEEECCCCCTTCSSEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTCCEEEEEEE
+T ss_pred             CcceEEEcCCCeEEEecCCCCceeEEEEecCCCCCCCceEEEEEEEEeCCCCCCCCcccceEEEEEeeCCCCCeeeeeee
+Confidence            37999999777899999988899999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKK  102 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~  102 (203)
+                      +|||||||+||++++|+..+++
+T Consensus       178 ~vriCaCP~RD~~~~e~~~~~~  199 (200)
+T 3D06_A          178 EVRVCACPGRDRRTEEENLRKK  199 (200)
+T ss_dssp             EEEECSCHHHHHHHHHHC----
+T ss_pred             EeEEcCCCCcchhhHHHHHhcc
+Confidence            9999999999999999987653
+
+
+No 10
+>2RMN_A Tumor protein 63; Protein, Beta sandwich, DNA binding; HET: ZN; NMR {Homo sapiens}
+Probab=100.00  E-value=1.7e-37  Score=269.73  Aligned_cols=103  Identities=61%  Similarity=1.150  Sum_probs=97.6  Template_Neff=6.300
+
+Q sp|P04637|P53_    2 QHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFE   81 (203)
+Q Consensus         2 ~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~~   81 (203)
+                      +|||||++++.|+|+.|+.+||+||+|||+.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||++++
+T Consensus       111 ~H~ir~~~~~~a~Y~~d~~~~r~sV~VPl~~p~~G~~~~~~~~~F~C~sSC~gGinRR~~~lvftLE~~~g~vlGR~~i~  190 (233)
+T 2RMN_A          111 SHLIRVEGNSHAQYVEDPITGRQSVLVPYEPPQVGTEFTTVLYNFMCNSSCVGGMNRRPILIIVTLETRDGQVLGRRCFE  190 (233)
+T ss_dssp             TSSEEEESCTTCEEEECTTTCCEEEEEECCCCCTTSSEEEEEEEESSCTTSTTTTTTCCEEEEEEEECTTSCEEEEEEEE
+T ss_pred             cceEEEcCCCceEEEeCCCCCceEEEEEcCCCCCCceEEEEEEEEecCCCCCCCcccccEEEEEEEeCCCCcEeeeEeee
+Confidence            79999997678999999889999999999999999999999999999999999999999999999999889999999999
+
+
+Q sp|P04637|P53_   82 VRVCACPGRDRRTEEENLRKKGE  104 (203)
+Q Consensus        82 vrVCacP~RDr~~eE~~~~k~~~  104 (203)
+                      |||||||+||+++||+..+++..
+T Consensus       191 vrICaCP~RD~~~eE~~~~~~~~  213 (233)
+T 2RMN_A          191 ARICACPGRDRKADEDSIRKQQV  213 (233)
+T ss_dssp             EEECSCHHHHHHHHHHHHHHHCC
+T ss_pred             cEEecCCCCchhcHHHHHhhhhc
+Confidence            99999999999999998876644
+
+
+No 11
+>2J1Y_B CELLULAR TUMOR ANTIGEN P53; SECOND-SITE SUPPRESSOR MUTATION, DISEASE MUTATION; 1.69A {HOMO SAPIENS}
+Probab=100.00  E-value=2e-37  Score=263.39  Aligned_cols=102  Identities=96%  Similarity=1.543  Sum_probs=95.1  Template_Neff=6.700
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      .+|||||++|+.|+|++|+.++|+||+|||+.|++|+++.+++|+|||+|||+||||||++.|+||||+.+|+||||+++
+T Consensus        98 ~~h~ir~~~~~~a~Y~~~~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~~SC~gg~nRR~~~lvftLE~~~g~vlGr~~~  177 (200)
+T 2J1Y_B           98 PQHLIRVEGNLRAEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCYSSCMGSMNRRPILTIITLEDSSGNLLGRDSF  177 (200)
+T ss_dssp             TTCSEEEESCTTCEEEECTTTCCEEEEEECCCCCTTCSEEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTCCEEEEEEE
+T ss_pred             CcceEEEcCCCceEEEcCCCCCceEEEEecCCCCCCCCeEEEEEEEEeCCCCCCcccccceEEEEEEeCCCCCeeeeeEe
+Confidence            37999999877899999988899999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKK  102 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~  102 (203)
+                      +|||||||+||++++|+..+++
+T Consensus       178 ~vriCaCP~RD~~~~E~~~~~~  199 (200)
+T 2J1Y_B          178 EVRVCACPGRDRRTEEENLRKK  199 (200)
+T ss_dssp             EEEECSCHHHHHHHHHHTC---
+T ss_pred             EeEEcCCCCcchhhHHHHHhcc
+Confidence            9999999999999999987653
+
+
+No 12
+>4IBQ_A Cellular tumor antigen p53; METAL-BINDING, LOOP-SHEET-HELIX MOTIF, TRANSCRIPTION, ACTIVATOR; 1.8A {Homo sapiens}
+Probab=100.00  E-value=2e-37  Score=263.38  Aligned_cols=102  Identities=99%  Similarity=1.573  Sum_probs=94.3  Template_Neff=6.700
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++|+.|+|++|++++|+||+|||+.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||+++
+T Consensus        98 ~~h~ir~~~~~~a~Y~~~~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~~SC~gg~nRR~~~lvftLE~~~g~vlGr~~i  177 (200)
+T 4IBQ_A           98 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF  177 (200)
+T ss_dssp             TTCSEEECSCTTCEEEECTTTCCEEEEEECCCCCTTCSSEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTSCEEEEEEE
+T ss_pred             CcceEEEcCCCeEEEecCCCCceeEEEEecCCCCCCCceEEEEEEEEeCCCCCCcccccceEEEEEEeCCCCCeeeeeee
+Confidence            37999999777899999988899999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKK  102 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~  102 (203)
+                      +|||||||+||++++|+..+++
+T Consensus       178 ~vriCaCP~RD~~~~e~~~~~~  199 (200)
+T 4IBQ_A          178 EVCVCACPGRDRRTEEENLRKK  199 (200)
+T ss_dssp             EEEECSCHHHHHHHHHHC----
+T ss_pred             EEEEeCCCCcchhhHHHHHhcc
+Confidence            9999999999999999977653
+
+
+No 13
+>3KMD_C Cellular tumor antigen p53; p53 core domain, protein-DNA interaction; 2.15A {Homo sapiens}
+Probab=100.00  E-value=2.1e-37  Score=263.25  Aligned_cols=100  Identities=100%  Similarity=1.606  Sum_probs=95.2  Template_Neff=6.700
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      ++|||||++++.|+|++|++++|+||+|||+.|++|+++.+++|+|||+|||+||||||++.|+||||+.+|+||||+++
+T Consensus       100 ~~h~ir~~~~~~a~Y~~~~~~~r~sV~vP~~~p~~G~~~~~~~~~F~C~sSC~gg~nRR~~~lvftLE~~~g~vlGr~~~  179 (200)
+T 3KMD_C          100 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF  179 (200)
+T ss_dssp             TTCSEEECSCTTCEEEECTTTCCEEEEEECCCCCSSCCCEEEEEEECSCTTCTTTTTTCCEEEEEEEECTTCCEEEEEEE
+T ss_pred             CcceEEEcCCCeEEEecCCCCceeEEEEecCCCCCCCceEEEEEEEEeCCCCCCcccccceEEEEEeeCCCCCeeeeeee
+Confidence            37999999777899999988999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLR  100 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~  100 (203)
+                      +|||||||+||+++||++.+
+T Consensus       180 ~vriCaCP~RD~~~~E~~~~  199 (200)
+T 3KMD_C          180 EVRVCACPGRDRRTEEENLR  199 (200)
+T ss_dssp             EEEECSCHHHHHHHHHHGGG
+T ss_pred             EEEEcCCCCchhhhHHHhhc
+Confidence            99999999999999998764
+
+
+No 14
+>2XWC_A TUMOUR PROTEIN P73; DNA-BINDING PROTEIN; HET: TAM; 1.82A {HOMO SAPIENS}
+Probab=100.00  E-value=2.6e-37  Score=264.11  Aligned_cols=102  Identities=66%  Similarity=1.141  Sum_probs=92.9  Template_Neff=6.700
+
+Q sp|P04637|P53_    1 PQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSF   80 (203)
+Q Consensus         1 p~HlIR~e~n~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~GG~NRRpi~~iftLE~~~G~vlGR~~~   80 (203)
+                      .+|||||+++..|+|++|+.+||+||+||++.|++|+++.+++|+|||+|||+||||||++.||||||+.+|+||||+++
+T Consensus       101 ~~H~ir~~~~~~a~Y~~d~~~~r~sV~vP~~~p~~g~~~~~~~~~F~C~~SC~gginRR~~~lvftLE~~~g~vlGr~~i  180 (208)
+T 2XWC_A          101 ASHLIRVEGNNLSQYVDDPVTGRQSVVVPYEPPQVGTEFTTILYNFMCNSSCVGGMNRRPILIIITLEMRDGQVLGRRSF  180 (208)
+T ss_dssp             TTCSEEEESCTTCEEEECTTTCCEEEEEECCCCSTTCCCEEEEEEECSCGGGCC---CCCEEEEEEEECTTSCEEEEEEE
+T ss_pred             ccceEEEcCCCeeEEEeCCCCCceEEEEeCCCCCCCceeEEEEEEEecCCCCCCccccccEEEEEEEECCCCeEEEEEEe
+Confidence            37999999755799999988999999999999999999999999999999999999999999999999988999999999
+
+
+Q sp|P04637|P53_   81 EVRVCACPGRDRRTEEENLRKK  102 (203)
+Q Consensus        81 ~vrVCacP~RDr~~eE~~~~k~  102 (203)
+                      +|||||||+||++++|++.+++
+T Consensus       181 ~vriCaCP~RD~~~~E~~~~~~  202 (208)
+T 2XWC_A          181 EGRICACPGRDRKADEDHYREA  202 (208)
+T ss_dssp             EEEECSCHHHHHHHHHHHHHHH
+T ss_pred             EeEEcCCCCCchhhHHHHHHHh
+Confidence            9999999999999999976554
+
+
+No 15
+>1T4W_A C.Elegans p53 tumor suppressor-like transcription; DNA-Binding Domain, TRANSCRIPTION; 2.1A {Caenorhabditis elegans} SCOP: b.2.5.2
+Probab=99.93  E-value=4.3e-31  Score=224.84  Aligned_cols=93  Identities=18%  Similarity=0.347  Sum_probs=81.7  Template_Neff=6.100
+
+Q sp|P04637|P53_    1 PQHLIRVEGN-LRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMG-GMNRRPILTIITLEDSSGNLLGRN   78 (203)
+Q Consensus         1 p~HlIR~e~n-~~a~Y~~d~~tgR~SV~VP~~~pq~g~~~~t~~~~FmC~sSC~G-G~NRRpi~~iftLE~~~G~vlGR~   78 (203)
+                      ++||++|.+. ..+.|..| .++|+||+||     +|+++.+++|+|||+|||+| ||||||+.||||||+.+|++|||+
+T Consensus        97 ~~~~~~v~~~~~~~~~~~d-~~~r~sV~vP-----~G~~~~~~~~~F~C~sSC~g~G~nRR~i~lvftLE~~~G~vlGR~  170 (196)
+T 1T4W_A           97 FDSFFYIRNSEHEFSYSAE-KGSTFTLIMY-----PGAVQANFDIIFMCQEKCLDLDDRRKTMCLAVFLDDENGNEILHA  170 (196)
+T ss_dssp             TTCSEEEESCSSEEEEECT-TSSEEEEECC-----TTCCEEEEEEEESSCGGGSCHHHHTSEEEEEEEEECTTSCEEEEE
+T ss_pred             ccceEEEeCCCCeeEEeCC-CCCceEEEEC-----CCCceEEEEEEEEeCCCCCCcCcccceeEEEEEEeCCCCCEEeee
+Confidence            3688998854 23445555 6899999999     68888999999999999999 999999999999999889999999
+
+
+Q sp|P04637|P53_   79 SF-EVRVCACPGRDRRTEEENL   99 (203)
+Q Consensus        79 ~~-~vrVCacP~RDr~~eE~~~   99 (203)
+                      ++ +|||||||+||++++|++.
+T Consensus       171 ~i~~vrVCaCP~RD~~~~~~k~  192 (196)
+T 1T4W_A          171 YIKQVRIVAYPRRDWKNFCERE  192 (196)
+T ss_dssp             EEEEEEECSCHHHHHHHHHHHH
+T ss_pred             eecccEEeCCCcchHhhHHhhh
+Confidence            99 7999999999999998753
+
+
+No 16
+>3ZY1_A TUMOR PROTEIN 63; TRANSCRIPTION, TRANSCRIPTION FACTOR, TETRAMERIZATION DOMAIN; 2.15A {HOMO SAPIENS}
+Probab=98.75  E-value=1.2e-11  Score=83.50  Aligned_cols=41  Identities=32%  Similarity=0.473  Sum_probs=34.6  Template_Neff=5.900
+
+Q sp|P04637|P53_  134 DGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRA  174 (203)
+Q Consensus       134 d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~  174 (203)
+                      |+++|||+|+||++||||++|+|||||++..+......+++
+T Consensus         2 d~e~ftL~VrGre~yeml~ki~e~LEl~~~~~~~~~~~~~~   42 (46)
+T 3ZY1_A            2 SDELLYLPVRGRETYEMLLKIKESLELMQYLPQHTIETYRQ   42 (46)
+T ss_dssp             -CCCCCCCCSSHHHHHHHHHHHHHHHGGGGSCHHHHHHHHC
+T ss_pred             CCcceeecccChHhHHHHHHHHHHHHHHHhccccchHHHHh
+Confidence            78999999999999999999999999999877655554443
+
+
+No 17
+>2MW4_A Transcription factor protein; Ciona intestinalis, p53/p73-b, transcription factor; NMR {Ciona intestinalis}
+Probab=98.72  E-value=1.7e-11  Score=83.17  Aligned_cols=43  Identities=30%  Similarity=0.408  Sum_probs=37.2  Template_Neff=5.800
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAH  175 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~~  175 (203)
+                      .|+++|||+|+||++||||++|+|||||++..++.....++++
+T Consensus         2 ~d~e~ftL~VrGre~ye~l~ki~e~LEl~~~~~~~~~~~y~~~   44 (47)
+T 2MW4_A            2 DGDVVYTLNIRGKRKFEKVKEYKEALDLLDYVQPDVKKACCQR   44 (47)
+T ss_dssp             CSSCEEEEEEESHHHHHHHHHHHHHHHHHTTSCHHHHHHHHTT
+T ss_pred             CCcceEEEeecchhhhHHHHHHHHHHHHHHhcChhHHHHhhhh
+Confidence            4789999999999999999999999999998877666655543
+
+
+No 18
+>4D1L_E CELLULAR TUMOR ANTIGEN P53; TRANSCRIPTION, P53 FAMILY, TUMOR SUPPRESSOR; 1.97A {DANIO RERIO}
+Probab=98.69  E-value=2.5e-11  Score=82.82  Aligned_cols=42  Identities=43%  Similarity=0.715  Sum_probs=33.7  Template_Neff=5.600
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRA  174 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~  174 (203)
+                      .|+++|||+|+||++||||++|+|||||++..+++....+++
+T Consensus         2 ~d~e~ftL~VrGre~yeml~ki~e~LEl~~~~~~~~~~~~~~   43 (48)
+T 4D1L_E            2 GSEEIFTLQVRGRERYEILKKLNDSLELSDVVPASDAEKYRQ   43 (48)
+T ss_dssp             ---CEEEEEEESHHHHHHHHHHHHHHHHHHHSCHHHHHHHHT
+T ss_pred             CCcceEEeeccChhhHHHHHHHHHHHhhHhcCChhhhHHHHH
+Confidence            478999999999999999999999999999877655554443
+
+
+No 19
+>4D1M_E CELLULAR TUMOR ANTIGEN P53; TRANSCRIPTION, P53 FAMILY, TUMOR SUPPRESSOR; 2.2A {DANIO RERIO}
+Probab=98.69  E-value=2.5e-11  Score=82.82  Aligned_cols=42  Identities=43%  Similarity=0.715  Sum_probs=33.7  Template_Neff=5.600
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRA  174 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~  174 (203)
+                      .|+++|||+|+||++||||++|+|||||++..+++....+++
+T Consensus         2 ~d~e~ftL~VrGre~yeml~ki~e~LEl~~~~~~~~~~~~~~   43 (48)
+T 4D1M_E            2 GSEEIFTLQVRGRERYEILKKLNDSLELSDVVPASDAEKYRQ   43 (48)
+T ss_dssp             ---CEEEEEEESHHHHHHHHHHHHHHHHHHHSCHHHHHHHHH
+T ss_pred             CCcceEEeeccChhhHHHHHHHHHHHhhHhcCChhhhHHHHH
+Confidence            478999999999999999999999999999877655554443
+
+
+No 20
+>2NB1_B Tumor protein 63, Tumor protein; p63, p73, tetramerization domain, hetero; NMR {Homo sapiens}
+Probab=98.67  E-value=3e-11  Score=83.00  Aligned_cols=42  Identities=33%  Similarity=0.514  Sum_probs=36.2  Template_Neff=5.800
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRA  174 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~  174 (203)
+                      .|+++|||+|+||++||||++|+|||||++..+......+++
+T Consensus         2 ~d~e~ftL~VrGre~yeml~ki~e~LEl~~~~~~~~~~~~~~   43 (50)
+T 2NB1_B            2 SDEDTYYLQVRGRKNFEILMKLKESLELMELVPQPLVDSYRQ   43 (50)
+T ss_dssp             CCSCCEEEEECCHHHHHHHHHHHHHHHHHHHSCCHHHHHHHH
+T ss_pred             CCcceEEEeecChhhHHHHHHHHHHHHHHHhCCcccchHHHH
+Confidence            478999999999999999999999999999887665555544
+
+
+No 21
+>5HOB_C Tumor protein p73; transcription factor, tetramerization domain, p73; 1.22001298703A {Homo sapiens}
+Probab=98.66  E-value=3.3e-11  Score=82.80  Aligned_cols=43  Identities=30%  Similarity=0.471  Sum_probs=35.6  Template_Neff=5.800
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAH  175 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~~  175 (203)
+                      .|+++|||+|+||++||||++|+|||||++..++.....++++
+T Consensus         2 ~d~e~ftL~VrGre~ye~l~ki~e~LEl~~~~~~~~~~~~~~~   44 (50)
+T 5HOB_C            2 SDEDTYYLQVRGRKNFEILMELKRSLELMELVPQPLVDSYEQQ   44 (50)
+T ss_dssp             --CCEEEEEEESHHHHHHHHHHHHHHHHHTTSCHHHHHHHHHH
+T ss_pred             CCcceEEEeecChhhHHHHHHHHHHHHHHHhCCccccchHHHH
+Confidence            4789999999999999999999999999998877655555443
+
+
+No 22
+>4A9Z_A TUMOR PROTEIN 63; TRANSCRIPTION; HET: PE4; 2.29A {HOMO SAPIENS}
+Probab=98.57  E-value=9.6e-11  Score=83.83  Aligned_cols=43  Identities=33%  Similarity=0.477  Sum_probs=36.4  Template_Neff=5.300
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAH  175 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~~  175 (203)
+                      .|+++|||+|+||++||||++|+|||||++..+......++..
+T Consensus         2 ~D~E~ftL~VrGRe~yemlkkineaLEL~e~~~~~~~~~y~~~   44 (61)
+T 4A9Z_A            2 SDDELLYLPVRGRETYEMLLKIKESLELMQYLPQHTIETYRQQ   44 (61)
+T ss_dssp             -CCCEEEEEEESHHHHHHHHHHHHHHHHGGGSCHHHHHHHHHH
+T ss_pred             CCccceeeccCChhhHHHHHHHHHHHHHHHhccccchHHHHHH
+Confidence            4789999999999999999999999999999877665555543
+
+
+No 23
+>2NB1_C Tumor protein 63, Tumor protein; p63, p73, tetramerization domain, hetero; NMR {Homo sapiens}
+Probab=98.57  E-value=9.7e-11  Score=83.56  Aligned_cols=44  Identities=34%  Similarity=0.486  Sum_probs=37.0  Template_Neff=5.300
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHS  176 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~~~~~~~~~~~~  176 (203)
+                      .|+++|||+|+||++||||++|+|||||++..+......++...
+T Consensus         1 ~D~E~ftL~VrGRe~yemlkkineaLEL~~~~~~~~~~~y~~~~   44 (60)
+T 2NB1_C            1 SDDELLYLPVRGRETYEMLLEIKESLELMQYLPQHTIETYRQQQ   44 (60)
+T ss_dssp             CTTCCEECCBCCHHHHHHHHHHHHHHHHHHHSCCHHHHHHHHHH
+T ss_pred             CCCcceeeccCChhhHHHHHHHHHHHHHHHhccccchHHHHHHH
+Confidence            37899999999999999999999999999998776555554433
+
+
+No 24
+>2WQJ_C TUMOR PROTEIN P73; P73, P63, P53, TUMOR SUPPRESSION; 2.0A {HOMO SAPIENS}
+Probab=98.56  E-value=1e-10  Score=75.01  Aligned_cols=33  Identities=42%  Similarity=0.708  Sum_probs=29.3  Template_Neff=5.300
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQA  165 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~  165 (203)
+                      .|+++|+|+|+||++|+||++|++||||++..+
+T Consensus         2 ~d~e~~~L~vrgre~ye~l~ki~e~LEl~~~~p   34 (35)
+T 2WQJ_C            2 SDEDTYYLQVRGRENFEILMKLKESLELMELVP   34 (35)
+T ss_dssp             CGGTEEEEEEESHHHHHHHHHHHHHHHHHHC--
+T ss_pred             CCcceEEEeecChHhHHHHHHHHHHHHHHhcCC
+Confidence            478999999999999999999999999998754
+
+
+No 25
+>2WQJ_G TUMOR PROTEIN P73; P73, P63, P53, TUMOR SUPPRESSION; 2.0A {HOMO SAPIENS}
+Probab=98.56  E-value=1e-10  Score=75.01  Aligned_cols=33  Identities=42%  Similarity=0.708  Sum_probs=27.4  Template_Neff=5.300
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDAQA  165 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~~~  165 (203)
+                      .|+++|+|+|+||++|+||++|++||||++..+
+T Consensus         2 ~d~e~~~L~vrgre~ye~l~ki~e~LEl~~~~p   34 (35)
+T 2WQJ_G            2 SDEDTYYLQVRGRENFEILMKLKESLELMELVP   34 (35)
+T ss_dssp             ---CEEEEEEESHHHHHHHHHHHHHHHHHHC--
+T ss_pred             CCcceEEEeecChhhHHHHHHHHHHHHHHhcCC
+Confidence            478999999999999999999999999998754
+
+
+No 26
+>1SAK_A TUMOR SUPPRESSOR P53; ANTI-ONCOGENE; NMR {Homo sapiens} SCOP: a.53.1.1
+Probab=98.51  E-value=1.8e-10  Score=76.80  Aligned_cols=32  Identities=100%  Similarity=1.505  Sum_probs=30.5  Template_Neff=5.000
+
+Q sp|P04637|P53_  132 PLDGEYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       132 ~~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      ..|+++|+|+|+||++|+||++|++||||++.
+T Consensus         4 ~~d~e~f~L~Vrgre~ye~l~ki~e~LEl~~~   35 (42)
+T 1SAK_A            4 PLDGEYFTLQIRGRERFEMFRELNEALELKDA   35 (42)
+T ss_dssp             CCSSCEEEEEEESHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCccEEEeccchhhHHHHHHHHHHHHHHHh
+Confidence            56889999999999999999999999999997
+
+
+No 27
+>4CZ5_B CELLULAR TUMOR ANTIGEN P53; CELL CYCLE, P53 FAMILY, TUMOR; 1.02A {DANIO RERIO}
+Probab=98.48  E-value=2.4e-10  Score=72.50  Aligned_cols=31  Identities=55%  Similarity=0.935  Sum_probs=27.0  Template_Neff=5.100
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      .|+++|+|+|+||++|+||++|+||||+++.
+T Consensus         2 ~d~e~~~L~Vrgre~ye~l~ki~e~LEl~~~   32 (33)
+T 4CZ5_B            2 GSEEIFTLQVRGRERYEILKKLNDSLELSDV   32 (33)
+T ss_dssp             ---CEEEEEEESHHHHHHHHHHHHHHHHHCC
+T ss_pred             CCceeEEEeccchhhHHHHHHHHHHHhhhcc
+Confidence            4789999999999999999999999999974
+
+
+No 28
+>4CZ6_D CELLULAR TUMOR ANTIGEN P53; ANTITUMOR PROTEIN, P53 FAMILY, TUMOR; 1.53A {DANIO RERIO}
+Probab=98.48  E-value=2.4e-10  Score=72.50  Aligned_cols=31  Identities=55%  Similarity=0.935  Sum_probs=29.0  Template_Neff=5.100
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      .|+++|+|+|+||++|+||++|+||||+++.
+T Consensus         2 ~d~e~~~L~Vrgre~ye~l~ki~e~LEl~~~   32 (33)
+T 4CZ6_D            2 GSEEIFTLQVRGRERYEILKKLNDSLELSDV   32 (33)
+T ss_dssp             CCSCEEEEEEESHHHHHHHHHHHHHHHHHCC
+T ss_pred             CCceeEEEeccchhhHHHHHHHHHHHhhhcc
+Confidence            4789999999999999999999999999974
+
+
+No 29
+>4CZ7_A CELLULAR TUMOR ANTIGEN P53; CELL CYCLE, TUMOR SUPPRESSOR, TRANSCRIPTION; HET: PO4; 1.1A {DANIO RERIO}
+Probab=98.48  E-value=2.4e-10  Score=72.50  Aligned_cols=31  Identities=55%  Similarity=0.935  Sum_probs=27.8  Template_Neff=5.100
+
+Q sp|P04637|P53_  133 LDGEYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       133 ~d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      .|+++|+|+|+||++|+||++|+||||+++.
+T Consensus         2 ~d~e~~~L~Vrgre~ye~l~ki~e~LEl~~~   32 (33)
+T 4CZ7_A            2 GSEEIFTLQVRGRERYEILKKLNDSLELSDV   32 (33)
+T ss_dssp             --CCEEEEEEESHHHHHHHHHHHHHHHHHCC
+T ss_pred             CCceeEEEeccchhhHHHHHHHHHHHhhhcc
+Confidence            4789999999999999999999999999974
+
+
+No 30
+>3ZY0_A TUMOR PROTEIN P63; TRANSCRIPTION, TRANSCRIPTION FACTOR, TETRAMERIZATION DOMAIN; 1.9A {HOMO SAPIENS}
+Probab=98.40  E-value=5.4e-10  Score=70.42  Aligned_cols=30  Identities=40%  Similarity=0.687  Sum_probs=26.9  Template_Neff=5.200
+
+Q sp|P04637|P53_  134 DGEYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       134 d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      |+++|+|+|+||++|+||++|++|||+++.
+T Consensus         2 d~e~~~L~Vrgre~ye~l~ki~e~Lel~~~   31 (32)
+T 3ZY0_A            2 SDELLYLPVRGRETYEMLLKIKESLELMQY   31 (32)
+T ss_dssp             --CCEEEEESSHHHHHHHHHHHHHHHHHHH
+T ss_pred             CcceEEeecccHHhHHHHHHHHHHHHHHhc
+Confidence            679999999999999999999999999974
+
+
+No 31
+>3ZY0_D TUMOR PROTEIN P63; TRANSCRIPTION, TRANSCRIPTION FACTOR, TETRAMERIZATION DOMAIN; HET: MSE; 1.9A {HOMO SAPIENS}
+Probab=98.40  E-value=5.4e-10  Score=70.42  Aligned_cols=30  Identities=40%  Similarity=0.687  Sum_probs=25.6  Template_Neff=5.200
+
+Q sp|P04637|P53_  134 DGEYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       134 d~eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      |+++|+|+|+||++|+||++|++|||+++.
+T Consensus         2 d~e~~~L~Vrgre~ye~l~ki~e~Lel~~~   31 (32)
+T 3ZY0_D            2 SDELLYLPVRGRETYEMLLKIKESLELMQY   31 (32)
+T ss_dssp             ---CEEEEESSHHHHHHHHHHHHHHHHHC-
+T ss_pred             CcceEEeecccHHhHHHHHHHHHHHHHHhc
+Confidence            679999999999999999999999999974
+
+
+No 32
+>1PES_B TUMOR ANTIGEN P53 (TETRAMERIZATION DOMAIN); DNA-BINDING; NMR {Homo sapiens} SCOP: a.53.1.1
+Probab=98.29  E-value=1.6e-09  Score=67.87  Aligned_cols=29  Identities=100%  Similarity=1.473  Sum_probs=27.3  Template_Neff=5.300
+
+Q sp|P04637|P53_  135 GEYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       135 ~eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      +++|+|+|+||++|+||++|+||||+++.
+T Consensus         1 ~e~~~L~Vrgre~ye~l~ki~e~LEl~~~   29 (31)
+T 1PES_B            1 GEYFTLQIRGRERFEMFRELNEALELKDA   29 (31)
+T ss_dssp             CEEECCCEEESHHHHHHHHHHHHHHHHHH
+T ss_pred             CcceeEeccchhhHHHHHHHHHHHHhhhh
+Confidence            37899999999999999999999999985
+
+
+No 33
+>1AIE_A P53; P53 TETRAMERIZATION, OLIGOMER, DNA, TRANSCRIPTION; 1.5A {Homo sapiens} SCOP: a.53.1.1
+Probab=98.20  E-value=3.4e-09  Score=66.40  Aligned_cols=28  Identities=100%  Similarity=1.448  Sum_probs=26.6  Template_Neff=5.100
+
+Q sp|P04637|P53_  136 EYFTLQIRGRERFEMFRELNEALELKDA  163 (203)
+Q Consensus       136 eiy~L~VrGRe~YeiL~ki~eaLEl~~~  163 (203)
+                      ++|+|+|+||++|+||++|+||||+++.
+T Consensus         1 e~~~L~Vrgre~ye~l~ki~e~LEl~~~   28 (31)
+T 1AIE_A            1 EYFTLQIRGRERFEMFRELNEALELKDA   28 (31)
+T ss_dssp             CCCCCCCCSHHHHHHHHHHHHHHHHHHH
+T ss_pred             CceeeeccchhhHHHHHHHHHHHHhHhh
+Confidence            5799999999999999999999999985
+
+
