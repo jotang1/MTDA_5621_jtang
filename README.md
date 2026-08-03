@@ -56,6 +56,18 @@ During the 2026 OSC STEM Institute, selected scripts and workflows from this rep
   - p53 (protein oligomerization and DNA binding) <br>
   - SARS-CoV-2 Spike (wild-type versus S2P variant)
 
+## Example Result:
+Global mean pLDDT score and RMSD of AF-generated Spike protein models and comparison of reported structure 6VSB
+| Model* | Global mean pLDDT score | Model* vs. 6VSB | RMSD (Ångström (Å)) |
+| :--- | :--- | :--- | :--- |
+| AF-WT S1 subunit | 90.12 | AF-WT S1 monomer vs. 6VSB S1 monomer | 1.902 |
+| AF-WT S2 subunit | 77.66 | AF-S2P S1 monomer vs. 6VSB S1 monomer | 1.639 |
+| AF-WT monomer | 76.50 | AF-WT S2 monomer vs, 6VSB S2 monomer | 1.313 |
+| AF-S2P S1 subunit | 91.10 | AF-S2P S2 monomer vs 6VSB S2 monomer | 0.509 |
+| AF-S2P S2 subunit | 87.10 | AF-WT monomer vs. 6VSB monomer | 1.749 |
+| AF-S2P monomer | 80.50 | AF-S2P monomer vs. 6VSB monomer | 1.714 |
+* AF-WT and AF-S2P represent the AlphaFold-generated wild-type and S2P variant of the Spike protein.
+
 ## Citation
    <TBD>
      
