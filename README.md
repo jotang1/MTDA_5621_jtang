@@ -70,6 +70,13 @@ Global mean pLDDT score and RMSD of AF-generated Spike protein models and compar
 * AF-WT and AF-S2P represent the AlphaFold-generated wild-type and S2P variant of the Spike protein.
 
 ## Citation
-   <TBD>
+   If you use this workflow or code, please cite:
+
+  Tang, J. (2026). *Protein Modeling Workflows with AlphaFold: Initial Release*
+  (Version v1.0.0) [Computer software]. Zenodo.
+  https://doi.org/10.5281/zenodo.2192798
+
+  The GitHub repository may contain updates made after the archived Zenodo release.
      
 ## Acknowledgments
+   High-performance computing resources provided by the Ohio Supercomputer Center (OSC), a member of the Ohio Technology Consortium.
