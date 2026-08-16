@@ -4,7 +4,7 @@
 # USAGE: ./run_full_AF2_pipeline.sh $PROTEIN_ID
 
 PROTEIN_ID=$1
-WORKING_DIR=$2 
+WORKING_DIR="/path/to/working/dir"
 
 # DIRECTORIES
 BASE_DIR="$WORKING_DIR/AF2_outputs"       # Where AF2 outputs are saved
