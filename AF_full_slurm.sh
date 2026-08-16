@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -A {account} 
-#SBATCH --job-name=AF_MTDA5621 
+#SBATCH --job-name=AF_workflow 
 #SBATCH --partition=gpu 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
