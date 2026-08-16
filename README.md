@@ -29,6 +29,7 @@ During the 2026 OSC STEM Institute, selected scripts and workflows from this rep
 | **pLDDT_PAE_plot.py** | Create PLDDT and PAE plots and data analyses |
 | **PDB_Bfactor_plot.py** | Create PLDDT store based on B-factor | 
 | **run_full_AF2_pipeline.sh** | Execute the pipeline with a UniProID |
+| **run_full_AF2_pipeline_custom.sh** | Execute the pipeline with a user-supplied FASTA |
 
 ## Requirements
   - Python <br>
@@ -39,7 +40,11 @@ During the 2026 OSC STEM Institute, selected scripts and workflows from this rep
   - Access to GPU nodes in HPC resources (e.g., Open OnDemand (OOD))
 
 ## Running the Workflow
+    # With UniProID:
     ./run_full_AF2_pipeline.sh <UniProID>
+
+    # With a user-supplied FASTA:
+    ./run_full_AF2_pipeline_custom.sh <CustomProID>
     
     Pipeline
     ↓
