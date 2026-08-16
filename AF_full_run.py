@@ -11,7 +11,7 @@ command = f"""
 {dir}/AF_structure_SI2025.sh \
   --fasta_paths={dir}/fastas/{protein_id}.fasta \
   --output_dir={dir}/msas/{output_directory} \
-  --model_preset=monomer_ptm \
+  --model_preset=monomer_ptm \      # use monomer_ptm or multimer as appropriate
   --max_template_date=2023-01-01 \
   --db_preset=reduced_dbs \
   --models_to_relax=best \
