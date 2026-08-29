@@ -6,9 +6,9 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --gpus=1 
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=64G 
-#SBATCH --time=01:00:00
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=128G 
+#SBATCH --time=08:00:00
 
-list=“fastas.file”
-for protein in $(cat “$list”); do python AF_full_run.py $protein; done
+list="fastas.file"
+for protein in $(cat "$list"); do python AF_full_run.py $protein; done
