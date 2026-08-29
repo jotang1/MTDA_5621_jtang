@@ -21,7 +21,7 @@ During the 2026 OSC STEM Institute, selected scripts and workflows from this rep
 | Scripts | Functions |
 | :--- | :--- |
 | **fastas.py** | Extract one or more amino acid sequences |
-| **AF_structure_SI2025.sh** | Access a singularity Apptainer created from Google AlphaFold2 repo | 
+| **AF_container_wrapped.sh** | Access a singularity Apptainer created from Google AlphaFold2 repo |
 | **AF_msa_run.py** | Create MSAS files |
 | **AF_full_run.py** | Create MSAS files, model files, PDB files |
 | **AF_full_slurm.sh** | Execute AF_full_run.py via Slurm | 
