@@ -1,0 +1,91 @@
+Bootstrap: docker
+From: nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
+
+%setup
+    # Run on the HOST and copies the file into the container before %post runs.
+    cp ./alphafold_stereo_chemical_props.txt ${APPTAINER_ROOTFS}/stereo_chemical_props.txt
+
+%environment
+    export LC_ALL=C
+    export DEBIAN_FRONTEND=noninteractive
+    export PATH="/opt/conda/bin:/opt/alphafold:$PATH"
+    export PYTHONPATH="/opt/alphafold"
+    export PIP_BREAK_SYSTEM_PACKAGES=1
+
+%post
+    # 1. FAIL-SAFE INITIALIZATION
+    set -e
+    mkdir -p /tmp/apt-build
+    export TMPDIR=/tmp/apt-build
+    export DEBIAN_FRONTEND=noninteractive
+    export TZ=America/New_York
+
+    # 2. SYSTEM DEPENDENCIES
+    apt-get -o APT::Sandbox::User=root update
+    apt-get -o APT::Sandbox::User=root install -y \
+        build-essential cmake git hmmer kalign tzdata wget python3-pip patch ca-certificates \
+        && apt-get clean
+
+    # 3. MINICONDA & MAMBA SETUP
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda
+    rm Miniconda3-latest-Linux-x86_64.sh
+
+    cat <<EOF > /opt/conda/.condarc
+    channels:
+      - conda-forge
+      - bioconda
+      - nodefaults
+    show_channel_urls: true
+    channel_priority: strict
+    EOF
+
+    /opt/conda/bin/conda install -y --override-channels -c conda-forge mamba
+
+    # 4. ALIGN LIBRARIES FOR GPU (OpenMM 7.7.0 + CUDA 11.8)
+    /opt/conda/bin/mamba install -y --override-channels -c conda-forge -c bioconda \
+        python=3.8 \
+        openmm=7.7.0 \
+        cudatoolkit=11.8.0 \
+        pdbfixer pip git hhsuite=3.3.0
+
+    # 5. CLONE ALPHAFOLD
+    rm -rf /opt/alphafold
+    git clone --branch v2.3.2 https://github.com/google-deepmind/alphafold.git /opt/alphafold
+
+    # 6. INJECT DATA FILE - move the file from the container to the final path
+    cp /stereo_chemical_props.txt /opt/alphafold/alphafold/common/stereo_chemical_props.txt
+
+    # 7. MODERNIZE ALPHAFOLD CODE (Refactor simtk -> openmm)
+    echo "Refactoring namespaces for OpenMM 7.7 compatibility..."
+    find /opt/alphafold -name "*.py" -exec sed -i 's/from simtk import openmm/import openmm/g' {} +
+    find /opt/alphafold -name "*.py" -exec sed -i 's/from simtk import unit/from openmm import unit/g' {} +
+    find /opt/alphafold -name "*.py" -exec sed -i 's/simtk.openmm/openmm/g' {} +
+    find /opt/alphafold -name "*.py" -exec sed -i 's/simtk.unit/openmm.unit/g' {} +
+    find /opt/alphafold -name "*.py" -exec sed -i 's/from simtk.openmm/from openmm/g' {} +
+    # This specifically fixes the 'simtk.openmm.app.internal.pdbstructure' crash
+    find /opt/alphafold -name "*.py" -exec sed -i 's/simtk\.openmm\.app\.internal/openmm.app/g' {} +
+
+    # 8. PYTHON STACK (Locked versions)
+    export PIP_BREAK_SYSTEM_PACKAGES=1
+    /opt/conda/bin/python3 -m pip install --upgrade pip --default-timeout=1000
+    
+    /opt/conda/bin/python3 -m pip install --default-timeout=1000 \
+        jax==0.3.25 \
+        jaxlib==0.3.25+cuda11.cudnn805 \
+        -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+    
+    /opt/conda/bin/python3 -m pip install --default-timeout=1000 scipy==1.7.0 -r /opt/alphafold/requirements.txt
+
+    # 9. APPLY TOPOLOGY PATCH (Using verified path)
+    sed -i 's/atom = Atom(name, element, index, residue)/atom = Atom(name, element, len(self._atoms), residue)/g' /opt/conda/lib/python3.8/site-packages/openmm/app/topology.py
+
+    # 10. FINAL VERIFICATION
+    if [ ! -f "/opt/alphafold/alphafold/common/stereo_chemical_props.txt" ]; then
+        echo "ERROR: Data file still missing in final directory!"
+        exit 1
+    fi
+    echo "SUCCESS: Build verified"
+
+%runscript
+    /opt/conda/bin/python3 /opt/alphafold/run_alphafold.py "$@"
