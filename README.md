@@ -72,7 +72,7 @@ To ensure the highest degree of structural accuracy and hardware optimization, t
 
 ## Example Result:
 Global mean pLDDT score and RMSD of AF-generated Spike protein models and comparison of reported structure 6VSB
-| Model* | Global mean pLDDT score | Model* vs. 6VSB | RMSD (Ångström (Å)) |
+| Model* | Global mean pLDDT score | Model* vs. 6VSB | RMSD (Å) |
 | :--- | :--- | :--- | :--- |
 | AF-WT S1 subunit | 90.12 | AF-WT S1 monomer vs. 6VSB S1 monomer | 1.902 |
 | AF-WT S2 subunit | 77.66 | AF-S2P S1 monomer vs. 6VSB S1 monomer | 1.639 |
