@@ -43,7 +43,7 @@ During the 2026 OSC STEM Institute, selected scripts and workflows from this rep
 
 To ensure the highest degree of structural accuracy and hardware optimization, this study utilizes a custom-built Apptainer (Singularity) environment. 
 
-* **Custom Build Architecture**: Unlike standard system-wide modules, the container features a modernized AlphaFold 2.3.2 source tree, refactored to support NVIDIA Hopper (H100) architectures via OpenMM 7.7.0 and CUDA 11.8.0.
+* **Custom Build Architecture**: The container features a modernized AlphaFold 2.3.2 source tree, refactored to support NVIDIA H100 architectures via OpenMM 7.7.0 and CUDA 11.8.0.
 * **Infrastructure Independence**: The workflow is engineered to be fully portable, bypassing reliance on host-specific software stacks and ensuring long-term bit-for-bit reproducibility.
 * **Verification**: This environment has been independently verified at the OSC to resolve legacy atom-indexing artifacts and compiler errors present in standard AF2 distributions.
 
