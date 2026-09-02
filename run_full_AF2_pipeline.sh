@@ -7,9 +7,9 @@ PROTEIN_ID=$1
 WORKING_DIR="/path/to/working/dir"
 
 # DIRECTORIES
-BASE_DIR="$WORKING_DIR/AF2_outputs"       # Where AF2 outputs are saved
-OUTPUT_DIR="$WORKING_DIR/AF2_plots"       # Where renamed .pdb/.pkl go
-FASTA_DIR="$WORKING_DIR/AF2_fastas"       # Where input FASTA files go
+BASE_DIR="$WORKING_DIR/AF2_outputs"            # AF2 outputs (msas dir, pkl, pdb, and json files)
+OUTPUT_DIR="$WORKING_DIR/AF2_plots"            # renamed .pdb/.pkl, pLDDT and PAE plots
+FASTA_DIR="$WORKING_DIR/AF2_fastas"            # input FASTA files
 DATABASE="$WORKING_DIR/uniprot_all_2021_04.fa"
 
 # Create FASTA
