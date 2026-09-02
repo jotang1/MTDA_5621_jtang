@@ -2,8 +2,8 @@
 set -e
 
 # --- Configuration ---
-SIF_FILE="/fs/scratch/PZS1154/alphafold/scripts/alphafold_2.3.2.sif"
-HOST_DATA_DIR="/fs/scratch/PZS1154/alphafold/databases"
+SIF_FILE="/path/to/alphafold_2.3.2.sif"
+HOST_DATA_DIR="/path/to/alphafold2/databases"
 
 # --- Performance Tuning ---
 export TF_FORCE_UNIFIED_MEMORY=0
