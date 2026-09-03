@@ -85,8 +85,8 @@ Global mean pLDDT score and RMSD of AF-generated Spike protein models and compar
 ## Citation
    If you use this workflow or code, please cite:
 
-  Tang, J. (2026). *Protein Modeling Workflows with AlphaFold: Initial Release*
-  (Version v1.0.0) [Computer software]. Zenodo.
+  Tang, J. (2026). *Protein Modeling Workflows with AlphaFold*
+  (Version v1.1.0) [Computer software]. Zenodo.
   https://doi.org/10.5281/zenodo.2192798
 
   The GitHub repository may contain updates made after the archived Zenodo release.
