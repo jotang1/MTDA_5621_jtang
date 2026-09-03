@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21927981.svg)](https://doi.org/10.5281/zenodo.21927981)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22263518.svg)](https://doi.org/10.5281/zenodo.22263518)
 # Protein Modeling Workflows with AlphaFold
 
 ## Overview
@@ -87,7 +87,7 @@ Global mean pLDDT score and RMSD of AF-generated Spike protein models and compar
 
   Tang, J. (2026). *Protein Modeling Workflows with AlphaFold*
   (Version v1.1.0) [Computer software]. Zenodo.
-  https://doi.org/10.5281/zenodo.2192798
+  https://doi.org/10.5281/zenodo.22263518
 
   The GitHub repository may contain updates made after the archived Zenodo release.
      
